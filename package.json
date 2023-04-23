@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate": "openapi-typescript-any-client ./lolesports.json -o ./src/api/generated.ts"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -18,15 +19,23 @@
     "autoprefixer": "10.4.14",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
+    "ky": "^0.33.3",
+    "lodash.uppercase": "^4.3.0",
     "next": "13.3.1",
+    "openapi-typescript": "^6.2.1",
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
     "react-simple-maps": "^3.0.0",
+    "swagger-to-interfaces": "^1.0.240",
     "tailwindcss": "3.3.1",
     "typescript": "5.0.4"
   },
   "devDependencies": {
+    "@kiyoshiro/openapi-typescript-any-client": "^0.1.0",
+    "@openapitools/openapi-generator-cli": "^2.6.0",
+    "@types/lodash.uppercase": "^4.3.7",
     "@types/react-simple-maps": "^3.0.0"
   }
 }

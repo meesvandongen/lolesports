@@ -1,0 +1,95 @@
+.stripes {
+  background: repeating-linear-gradient(
+      0deg,
+      #0000 0,
+      #0000 20%,
+      transparent 0,
+      transparent 50%
+    ),
+    repeating-linear-gradient(
+      45deg,
+      #30d38f 0,
+      #30d38f 10%,
+      transparent 0,
+      transparent 50%
+    );
+  background-size: 1em 1em;
+  background-color: #0000;
+  opacity: 1;
+}
+
+.worldMap {
+  mask: url("/world.svg");
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center center;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas:
+    "NORTH_AMERICA NORTH_AMERICA  REST                               REST   CHINA                   VIETNAM"
+    "LATIN_AMERICA LATIN_AMERICA  EMEA                               EMEA   KOREA                   KOREA"
+    "LATIN_AMERICA LATIN_AMERICA  EMEA                               EMEA   JAPAN                   JAPAN"
+    "BRAZIL        BRAZIL         COMMONWEALTH_OF_INDEPENDENT_STATES TURKEY HONG_KONG_MACAU_TAIWAN  OCEANIA";
+  width: 100%;
+  height: 100%;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.NORTH_AMERICA {
+  grid-area: NORTH_AMERICA;
+}
+
+.HONG_KONG_MACAU_TAIWAN {
+  grid-area: HONG_KONG_MACAU_TAIWAN;
+}
+
+.OCEANIA {
+  grid-area: OCEANIA;
+}
+
+.VIETNAM {
+  grid-area: VIETNAM;
+}
+
+.EMEA {
+  grid-area: EMEA;
+}
+
+.JAPAN {
+  grid-area: JAPAN;
+}
+
+.REST {
+  grid-area: REST;
+}
+
+.KOREA {
+  grid-area: KOREA;
+}
+
+.CHINA {
+  grid-area: CHINA;
+}
+
+.LATIN_AMERICA {
+  grid-area: LATIN_AMERICA;
+}
+
+.BRAZIL {
+  grid-area: BRAZIL;
+}
+
+.INTERNATIONAL {
+  grid-area: INTERNATIONAL;
+}
+
+.COMMONWEALTH_OF_INDEPENDENT_STATES {
+  grid-area: COMMONWEALTH_OF_INDEPENDENT_STATES;
+}
+
+.TURKEY {
+  grid-area: TURKEY;
+}
