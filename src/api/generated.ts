@@ -16,6 +16,9 @@ export interface paths {
   "/getStandings": {
     get: operations["getStandings"];
   };
+  "/getStandingsV3": {
+    get: operations["getStandingsV3"];
+  };
   "/getCompletedEvents": {
     get: operations["getCompletedEvents"];
   };
@@ -296,6 +299,55 @@ export interface components {
        * For the group stage, there is usually only one section.
        */
       sections: (components["schemas"]["section"])[];
+    };
+    standing: {
+      id: string;
+      name: string;
+      slug: string;
+      scores: (Record<string, never>)[];
+      split: {
+        id: string;
+      };
+      season: {
+        id: string;
+        name: string;
+        slug: string;
+        status: string;
+        startTime: string;
+        endTime: string;
+        splits: ({
+            id: string;
+            name: string;
+            slug: string;
+            startTime: string;
+            endTime: string;
+          })[];
+      };
+      stages: ({
+          name: string;
+          slug: string;
+          sections: ({
+              id: string;
+              name: string;
+              type: string;
+              columns: (Record<string, never>)[];
+              rankings: ({
+                  ordinal: number;
+                  teams: ({
+                      id: string;
+                      slug: string;
+                      name: string;
+                      code: string;
+                      image: string;
+                      record: {
+                        wins: number;
+                        ties: number;
+                        losses: number;
+                      };
+                    })[];
+                })[];
+            })[];
+        })[];
     };
     section: {
       /** @description The name of the section */
@@ -1093,7 +1145,7 @@ export interface components {
      */
     pageToken: string;
     /** @description The id(s) of the tournament(s) you want details ofs */
-    tournamentIds: (number)[];
+    tournamentIds: (string)[];
     /** @description The id of the match that you want */
     id: number;
     /**
@@ -1285,6 +1337,27 @@ export interface operations {
               standings: ({
                   stages: (components["schemas"]["stage"])[];
                 })[];
+            };
+          };
+        };
+      };
+    };
+  };
+  getStandingsV3: {
+    parameters: {
+      query: {
+        hl: components["parameters"]["hl"];
+        tournamentId?: components["parameters"]["tournamentIds"];
+      };
+    };
+    responses: {
+      /** @description Successful request */
+      200: {
+        content: {
+          "application/json": {
+            data: {
+              /** @description Each object in the array contains details of each tournament requested. */
+              standings: (components["schemas"]["standing"])[];
             };
           };
         };
@@ -1963,6 +2036,7 @@ export const createOperationIdFetcher = (
     getLive: f("/getLive", "get"),
     getTournamentsForLeague: f("/getTournamentsForLeague", "get"),
     getStandings: f("/getStandings", "get"),
+    getStandingsV3: f("/getStandingsV3", "get"),
     getCompletedEvents: f("/getCompletedEvents", "get"),
     getEventDetails: f("/getEventDetails", "get"),
     getTeams: f("/getTeams", "get"),

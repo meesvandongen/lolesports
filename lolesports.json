@@ -485,6 +485,63 @@
         ]
       }
     },
+    "/getStandingsV3": {
+      "get": {
+        "operationId": "getStandingsV3",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/hl"
+          },
+          {
+            "$ref": "#/components/parameters/tournamentIds"
+          }
+        ],
+        "tags": ["leagues"],
+        "responses": {
+          "200": {
+            "description": "Successful request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["data"],
+                  "properties": {
+                    "data": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": ["standings"],
+                      "properties": {
+                        "standings": {
+                          "type": "array",
+                          "description": "Each object in the array contains details of each tournament requested.\n",
+                          "items": {
+                            "$ref": "#/components/schemas/standing"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "apiKeyAuth": []
+          }
+        ],
+        "servers": [
+          {
+            "url": "https://esports-api.lolesports.com/persisted/gw"
+          },
+          {
+            "url": "https://prod-relapi.ewp.gg/persisted/gw"
+          }
+        ]
+      }
+    },
     "/getCompletedEvents": {
       "get": {
         "operationId": "getCompletedEvents",
@@ -2290,6 +2347,193 @@
             }
           }
         }
+      },
+      "standing": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "scores": {
+            "type": "array",
+            "items": {}
+          },
+          "split": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              }
+            },
+            "required": ["id"]
+          },
+          "season": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "slug": {
+                "type": "string"
+              },
+              "status": {
+                "type": "string"
+              },
+              "startTime": {
+                "type": "string"
+              },
+              "endTime": {
+                "type": "string"
+              },
+              "splits": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "slug": {
+                      "type": "string"
+                    },
+                    "startTime": {
+                      "type": "string"
+                    },
+                    "endTime": {
+                      "type": "string"
+                    }
+                  },
+                  "required": ["id", "name", "slug", "startTime", "endTime"]
+                }
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "slug",
+              "status",
+              "startTime",
+              "endTime",
+              "splits"
+            ]
+          },
+          "stages": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "sections": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "type": "string"
+                      },
+                      "columns": {
+                        "type": "array",
+                        "items": {}
+                      },
+                      "rankings": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "ordinal": {
+                              "type": "integer"
+                            },
+                            "teams": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "string"
+                                  },
+                                  "slug": {
+                                    "type": "string"
+                                  },
+                                  "name": {
+                                    "type": "string"
+                                  },
+                                  "code": {
+                                    "type": "string"
+                                  },
+                                  "image": {
+                                    "type": "string"
+                                  },
+                                  "record": {
+                                    "type": "object",
+                                    "properties": {
+                                      "wins": {
+                                        "type": "integer"
+                                      },
+                                      "ties": {
+                                        "type": "integer"
+                                      },
+                                      "losses": {
+                                        "type": "integer"
+                                      }
+                                    },
+                                    "required": ["wins", "ties", "losses"]
+                                  }
+                                },
+                                "required": [
+                                  "id",
+                                  "slug",
+                                  "name",
+                                  "code",
+                                  "image",
+                                  "record"
+                                ]
+                              }
+                            }
+                          },
+                          "required": ["ordinal", "teams"]
+                        }
+                      }
+                    },
+                    "required": ["id", "name", "type", "columns", "rankings"]
+                  }
+                }
+              },
+              "required": ["name", "slug", "sections"]
+            }
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "slug",
+          "scores",
+          "split",
+          "season",
+          "stages"
+        ]
       },
       "section": {
         "type": "object",
@@ -4363,8 +4607,7 @@
         "schema": {
           "type": "array",
           "items": {
-            "type": "integer",
-            "format": "int64"
+            "type": "string"
           }
         }
       },

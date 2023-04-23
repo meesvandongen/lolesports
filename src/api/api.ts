@@ -16,12 +16,5 @@ export const api = createBaseFetcher((path, { method, body }) => {
     next: {
       revalidate: 60 * 60,
     },
-    hooks: {
-      beforeRequest: [
-        (request) => {
-          console.log("request", request);
-        },
-      ],
-    },
   }).json();
 });

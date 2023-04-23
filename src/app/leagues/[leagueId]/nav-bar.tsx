@@ -15,6 +15,7 @@ import Link from "next/link";
 import upperCase from "lodash.uppercase";
 import image from "next/image";
 import { TbChevronLeft } from "react-icons/tb";
+import { useParams } from "next/navigation";
 
 const useStyles = createStyles((theme) => ({
   navbar: {
@@ -106,6 +107,8 @@ export function AppNavBar({
 }) {
   const { classes, cx } = useStyles();
   const { sideBarOpen } = useSideBarOpen();
+  const params = useParams();
+
   return (
     <Navbar
       p="md"
@@ -131,9 +134,9 @@ export function AppNavBar({
           <UnstyledButton
             component={Link}
             className={cx(classes.link, {
-              //   [classes.linkActive]: tournament.label === active,
+              [classes.linkActive]: tournament.id === params.tournamentId,
             })}
-            href={`/tournaments/${tournament.id}`}
+            href={`/leagues/${params.leagueId}/tournaments/${tournament.id}/stages/0`}
             key={tournament.slug}
           >
             <Text>{upperCase(tournament.slug)}</Text>
