@@ -1,21 +1,84 @@
 "use client";
-import React from "react";
-import ReactFlow, { Background } from "reactflow";
+import { components } from "@/api/generated";
+import { Text, Paper, Group, Avatar } from "@mantine/core";
+import React, { useMemo } from "react";
+import ReactFlow, { Background, Edge, Handle, Node, Position } from "reactflow";
 
-import "reactflow/dist/style.css";
+interface NodeData {
+  match: components["schemas"]["standing"]["stages"][number]["sections"][number]["columns"][number]["cells"][number]["matches"][number];
+  cell: components["schemas"]["standing"]["stages"][number]["sections"][number]["columns"][number]["cells"][number];
+}
 
-const initialNodes = [
-  { id: "1", position: { x: 0, y: 0 }, data: { label: "1" } },
-  { id: "2", position: { x: 0, y: 100 }, data: { label: "2" } },
-];
-const initialEdges = [{ id: "e1-2", source: "1", target: "2" }];
+const spacingX = 300;
+const spacingY = 200;
+const itemHeight = 50;
 
-export function BracketFlow() {
+export function BracketFlow({
+  data,
+  title,
+  id,
+}: {
+  title: string;
+  id: string;
+  data: components["schemas"]["standing"]["stages"][number]["sections"][number]["columns"];
+}) {
+  const nodeTypes = useMemo(() => ({ matchNode: MatchNode }), []);
+
+  const nodes: Node[] = useMemo(
+    () =>
+      data.flatMap((column, columnIndex) => {
+        return column.cells.flatMap((cell, cellIndex) => {
+          return cell.matches.map((match, matchIndex): Node<NodeData> => {
+            return {
+              id: match.structuralId,
+              position: {
+                x: columnIndex * spacingX,
+                y:
+                  cellIndex * spacingY +
+                  matchIndex * spacingY +
+                  (columnIndex % 2 === 1 ? spacingY / 2 : 0),
+              },
+              type: "matchNode",
+              data: {
+                match,
+                cell,
+              },
+            };
+          });
+        });
+      }),
+    [data]
+  );
+
+  const edges: Edge[] = useMemo(
+    () =>
+      data.flatMap((column, columnIndex) => {
+        return column.cells.flatMap((cell, cellIndex) => {
+          return cell.matches.flatMap((match, matchIndex) => {
+            return match.teams.map((team, teamIndex): Edge => {
+              return {
+                id: `${match.structuralId}-${team.code}-edge`,
+                source: team.origin.structuralId,
+                sourceHandle: team.code,
+                target: match.structuralId,
+                targetHandle: team.code,
+                style: {
+                  stroke: team.result.outcome === "win" ? "#00ff00" : "#fff",
+                },
+              };
+            });
+          });
+        });
+      }),
+    [data]
+  );
   return (
     <div className="h-[500px]">
       <ReactFlow
-        nodes={initialNodes}
-        edges={initialEdges}
+        id={id}
+        nodeTypes={nodeTypes}
+        nodes={nodes}
+        edges={edges}
         fitView
         proOptions={{
           hideAttribution: true,
@@ -24,5 +87,55 @@ export function BracketFlow() {
         <Background></Background>
       </ReactFlow>
     </div>
+  );
+}
+
+function MatchNode({ data }: { data: NodeData }) {
+  const team1 = data.match.teams[0];
+  const team2 = data.match.teams[1];
+  return (
+    <>
+      <Handle
+        type="target"
+        position={Position.Left}
+        id={team1.code}
+        style={{ top: "25%", left: 0, visibility: "hidden" }}
+      />
+      <Handle
+        type="target"
+        position={Position.Left}
+        id={team2.code}
+        style={{ top: "75%", left: 0, visibility: "hidden" }}
+      />
+      <Paper shadow="xs" p={0} withBorder>
+        {/* <Text>{data.cell.name}</Text> */}
+        {data.match.teams.map((team) => (
+          <Group
+            key={team.code}
+            px="md"
+            py="xs"
+            sx={(sx) => ({
+              backgroundColor:
+                team.result.outcome === "win" ? sx.colors.green[9] : undefined,
+            })}
+          >
+            <Avatar size={32} src={team.image} radius={0} />
+            <Text>{team.name}</Text>
+          </Group>
+        ))}
+      </Paper>
+      <Handle
+        type="source"
+        position={Position.Right}
+        id={team1.code}
+        style={{ top: "25%", right: 0, visibility: "hidden" }}
+      />
+      <Handle
+        type="source"
+        position={Position.Right}
+        id={team2.code}
+        style={{ top: "75%", right: 0, visibility: "hidden" }}
+      />
+    </>
   );
 }

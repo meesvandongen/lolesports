@@ -330,7 +330,33 @@ export interface components {
               id: string;
               name: string;
               type: string;
-              columns: (Record<string, never>)[];
+              columns: ({
+                  cells: ({
+                      name: string;
+                      slug: string;
+                      matches: ({
+                          id: string;
+                          structuralId: string;
+                          state: string;
+                          teams: ({
+                              id: string;
+                              slug: string;
+                              name: string;
+                              code: string;
+                              image: string;
+                              result: {
+                                outcome: string;
+                                gameWins: number;
+                              };
+                              origin: {
+                                structuralId: string;
+                                type: string;
+                                slot: number;
+                              };
+                            })[];
+                        })[];
+                    })[];
+                })[];
               rankings: ({
                   ordinal: number;
                   teams: ({
@@ -560,12 +586,8 @@ export interface components {
        */
       perks: (number)[];
     };
-    /**
-     * @description Contains the abilities the summoner levelled up at each level
-     *  
-     * @enum {array}
-     */
-    abilities: Q | W | E | R;
+    /** @description Contains the abilities the summoner levelled up at each level */
+    abilities: ("Q" | "W" | "E" | "R")[];
     navItem: {
       id: number;
       link: string;

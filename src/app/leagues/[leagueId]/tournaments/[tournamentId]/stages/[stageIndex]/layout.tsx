@@ -1,5 +1,4 @@
 import { api } from "@/api/api";
-import { StageIndexLayoutTabs } from "./tabs";
 import { notFound } from "next/navigation";
 
 export default async function StageIndexLayout({

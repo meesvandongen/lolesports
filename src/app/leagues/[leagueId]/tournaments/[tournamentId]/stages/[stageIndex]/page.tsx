@@ -31,10 +31,13 @@ export default async function StageIndexPage({
   const rankingSections = sections.filter(
     (section) => section.rankings.length > 0
   );
+  const columnSections = sections.filter(
+    (section) => section.columns.length > 0
+  );
 
   return (
     <>
-      {rankingSections.length > 0 ? (
+      {rankingSections.length > 0 && (
         <div className="grid grid-cols-2 gap-8">
           {rankingSections.map((section, index) => (
             <RankingTable
@@ -44,8 +47,18 @@ export default async function StageIndexPage({
             />
           ))}
         </div>
-      ) : (
-        <BracketFlow />
+      )}
+      {columnSections.length > 0 && (
+        <div className="grid grid-cols-2 gap-8">
+          {columnSections.map((section, index) => (
+            <BracketFlow
+              data={section.columns}
+              key={index}
+              title={section.name}
+              id={section.id}
+            />
+          ))}
+        </div>
       )}
     </>
   );

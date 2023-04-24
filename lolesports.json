@@ -2456,7 +2456,116 @@
                       },
                       "columns": {
                         "type": "array",
-                        "items": {}
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "cells": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "name": {
+                                    "type": "string"
+                                  },
+                                  "slug": {
+                                    "type": "string"
+                                  },
+                                  "matches": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "structuralId": {
+                                          "type": "string"
+                                        },
+                                        "state": {
+                                          "type": "string"
+                                        },
+                                        "teams": {
+                                          "type": "array",
+                                          "items": {
+                                            "type": "object",
+                                            "properties": {
+                                              "id": {
+                                                "type": "string"
+                                              },
+                                              "slug": {
+                                                "type": "string"
+                                              },
+                                              "name": {
+                                                "type": "string"
+                                              },
+                                              "code": {
+                                                "type": "string"
+                                              },
+                                              "image": {
+                                                "type": "string"
+                                              },
+                                              "result": {
+                                                "type": "object",
+                                                "properties": {
+                                                  "outcome": {
+                                                    "type": "string"
+                                                  },
+                                                  "gameWins": {
+                                                    "type": "integer"
+                                                  }
+                                                },
+                                                "required": [
+                                                  "outcome",
+                                                  "gameWins"
+                                                ]
+                                              },
+                                              "origin": {
+                                                "type": "object",
+                                                "properties": {
+                                                  "structuralId": {
+                                                    "type": "string"
+                                                  },
+                                                  "type": {
+                                                    "type": "string"
+                                                  },
+                                                  "slot": {
+                                                    "type": "integer"
+                                                  }
+                                                },
+                                                "required": [
+                                                  "structuralId",
+                                                  "type",
+                                                  "slot"
+                                                ]
+                                              }
+                                            },
+                                            "required": [
+                                              "id",
+                                              "slug",
+                                              "name",
+                                              "code",
+                                              "image",
+                                              "result",
+                                              "origin"
+                                            ]
+                                          }
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "structuralId",
+                                        "state",
+                                        "teams"
+                                      ]
+                                    }
+                                  }
+                                },
+                                "required": ["name", "slug", "matches"]
+                              }
+                            }
+                          },
+                          "required": ["cells"]
+                        }
                       },
                       "rankings": {
                         "type": "array",
@@ -3194,8 +3303,8 @@
         "type": "array",
         "description": "Contains the abilities the summoner levelled up at each level\n",
         "maxItems": 18,
-        "enum": ["Q", "W", "E", "R"],
         "items": {
+          "enum": ["Q", "W", "E", "R"],
           "type": "string"
         }
       },
