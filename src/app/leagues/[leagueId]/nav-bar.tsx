@@ -13,7 +13,6 @@ import { useSideBarOpen } from "./providers";
 import { components } from "@/api/generated";
 import Link from "next/link";
 import upperCase from "lodash.uppercase";
-import image from "next/image";
 import { TbChevronLeft } from "react-icons/tb";
 import { useParams } from "next/navigation";
 

@@ -6,6 +6,12 @@ import {
   Text,
 } from "@mantine/core";
 import { useSideBarOpen } from "./providers";
+import { Bungee } from "next/font/google";
+
+const rye = Bungee({
+  weight: "400",
+  subsets: ["latin"],
+});
 
 export function AppHeader() {
   const theme = useMantineTheme();
@@ -22,8 +28,17 @@ export function AppHeader() {
             mr="xl"
           />
         </MediaQuery>
-
-        <Text>LOL ESPORTS</Text>
+        <Text
+          variant="gradient"
+          gradient={{ from: "#00C9FF", to: "#30d38f", deg: 90 }}
+          sx={{
+            ...rye.style,
+          }}
+          ta="center"
+          fz="xl"
+        >
+          LOLMATH ESPORTS
+        </Text>
       </div>
     </Header>
   );

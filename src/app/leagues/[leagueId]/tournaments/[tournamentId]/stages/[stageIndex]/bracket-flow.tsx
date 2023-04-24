@@ -64,7 +64,7 @@ export function BracketFlow({
                 target: match.structuralId,
                 targetHandle: team.code,
                 style: {
-                  stroke: team.result.outcome === "win" ? "#00ff00" : "#fff",
+                  stroke: team.result?.outcome === "win" ? "#00ff00" : "#fff",
                 },
               };
             });
@@ -117,7 +117,7 @@ function MatchNode({ data }: { data: NodeData }) {
             py="xs"
             sx={(sx) => ({
               backgroundColor:
-                team.result.outcome === "win" ? sx.colors.green[9] : undefined,
+                team.result?.outcome === "win" ? sx.colors.green[9] : undefined,
             })}
           >
             <Image width={32} height={32} alt="" src={team.image} />

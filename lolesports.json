@@ -2506,17 +2506,21 @@
                                               },
                                               "result": {
                                                 "type": "object",
-                                                "properties": {
-                                                  "outcome": {
-                                                    "type": "string"
+                                                "nullable": true,
+                                                "allOf": [
+                                                  {
+                                                    "$ref": "#/components/schemas/result"
                                                   },
-                                                  "gameWins": {
-                                                    "type": "integer"
+                                                  {
+                                                    "type": "object",
+                                                    "additionalProperties": false,
+                                                    "required": "outcome",
+                                                    "properties": {
+                                                      "outcome": {
+                                                        "$ref": "#/components/schemas/outcome"
+                                                      }
+                                                    }
                                                   }
-                                                },
-                                                "required": [
-                                                  "outcome",
-                                                  "gameWins"
                                                 ]
                                               },
                                               "origin": {

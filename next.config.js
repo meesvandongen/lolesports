@@ -8,6 +8,9 @@ const nextConfig = {
       {
         hostname: "static.lolesports.com",
       },
+      {
+        hostname: "assets.lolesports.com",
+      },
     ],
   },
 };

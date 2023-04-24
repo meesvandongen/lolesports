@@ -344,10 +344,9 @@ export interface components {
                               name: string;
                               code: string;
                               image: string;
-                              result: {
-                                outcome: string;
-                                gameWins: number;
-                              };
+                              result: (components["schemas"]["result"] & {
+                                outcome?: components["schemas"]["outcome"];
+                              }) | null;
                               origin: {
                                 structuralId: string;
                                 type: string;
