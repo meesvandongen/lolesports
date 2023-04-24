@@ -12,6 +12,7 @@ import {
   rem,
   clsx,
 } from "@mantine/core";
+import Image from "next/image";
 import Link from "next/link";
 
 const useStyles = createStyles((theme) => ({
@@ -84,7 +85,7 @@ export function RegionCard({
             component={Link}
             href={`/leagues/${item.id}`}
           >
-            <img src={item.image} alt={item.name} className="w-6" />
+            <Image src={item.image} alt={item.name} width={30} height={30} />
             <Text size="xs" mt={2}>
               {item.name}
             </Text>

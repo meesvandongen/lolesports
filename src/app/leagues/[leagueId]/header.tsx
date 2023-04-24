@@ -23,7 +23,7 @@ export function AppHeader() {
           />
         </MediaQuery>
 
-        <Text>Application header</Text>
+        <Text>LOL ESPORTS</Text>
       </div>
     </Header>
   );
