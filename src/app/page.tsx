@@ -82,7 +82,7 @@ export default async function HomePage() {
   return (
     <main className="flex min-h-screen flex-col items-center content-center justify-center h-full bg-black relative">
       <div
-        className={`h-full w-full aspect-[2000/857] ${styles.stripes} ${styles.worldMap} absolute`}
+        className={`h-full w-full ${styles.stripes} ${styles.worldMap} absolute`}
       ></div>
       <div className={styles.grid}>
         {regions.map(({ region, name, className, cols }) => {

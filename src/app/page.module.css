@@ -1,4 +1,8 @@
-.stripes {
+.worldMap {
+  mask-image: url("/world.svg");
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center center;
   background: repeating-linear-gradient(
       0deg,
       #0000 0,
@@ -16,13 +20,6 @@
   background-size: 1em 1em;
   background-color: #0000;
   opacity: 1;
-}
-
-.worldMap {
-  mask: url("/world.svg");
-  mask-size: contain;
-  mask-repeat: no-repeat;
-  mask-position: center center;
 }
 
 .grid {

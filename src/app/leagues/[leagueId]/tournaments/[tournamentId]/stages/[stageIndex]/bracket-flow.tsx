@@ -1,6 +1,7 @@
 "use client";
 import { components } from "@/api/generated";
 import { Text, Paper, Group, Avatar } from "@mantine/core";
+import Image from "next/image";
 import React, { useMemo } from "react";
 import ReactFlow, { Background, Edge, Handle, Node, Position } from "reactflow";
 
@@ -119,7 +120,7 @@ function MatchNode({ data }: { data: NodeData }) {
                 team.result.outcome === "win" ? sx.colors.green[9] : undefined,
             })}
           >
-            <Avatar size={32} src={team.image} radius={0} />
+            <Image width={32} height={32} alt="" src={team.image} />
             <Text>{team.name}</Text>
           </Group>
         ))}

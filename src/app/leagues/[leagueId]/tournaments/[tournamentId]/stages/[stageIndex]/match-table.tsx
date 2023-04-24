@@ -2,7 +2,8 @@
 import { components } from "@/api/generated";
 import { MRT_ColumnDef, MantineReactTable } from "mantine-react-table";
 import { useMemo } from "react";
-import { Avatar, Group, Text } from "@mantine/core";
+import { Group, Text } from "@mantine/core";
+import Image from "next/image";
 
 interface TableSortProps {
   data: components["schemas"]["section"]["matches"];
@@ -23,7 +24,12 @@ export function MatchTable({ data }: TableSortProps) {
         accessorFn: (row) => row.teams[0].name,
         Cell: ({ row, renderedCellValue }) => (
           <Group spacing="sm">
-            <Avatar size={26} src={row.original.teams[0].image} radius={0} />
+            <Image
+              width={26}
+              height={26}
+              alt=""
+              src={row.original.teams[0].image}
+            />
             <Text size="sm" weight={500}>
               {renderedCellValue}
             </Text>
@@ -46,7 +52,12 @@ export function MatchTable({ data }: TableSortProps) {
         accessorFn: (row) => row.teams[1].name,
         Cell: ({ row, renderedCellValue }) => (
           <Group spacing="sm">
-            <Avatar size={26} src={row.original.teams[1].image} radius={0} />
+            <Image
+              width={26}
+              height={26}
+              alt=""
+              src={row.original.teams[1].image}
+            />
             <Text size="sm" weight={500}>
               {renderedCellValue}
             </Text>

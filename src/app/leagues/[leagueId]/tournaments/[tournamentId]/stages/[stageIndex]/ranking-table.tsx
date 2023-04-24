@@ -1,8 +1,9 @@
 "use client";
 import { components } from "@/api/generated";
-import { Group, Avatar, Text, Title } from "@mantine/core";
+import { Group, Text, Title } from "@mantine/core";
 import { MRT_ColumnDef, MantineReactTable } from "mantine-react-table";
 import { useMemo } from "react";
+import Image from "next/image";
 
 interface TableSortProps {
   title: string;
@@ -34,7 +35,12 @@ export function RankingTable({ data, title }: TableSortProps) {
         accessorFn: (row) => row.team.name,
         Cell: ({ row, renderedCellValue }) => (
           <Group spacing="sm">
-            <Avatar size={26} src={row.original.team.image} radius={0} />
+            <Image
+              width={26}
+              height={26}
+              alt=""
+              src={row.original.team.image}
+            />
             <Text size="sm" weight={500}>
               {renderedCellValue}
             </Text>
