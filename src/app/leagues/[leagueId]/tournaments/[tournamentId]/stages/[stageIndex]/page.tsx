@@ -2,7 +2,6 @@ import { api } from "@/api/api";
 import { notFound } from "next/navigation";
 import { MatchTable } from "./match-table";
 import { RankingTable } from "./ranking-table";
-import { Flex } from "@mantine/core";
 import { BracketFlow } from "./bracket-flow";
 
 export default async function StageIndexPage({
@@ -49,7 +48,11 @@ export default async function StageIndexPage({
         </div>
       )}
       {columnSections.length > 0 && (
-        <div className="grid grid-cols-2 gap-8">
+        <div
+          className={`grid gap-8 ${
+            columnSections.length === 1 ? "grid-cols-1" : "grid-cols-2"
+          }`}
+        >
           {columnSections.map((section, index) => (
             <BracketFlow
               data={section.columns}
