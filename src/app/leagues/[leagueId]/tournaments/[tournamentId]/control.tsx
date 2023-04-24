@@ -14,8 +14,7 @@ export function TournamentIdLayoutControl() {
 
   return (
     <SegmentedControl
-      key={segment}
-      value={segment}
+      defaultValue={segment}
       onChange={(value) => {
         router.push(
           `/leagues/${leagueId}/tournaments/${tournamentId}/stages/${stageIndex}/${value}`
