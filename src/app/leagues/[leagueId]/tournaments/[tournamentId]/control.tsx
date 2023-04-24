@@ -14,6 +14,7 @@ export function TournamentIdLayoutControl() {
 
   return (
     <SegmentedControl
+      key={segment}
       value={segment}
       onChange={(value) => {
         router.push(
