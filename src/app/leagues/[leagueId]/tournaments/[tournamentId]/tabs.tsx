@@ -2,7 +2,11 @@
 
 import { components } from "@/api/generated";
 import { Tabs } from "@mantine/core";
-import { useParams, useRouter } from "next/navigation";
+import {
+  useParams,
+  useRouter,
+  useSelectedLayoutSegments,
+} from "next/navigation";
 
 export function TournamentIdLayoutTabs({
   stages,
@@ -11,13 +15,19 @@ export function TournamentIdLayoutTabs({
 }) {
   const { stageIndex, leagueId, tournamentId } = useParams();
   const router = useRouter();
+
+  const segments = useSelectedLayoutSegments();
+  const segment = segments[2];
+
   return (
     <Tabs
       variant="outline"
       value={stageIndex}
       onTabChange={(value) => {
         router.push(
-          `/leagues/${leagueId}/tournaments/${tournamentId}/stages/${value}`
+          `/leagues/${leagueId}/tournaments/${tournamentId}/stages/${value}/${
+            segment ?? "rankings"
+          }`
         );
       }}
     >

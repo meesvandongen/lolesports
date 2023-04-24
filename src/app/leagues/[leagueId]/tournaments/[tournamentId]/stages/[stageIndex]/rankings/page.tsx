@@ -1,6 +1,6 @@
 import { api } from "@/api/api";
 import { notFound } from "next/navigation";
-import { MatchTable } from "./match-table";
+import { MatchTable } from "../matches/match-table";
 import { RankingTable } from "./ranking-table";
 import { BracketFlow } from "./bracket-flow";
 
@@ -37,7 +37,11 @@ export default async function StageIndexPage({
   return (
     <>
       {rankingSections.length > 0 && (
-        <div className="grid grid-cols-2 gap-8">
+        <div
+          className={`grid gap-8 ${
+            rankingSections.length === 1 ? "grid-cols-1" : "grid-cols-2"
+          }`}
+        >
           {rankingSections.map((section, index) => (
             <RankingTable
               data={section.rankings}

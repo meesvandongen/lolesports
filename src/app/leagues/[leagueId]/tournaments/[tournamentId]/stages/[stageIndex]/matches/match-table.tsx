@@ -2,13 +2,14 @@
 import { components } from "@/api/generated";
 import { MRT_ColumnDef, MantineReactTable } from "mantine-react-table";
 import { useMemo } from "react";
-import { Group, Text } from "@mantine/core";
+import { Group, Text, Title } from "@mantine/core";
 import Image from "next/image";
 
 interface TableSortProps {
   data: components["schemas"]["section"]["matches"];
+  title: string;
 }
-export function MatchTable({ data }: TableSortProps) {
+export function MatchTable({ data, title }: TableSortProps) {
   const columns = useMemo<
     MRT_ColumnDef<components["schemas"]["section"]["matches"][number]>[]
   >(
@@ -36,7 +37,7 @@ export function MatchTable({ data }: TableSortProps) {
           </Group>
         ),
         mantineTableBodyCellProps: ({ cell, row }) => {
-          const won = row.original.teams[0].result.outcome === "win";
+          const won = row.original.teams[0].result?.outcome === "win";
 
           return {
             sx: (sx) => ({
@@ -64,7 +65,7 @@ export function MatchTable({ data }: TableSortProps) {
           </Group>
         ),
         mantineTableBodyCellProps: ({ cell, row }) => {
-          const won = row.original.teams[1].result.outcome === "win";
+          const won = row.original.teams[1].result?.outcome === "win";
 
           return {
             sx: (sx) => ({
@@ -91,6 +92,7 @@ export function MatchTable({ data }: TableSortProps) {
         shadow: "none",
       }}
       initialState={{
+        density: "xs",
         columnVisibility: {
           id: false,
         },
@@ -101,6 +103,7 @@ export function MatchTable({ data }: TableSortProps) {
           },
         ],
       }}
+      renderTopToolbarCustomActions={() => <Title order={3}>{title}</Title>}
     />
   );
 }

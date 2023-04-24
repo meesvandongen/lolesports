@@ -135,7 +135,7 @@ export function AppNavBar({
             className={cx(classes.link, {
               [classes.linkActive]: tournament.id === params.tournamentId,
             })}
-            href={`/leagues/${params.leagueId}/tournaments/${tournament.id}/stages/0`}
+            href={`/leagues/${params.leagueId}/tournaments/${tournament.id}/stages/0/rankings`}
             key={tournament.slug}
           >
             <Text>{upperCase(tournament.slug)}</Text>
