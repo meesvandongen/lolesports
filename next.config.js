@@ -11,6 +11,9 @@ const nextConfig = {
       {
         hostname: "assets.lolesports.com",
       },
+      {
+        hostname: "lolstatic-a.akamaihd.net",
+      },
     ],
   },
 };
