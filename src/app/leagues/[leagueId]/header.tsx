@@ -7,6 +7,7 @@ import {
 } from "@mantine/core";
 import { useSideBarOpen } from "./providers";
 import { Bungee } from "next/font/google";
+import Link from "next/link";
 
 const rye = Bungee({
   weight: "400",
@@ -36,6 +37,8 @@ export function AppHeader() {
           }}
           ta="center"
           fz="xl"
+          component={Link}
+          href="/"
         >
           LOLMATH ESPORTS
         </Text>
