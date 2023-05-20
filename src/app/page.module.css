@@ -40,8 +40,8 @@
     grid-template-areas:
       "NORTH_AMERICA NORTH_AMERICA  REST                               REST   CHINA                   VIETNAM"
       "LATIN_AMERICA LATIN_AMERICA  EMEA                               EMEA   KOREA                   KOREA"
-      "LATIN_AMERICA LATIN_AMERICA  EMEA                               EMEA   JAPAN                   JAPAN"
-      "BRAZIL        BRAZIL         COMMONWEALTH_OF_INDEPENDENT_STATES TURKEY HONG_KONG_MACAU_TAIWAN  OCEANIA";
+      "LATIN_AMERICA_NORTH LATIN_AMERICA_SOUTH  EMEA                               EMEA   JAPAN                   JAPAN"
+      "BRAZIL        BRAZIL         COMMONWEALTH_OF_INDEPENDENT_STATES COMMONWEALTH_OF_INDEPENDENT_STATES HONG_KONG_MACAU_TAIWAN  OCEANIA";
   }
 }
 
@@ -97,6 +97,10 @@
   grid-area: COMMONWEALTH_OF_INDEPENDENT_STATES;
 }
 
-.TURKEY {
-  grid-area: TURKEY;
+.LATIN_AMERICA_SOUTH {
+  grid-area: LATIN_AMERICA_SOUTH;
+}
+
+.LATIN_AMERICA_NORTH {
+  grid-area: LATIN_AMERICA_NORTH;
 }

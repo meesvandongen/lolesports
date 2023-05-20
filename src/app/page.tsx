@@ -9,6 +9,8 @@ export default async function HomePage() {
     },
   });
 
+  console.log(data);
+
   const regions = [
     {
       name: "Europe, Middle East, and Africa",
@@ -19,6 +21,16 @@ export default async function HomePage() {
       name: "Latin America",
       region: "LATIN AMERICA",
       className: styles.LATIN_AMERICA,
+    },
+    {
+      name: "Latin America South",
+      region: "LATIN AMERICA NORTH",
+      className: styles.LATIN_AMERICA_SOUTH,
+    },
+    {
+      name: "Latin America North",
+      region: "LATIN AMERICA SOUTH",
+      className: styles.LATIN_AMERICA_NORTH,
     },
     {
       name: "North America",
@@ -69,12 +81,6 @@ export default async function HomePage() {
       name: "Oceania",
       region: "OCEANIA",
       className: styles.OCEANIA,
-      cols: 1,
-    },
-    {
-      name: "Türkiye",
-      region: "TURKEY",
-      className: styles.TURKEY,
       cols: 1,
     },
   ];
