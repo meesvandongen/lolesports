@@ -3,6 +3,8 @@ import { AppAppShell } from "./app-shell";
 import { api } from "@/api/api";
 import { notFound } from "next/navigation";
 
+export const revalidate = 3600;
+
 export default async function LeagueIdPage({
   children,
   params: { leagueId },

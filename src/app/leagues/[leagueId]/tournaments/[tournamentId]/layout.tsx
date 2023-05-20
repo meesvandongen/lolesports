@@ -3,6 +3,8 @@ import { TournamentIdLayoutTabs } from "./tabs";
 import { notFound } from "next/navigation";
 import { TournamentIdLayoutControl } from "./control";
 
+export const revalidate = 3600;
+
 export default async function TournamentIdLayout({
   children,
   params: { tournamentId },

@@ -1,8 +1,8 @@
 import { api } from "@/api/api";
 import { notFound } from "next/navigation";
 import { MatchTable } from "./match-table";
-import { RankingTable } from "../rankings/ranking-table";
-import { BracketFlow } from "../rankings/bracket-flow";
+
+export const revalidate = 3600;
 
 export default async function StageIndexPage({
   params: { leagueId, tournamentId, stageIndex, sectionIndex },
