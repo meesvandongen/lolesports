@@ -3,8 +3,6 @@ import { notFound } from "next/navigation";
 import { RankingTable } from "./ranking-table";
 import { BracketFlow } from "./bracket-flow";
 
-export const revalidate = 3600;
-
 export default async function StageIndexPage({
   params: { leagueId, tournamentId, stageIndex, sectionIndex },
 }: {

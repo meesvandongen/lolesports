@@ -9,8 +9,6 @@ export default async function HomePage() {
     },
   });
 
-  console.log(data);
-
   const regions = [
     {
       name: "Europe, Middle East, and Africa",
