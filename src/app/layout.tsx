@@ -1,6 +1,7 @@
 import "./globals.css";
 import "reactflow/dist/style.css";
 import { Providers } from "./providers";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "LoL Math Esports",
@@ -20,6 +21,7 @@ export default function RootLayout({
       <Providers>
         <body>{children}</body>
       </Providers>
+      <Analytics />
     </html>
   );
 }
