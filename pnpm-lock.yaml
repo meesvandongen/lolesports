@@ -54,8 +54,8 @@ dependencies:
     specifier: ^4.3.0
     version: 4.3.0
   mantine-react-table:
-    specifier: 1.0.0-beta.18
-    version: 1.0.0-beta.18(@emotion/react@11.11.1)(@mantine/core@6.0.13)(@mantine/dates@6.0.13)(@mantine/hooks@6.0.13)(@tabler/icons-react@2.22.0)(react-dom@18.2.0)(react@18.2.0)
+    specifier: 1.0.0-beta.19
+    version: 1.0.0-beta.19(@emotion/react@11.11.1)(@mantine/core@6.0.13)(@mantine/dates@6.0.13)(@mantine/hooks@6.0.13)(@tabler/icons-react@2.22.0)(react-dom@18.2.0)(react@18.2.0)
   next:
     specifier: 13.4.7
     version: 13.4.7(react-dom@18.2.0)(react@18.2.0)
@@ -2701,8 +2701,8 @@ packages:
       yallist: 4.0.0
     dev: false
 
-  /mantine-react-table@1.0.0-beta.18(@emotion/react@11.11.1)(@mantine/core@6.0.13)(@mantine/dates@6.0.13)(@mantine/hooks@6.0.13)(@tabler/icons-react@2.22.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-JVYDCHc9QaZeCZada2oGu/YTc2SqPLFJ9EfqMeOs8xH2wwKSKweAqnm3fPBCkS7eqbJzfH4Ujssuaia9F/uihg==}
+  /mantine-react-table@1.0.0-beta.19(@emotion/react@11.11.1)(@mantine/core@6.0.13)(@mantine/dates@6.0.13)(@mantine/hooks@6.0.13)(@tabler/icons-react@2.22.0)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-pWWrmDJPOBNceJsdLFFnrdkZUP6pqOsnT5rKsHzNfIplQ7EhjrcKLNK1zvHLvV9xqVMUe2KKWD1x29BgqGbcsg==}
     engines: {node: '>=14'}
     peerDependencies:
       '@emotion/react': '>=11'
