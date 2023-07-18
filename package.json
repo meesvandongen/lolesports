@@ -26,7 +26,7 @@
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.9",
     "lodash.uppercase": "^4.3.0",
-    "mantine-react-table": "1.0.0-beta.28",
+    "mantine-react-table": "1.0.0",
     "next": "13.4.9",
     "postcss": "8.4.26",
     "react": "18.2.0",
