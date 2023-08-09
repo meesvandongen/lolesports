@@ -22,7 +22,7 @@ export function TournamentIdLayoutTabs({
   return (
     <Tabs
       variant="outline"
-      value={stageIndex}
+      value={Array.isArray(stageIndex) ? stageIndex[0] : stageIndex}
       onTabChange={(value) => {
         router.push(
           `/leagues/${leagueId}/tournaments/${tournamentId}/stages/${value}/${
