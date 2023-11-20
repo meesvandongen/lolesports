@@ -34,7 +34,7 @@
     "react-icons": "^4.10.1",
     "reactflow": "^11.7.4",
     "tailwindcss": "3.3.5",
-    "typescript": "5.2.2"
+    "typescript": "5.3.2"
   },
   "devDependencies": {
     "@kiyoshiro/openapi-typescript-any-client": "^0.1.1",
