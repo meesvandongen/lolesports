@@ -29,13 +29,15 @@ export default async function TournamentIdLayout({
 
   return (
     <>
-      <div className="relative">
-        <div className="absolute top-0 right-0">
-          <TournamentIdLayoutControl />
+      <div>
+        <div className="relative">
+          <div className="absolute top-0 right-0">
+            <TournamentIdLayoutControl />
+          </div>
         </div>
+        <TournamentIdLayoutTabs stages={stages}></TournamentIdLayoutTabs>
+        {children}
       </div>
-      <TournamentIdLayoutTabs stages={stages}></TournamentIdLayoutTabs>
-      {children}
     </>
   );
 }

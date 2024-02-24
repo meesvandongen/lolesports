@@ -1,6 +1,7 @@
 "use client";
 
-import { createContext, useContext } from "react";
+import { usePathname } from "next/navigation";
+import { createContext, useContext, useEffect } from "react";
 import { useState } from "react";
 
 interface SideBarOpenContextValue {
@@ -18,6 +19,11 @@ export function SideBarOpenProvider({
   children: React.ReactNode;
 }) {
   const [sideBarOpen, setSideBarOpen] = useState(false);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setSideBarOpen(false);
+  }, [pathname]);
 
   return (
     <SideBarOpenContext.Provider value={{ sideBarOpen, setSideBarOpen }}>

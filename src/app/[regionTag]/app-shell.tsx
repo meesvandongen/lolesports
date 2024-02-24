@@ -1,52 +1,42 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import {
   createStyles,
   Navbar,
-  Title,
   rem,
   Tooltip,
-  UnstyledButton,
   ScrollArea,
+  Menu,
+  ActionIcon,
+  AppShell,
 } from "@mantine/core";
-import { components, operations } from "@/api/generated";
-import { regions } from "@/data";
+import { operations } from "@/api/generated";
 import { Avatar } from "@mantine/core";
 import Link from "next/link";
+import { IconChevronRight } from "@tabler/icons-react";
+import { AppHeader } from "./header";
+import { useSideBarOpen } from "./providers";
+import { combineLeaguesWithRegions } from "@/combine-data";
 
 const useStyles = createStyles((theme) => ({
   wrapper: {
     display: "flex",
   },
 
-  region: {
+  leaguesMenu: {
     flex: `0 0 ${rem(60)}`,
     gap: theme.spacing.xs,
     backgroundColor:
       theme.colorScheme === "dark" ? theme.colors.dark[7] : theme.white,
     display: "flex",
     flexDirection: "column",
-    alignItems: "center",
+    alignItems: "start",
     borderRight: `${rem(1)} solid ${
       theme.colorScheme === "dark" ? theme.colors.dark[7] : theme.colors.gray[3]
     }`,
     paddingTop: theme.spacing.md,
-  },
-
-  intraRegion: {
-    flex: `0 0 ${rem(60)}`,
-    gap: theme.spacing.xs,
-    backgroundColor:
-      theme.colorScheme === "dark" ? theme.colors.dark[7] : theme.white,
-    display: "flex",
-    flexWrap: "wrap",
-    flexDirection: "row",
-    alignItems: "center",
-    borderRight: `${rem(1)} solid ${
-      theme.colorScheme === "dark" ? theme.colors.dark[7] : theme.colors.gray[3]
-    }`,
-    paddingTop: theme.spacing.md,
+    paddingInline: theme.spacing.xs,
   },
 
   league: {
@@ -55,6 +45,7 @@ const useStyles = createStyles((theme) => ({
       theme.colorScheme === "dark"
         ? theme.colors.dark[6]
         : theme.colors.gray[0],
+    overflow: "scroll",
   },
 
   mainLink: {
@@ -91,11 +82,10 @@ const useStyles = createStyles((theme) => ({
   title: {
     boxSizing: "border-box",
     fontFamily: `Greycliff CF, ${theme.fontFamily}`,
-    marginBottom: theme.spacing.xl,
+    // marginBottom: theme.spacing.xl,
     backgroundColor:
       theme.colorScheme === "dark" ? theme.colors.dark[7] : theme.white,
     padding: theme.spacing.md,
-    paddingTop: rem(18),
     borderBottom: `${rem(1)} solid ${
       theme.colorScheme === "dark" ? theme.colors.dark[7] : theme.colors.gray[3]
     }`,
@@ -155,81 +145,100 @@ const useStyles = createStyles((theme) => ({
   },
 }));
 
-export function DoubleNavbar({
-  regionData,
-  region,
-  leagueMenu,
+export function AppAppShell({
+  allLeagues,
+  regionTag,
+  tournamentMenu,
+  children,
 }: {
-  regionData: operations["getLeagues"]["responses"]["200"]["content"]["application/json"]["data"]["leagues"];
+  allLeagues: operations["getLeagues"]["responses"]["200"]["content"]["application/json"]["data"]["leagues"];
   leagueMenu: React.ReactNode;
-  region: string;
+  tournamentMenu: React.ReactNode;
+  regionTag: string;
+  children: React.ReactNode;
 }) {
   const { classes, cx } = useStyles();
 
-  const combinedData = regions.map((regionsItem) => {
-    const leagues = regionData.filter(
-      (regionDataItem) => regionDataItem.region === regionsItem.region
+  const combinedData = combineLeaguesWithRegions(allLeagues);
+
+  const leaguesLinks = combinedData.map((combinedData) => {
+    return (
+      <div key={combinedData.region} className="flex items-center gap-1">
+        <Tooltip
+          label={combinedData.region}
+          position="bottom"
+          transitionProps={{ duration: 0 }}
+        >
+          <Link
+            href={`/${combinedData.tag}/${combinedData.leagues[0].id}`}
+            className={cx(classes.mainLink, {
+              [classes.mainLinkActive]: combinedData.tag === regionTag,
+            })}
+          >
+            <Avatar src={combinedData.leagues[0].image}></Avatar>
+          </Link>
+        </Tooltip>
+        {combinedData.leagues.length > 1 && (
+          <Menu shadow="md" position="right" withArrow>
+            <Menu.Target>
+              <ActionIcon>
+                <IconChevronRight />
+              </ActionIcon>
+            </Menu.Target>
+
+            <Menu.Dropdown className="flex">
+              <div className="grid grid-cols-3 gap-2 justify-center">
+                {combinedData.leagues
+                  .slice(1, combinedData.leagues.length)
+                  .map((league) => (
+                    <Tooltip
+                      label={league.name}
+                      position="right"
+                      transitionProps={{ duration: 0 }}
+                      key={league.name}
+                    >
+                      <Menu.Item
+                        component={Link}
+                        href={`/${combinedData.tag}/${league.id}`}
+                        className={cx(classes.mainLink)}
+                      >
+                        <Avatar src={league.image}></Avatar>
+                      </Menu.Item>
+                    </Tooltip>
+                  ))}
+              </div>
+            </Menu.Dropdown>
+          </Menu>
+        )}
+      </div>
     );
-    return {
-      ...regionsItem,
-      leagues,
-    };
   });
 
-  const selectedRegion = combinedData.find((item) => item.tag === region);
-
-  const mainLinks = combinedData.map((combinedData) => (
-    <Tooltip
-      label={combinedData.region}
-      position="right"
-      withArrow
-      transitionProps={{ duration: 0 }}
-      key={combinedData.region}
-    >
-      <Link
-        href={`/${combinedData.tag}`}
-        className={cx(classes.mainLink, {
-          [classes.mainLinkActive]: combinedData.tag === region,
-        })}
-      >
-        <Avatar src={combinedData.leagues[0].image}></Avatar>
-      </Link>
-    </Tooltip>
-  ));
-
-  const links = selectedRegion?.leagues.map((league) => (
-    <Tooltip
-      label={league.name}
-      position="right"
-      withArrow
-      transitionProps={{ duration: 0 }}
-      key={league.name}
-    >
-      <Link
-        href={`/${selectedRegion.tag}/${league.id}`}
-        // className={cx(classes.mainLink, {
-        //   [classes.mainLinkActive]: combinedData.tag === region,
-        // })}
-      >
-        <Avatar src={league.image}></Avatar>
-      </Link>
-    </Tooltip>
-  ));
+  const { sideBarOpen } = useSideBarOpen();
 
   return (
-    <Navbar width={{ sm: 300 }}>
-      <Navbar.Section grow className={classes.wrapper}>
-        <div className={classes.region}>{mainLinks}</div>
-        <div>
-          <div className={classes.intraRegion}>{links}</div>
-          <div className={classes.league}>
-            <Title order={4} className={classes.title}>
-              {selectedRegion?.name}
-            </Title>
+    <AppShell
+      padding="md"
+      header={<AppHeader />}
+      navbarOffsetBreakpoint={"md"}
+      navbar={
+        <Navbar width={{ md: 400 }} hidden={!sideBarOpen} hiddenBreakpoint="md">
+          <div className="flex flex-1 h-full">
+            <div className={classes.leaguesMenu}>{leaguesLinks}</div>
+            {tournamentMenu}
           </div>
-          <ScrollArea>{leagueMenu}</ScrollArea>
-        </div>
-      </Navbar.Section>
-    </Navbar>
+        </Navbar>
+      }
+      styles={(theme) => ({
+        main: {
+          backgroundColor:
+            theme.colorScheme === "dark"
+              ? theme.colors.dark[8]
+              : theme.colors.gray[0],
+        },
+      })}
+    >
+      {children}
+    </AppShell>
   );
 }

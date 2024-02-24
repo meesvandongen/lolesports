@@ -7,7 +7,7 @@ import {
 } from "next/navigation";
 
 export function TournamentIdLayoutControl() {
-  const { stageIndex, leagueId, tournamentId } = useParams();
+  const { stageIndex, leagueId, tournamentId, regionTag } = useParams();
   const segments = useSelectedLayoutSegments();
   const segment = segments[2];
   const router = useRouter();
@@ -17,7 +17,7 @@ export function TournamentIdLayoutControl() {
       defaultValue={segment}
       onChange={(value) => {
         router.push(
-          `/leagues/${leagueId}/tournaments/${tournamentId}/stages/${stageIndex}/${value}`
+          `/${regionTag}/${leagueId}/${tournamentId}/stages/${stageIndex}/${value}`
         );
       }}
       size="xs"
