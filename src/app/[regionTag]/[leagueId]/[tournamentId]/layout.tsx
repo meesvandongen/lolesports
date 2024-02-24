@@ -1,7 +1,11 @@
 import { api } from "@/api/api";
-import { TournamentIdLayoutTabs } from "./tabs";
+import {
+  PageHeader,
+  PageWrapper,
+  RankingsMatchesTabs,
+  TournamentIdLayoutTabs,
+} from "./tabs";
 import { notFound } from "next/navigation";
-import { TournamentIdLayoutControl } from "./control";
 
 export default async function TournamentIdLayout({
   children,
@@ -29,15 +33,13 @@ export default async function TournamentIdLayout({
 
   return (
     <>
-      <div>
-        <div className="relative">
-          <div className="absolute top-0 right-0">
-            <TournamentIdLayoutControl />
-          </div>
-        </div>
-        <TournamentIdLayoutTabs stages={stages}></TournamentIdLayoutTabs>
-        {children}
-      </div>
+      <>
+        <PageHeader>
+          <TournamentIdLayoutTabs stages={stages}></TournamentIdLayoutTabs>
+          <RankingsMatchesTabs />
+        </PageHeader>
+        <PageWrapper>{children}</PageWrapper>
+      </>
     </>
   );
 }

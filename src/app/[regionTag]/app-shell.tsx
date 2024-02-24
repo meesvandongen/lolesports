@@ -17,13 +17,9 @@ import Link from "next/link";
 import { IconChevronRight } from "@tabler/icons-react";
 import { AppHeader } from "./header";
 import { useSideBarOpen } from "./providers";
-import { combineLeaguesWithRegions } from "@/combine-data";
+import { getRegionsWithLeagues } from "@/regions-with-leagues";
 
 const useStyles = createStyles((theme) => ({
-  wrapper: {
-    display: "flex",
-  },
-
   leaguesMenu: {
     flex: `0 0 ${rem(60)}`,
     gap: theme.spacing.xs,
@@ -37,15 +33,6 @@ const useStyles = createStyles((theme) => ({
     }`,
     paddingTop: theme.spacing.md,
     paddingInline: theme.spacing.xs,
-  },
-
-  league: {
-    flex: 1,
-    backgroundColor:
-      theme.colorScheme === "dark"
-        ? theme.colors.dark[6]
-        : theme.colors.gray[0],
-    overflow: "scroll",
   },
 
   mainLink: {
@@ -78,71 +65,6 @@ const useStyles = createStyles((theme) => ({
         .color,
     },
   },
-
-  title: {
-    boxSizing: "border-box",
-    fontFamily: `Greycliff CF, ${theme.fontFamily}`,
-    // marginBottom: theme.spacing.xl,
-    backgroundColor:
-      theme.colorScheme === "dark" ? theme.colors.dark[7] : theme.white,
-    padding: theme.spacing.md,
-    borderBottom: `${rem(1)} solid ${
-      theme.colorScheme === "dark" ? theme.colors.dark[7] : theme.colors.gray[3]
-    }`,
-  },
-
-  logo: {
-    boxSizing: "border-box",
-    width: "100%",
-    display: "flex",
-    justifyContent: "center",
-    height: rem(60),
-    paddingTop: theme.spacing.md,
-    borderBottom: `${rem(1)} solid ${
-      theme.colorScheme === "dark" ? theme.colors.dark[7] : theme.colors.gray[3]
-    }`,
-    marginBottom: theme.spacing.xl,
-  },
-
-  link: {
-    boxSizing: "border-box",
-    display: "block",
-    textDecoration: "none",
-    borderTopRightRadius: theme.radius.md,
-    borderBottomRightRadius: theme.radius.md,
-    color:
-      theme.colorScheme === "dark"
-        ? theme.colors.dark[0]
-        : theme.colors.gray[7],
-    padding: `0 ${theme.spacing.md}`,
-    fontSize: theme.fontSizes.sm,
-    marginRight: theme.spacing.md,
-    fontWeight: 500,
-    height: rem(44),
-    lineHeight: rem(44),
-
-    "&:hover": {
-      backgroundColor:
-        theme.colorScheme === "dark"
-          ? theme.colors.dark[5]
-          : theme.colors.gray[1],
-      color: theme.colorScheme === "dark" ? theme.white : theme.black,
-    },
-  },
-
-  linkActive: {
-    "&, &:hover": {
-      borderLeftColor: theme.fn.variant({
-        variant: "filled",
-        color: theme.primaryColor,
-      }).background,
-      backgroundColor: theme.fn.variant({
-        variant: "filled",
-        color: theme.primaryColor,
-      }).background,
-      color: theme.white,
-    },
-  },
 }));
 
 export function AppAppShell({
@@ -159,26 +81,26 @@ export function AppAppShell({
 }) {
   const { classes, cx } = useStyles();
 
-  const combinedData = combineLeaguesWithRegions(allLeagues);
+  const regions = getRegionsWithLeagues(allLeagues);
 
-  const leaguesLinks = combinedData.map((combinedData) => {
+  const leaguesLinks = regions.map((region) => {
     return (
-      <div key={combinedData.region} className="flex items-center gap-1">
+      <div key={region.name} className="flex items-center gap-1">
         <Tooltip
-          label={combinedData.region}
+          label={region.name}
           position="bottom"
           transitionProps={{ duration: 0 }}
         >
           <Link
-            href={`/${combinedData.tag}/${combinedData.leagues[0].id}`}
+            href={`/${region.tag}/${region.leagues[0].id}`}
             className={cx(classes.mainLink, {
-              [classes.mainLinkActive]: combinedData.tag === regionTag,
+              [classes.mainLinkActive]: region.tag === regionTag,
             })}
           >
-            <Avatar src={combinedData.leagues[0].image}></Avatar>
+            <Avatar src={region.leagues[0].image}></Avatar>
           </Link>
         </Tooltip>
-        {combinedData.leagues.length > 1 && (
+        {region.leagues.length > 1 && (
           <Menu shadow="md" position="right" withArrow>
             <Menu.Target>
               <ActionIcon>
@@ -188,8 +110,8 @@ export function AppAppShell({
 
             <Menu.Dropdown className="flex">
               <div className="grid grid-cols-3 gap-2 justify-center">
-                {combinedData.leagues
-                  .slice(1, combinedData.leagues.length)
+                {region.leagues
+                  .slice(1, region.leagues.length)
                   .map((league) => (
                     <Tooltip
                       label={league.name}
@@ -199,7 +121,7 @@ export function AppAppShell({
                     >
                       <Menu.Item
                         component={Link}
-                        href={`/${combinedData.tag}/${league.id}`}
+                        href={`/${region.tag}/${league.id}`}
                         className={cx(classes.mainLink)}
                       >
                         <Avatar src={league.image}></Avatar>
@@ -218,7 +140,7 @@ export function AppAppShell({
 
   return (
     <AppShell
-      padding="md"
+      padding={0}
       header={<AppHeader />}
       navbarOffsetBreakpoint={"md"}
       navbar={

@@ -1,5 +1,5 @@
 import { api } from "@/api/api";
-import { combineLeaguesWithRegions } from "@/combine-data";
+import { getRegionsWithLeagues } from "@/regions-with-leagues";
 import { notFound, redirect } from "next/navigation";
 
 export default async function RegionPage({
@@ -15,9 +15,9 @@ export default async function RegionPage({
     },
   });
 
-  const combinedData = combineLeaguesWithRegions(data.leagues);
+  const regions = getRegionsWithLeagues(data.leagues);
 
-  const region = combinedData.find((region) => region.tag === regionTag);
+  const region = regions.find((region) => region.tag === regionTag);
 
   if (!region) {
     notFound();
