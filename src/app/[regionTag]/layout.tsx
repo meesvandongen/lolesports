@@ -4,12 +4,10 @@ import { AppAppShell } from "./app-shell";
 
 export default async function RegionLayout({
   children,
-  leagueMenu,
   tournamentMenu,
   params: { regionTag },
 }: {
   children: React.ReactNode;
-  leagueMenu: React.ReactNode;
   tournamentMenu: React.ReactNode;
   params: {
     regionTag: string;
@@ -26,7 +24,6 @@ export default async function RegionLayout({
       <AppAppShell
         allLeagues={data.leagues}
         regionTag={regionTag}
-        leagueMenu={leagueMenu}
         tournamentMenu={tournamentMenu}
       >
         {children}

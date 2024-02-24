@@ -74,7 +74,6 @@ export function AppAppShell({
   children,
 }: {
   allLeagues: operations["getLeagues"]["responses"]["200"]["content"]["application/json"]["data"]["leagues"];
-  leagueMenu: React.ReactNode;
   tournamentMenu: React.ReactNode;
   regionTag: string;
   children: React.ReactNode;
