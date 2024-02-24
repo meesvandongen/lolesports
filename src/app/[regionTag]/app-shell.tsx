@@ -100,7 +100,7 @@ export function AppAppShell({
           </Link>
         </Tooltip>
         {region.leagues.length > 1 && (
-          <Menu shadow="md" position="right" withArrow>
+          <Menu shadow="md" position="right" withArrow keepMounted>
             <Menu.Target>
               <ActionIcon>
                 <IconChevronRight />
