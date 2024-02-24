@@ -13,7 +13,7 @@ export function TournamentIdLayoutTabs({
 }: {
   stages: components["schemas"]["standing"]["stages"];
 }) {
-  const { stageIndex, leagueId, tournamentId } = useParams();
+  const { stageIndex, leagueId, tournamentId, regionTag } = useParams();
   const router = useRouter();
 
   const segments = useSelectedLayoutSegments();
@@ -25,7 +25,7 @@ export function TournamentIdLayoutTabs({
       value={Array.isArray(stageIndex) ? stageIndex[0] : stageIndex}
       onTabChange={(value) => {
         router.push(
-          `/leagues/${leagueId}/tournaments/${tournamentId}/stages/${value}/${
+          `/${regionTag}/${leagueId}/${tournamentId}/stages/${value}/${
             segment ?? "rankings"
           }`
         );
