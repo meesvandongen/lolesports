@@ -34,7 +34,9 @@ export default async function StageIndexPage({
       {matchesSections.length > 0 && (
         <div
           className={`grid gap-8 ${
-            matchesSections.length === 1 ? "grid-cols-1" : "grid-cols-2"
+            matchesSections.length === 1
+              ? "grid-cols-1"
+              : "grid-cols-1 lg:grid-cols-2"
           }`}
         >
           {matchesSections.map((section, index) => (

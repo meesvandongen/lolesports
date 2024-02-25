@@ -38,7 +38,9 @@ export default async function StageIndexPage({
       {rankingSections.length > 0 && (
         <div
           className={`grid gap-8 ${
-            rankingSections.length === 1 ? "grid-cols-1" : "grid-cols-2"
+            rankingSections.length === 1
+              ? "grid-cols-1"
+              : "grid-cols-1 lg:grid-cols-2"
           }`}
         >
           {rankingSections.map((section, index) => (
@@ -53,7 +55,9 @@ export default async function StageIndexPage({
       {columnSections.length > 0 && (
         <div
           className={`grid gap-8 ${
-            columnSections.length === 1 ? "grid-cols-1" : "grid-cols-2"
+            columnSections.length === 1
+              ? "grid-cols-1"
+              : "grid-cols-1 lg:grid-cols-2"
           }`}
         >
           {columnSections.map((section, index) => (
