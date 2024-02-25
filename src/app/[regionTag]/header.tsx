@@ -20,7 +20,7 @@ export function AppHeader() {
   return (
     <Header height={{ base: 50, md: 70 }} p="md">
       <div style={{ display: "flex", alignItems: "center", height: "100%" }}>
-        <MediaQuery largerThan="sm" styles={{ display: "none" }}>
+        <MediaQuery largerThan="md" styles={{ display: "none" }}>
           <Burger
             opened={sideBarOpen}
             onClick={() => setSideBarOpen(!sideBarOpen)}
