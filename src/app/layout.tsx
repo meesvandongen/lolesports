@@ -46,6 +46,7 @@ export const metadata: Metadata = {
     },
     description: APP_DESCRIPTION,
   },
+  manifest: "/manifest.json",
 };
 
 export const viewport: Viewport = {
@@ -59,7 +60,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head />
       <Providers>
         <body>{children}</body>
       </Providers>
