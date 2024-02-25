@@ -10,6 +10,7 @@ import {
   Menu,
   ActionIcon,
   AppShell,
+  Portal,
 } from "@mantine/core";
 import { operations } from "@/api/generated";
 import { Avatar } from "@mantine/core";
@@ -100,35 +101,37 @@ export function AppAppShell({
           </Link>
         </Tooltip>
         {region.leagues.length > 1 && (
-          <Menu shadow="md" position="right" withArrow keepMounted>
+          <Menu shadow="md" position="right" withArrow>
             <Menu.Target>
               <ActionIcon>
                 <IconChevronRight />
               </ActionIcon>
             </Menu.Target>
 
-            <Menu.Dropdown className="flex">
-              <div className="grid grid-cols-3 gap-2 justify-center">
-                {region.leagues
-                  .slice(1, region.leagues.length)
-                  .map((league) => (
-                    <Tooltip
-                      label={league.name}
-                      position="right"
-                      transitionProps={{ duration: 0 }}
-                      key={league.name}
-                    >
-                      <Menu.Item
-                        component={Link}
-                        href={`/${region.tag}/${league.id}`}
-                        className={cx(classes.mainLink)}
+            <Portal>
+              <Menu.Dropdown className="flex">
+                <div className="grid grid-cols-3 gap-2 justify-center">
+                  {region.leagues
+                    .slice(1, region.leagues.length)
+                    .map((league) => (
+                      <Tooltip
+                        label={league.name}
+                        position="right"
+                        transitionProps={{ duration: 0 }}
+                        key={league.name}
                       >
-                        <Avatar src={league.image}></Avatar>
-                      </Menu.Item>
-                    </Tooltip>
-                  ))}
-              </div>
-            </Menu.Dropdown>
+                        <Menu.Item
+                          component={Link}
+                          href={`/${region.tag}/${league.id}`}
+                          className={cx(classes.mainLink)}
+                        >
+                          <Avatar src={league.image}></Avatar>
+                        </Menu.Item>
+                      </Tooltip>
+                    ))}
+                </div>
+              </Menu.Dropdown>
+            </Portal>
           </Menu>
         )}
       </div>
@@ -145,7 +148,9 @@ export function AppAppShell({
       navbar={
         <Navbar width={{ md: 400 }} hidden={!sideBarOpen} hiddenBreakpoint="md">
           <div className="flex flex-1 h-full">
-            <ScrollArea className={classes.leaguesMenu}>{leaguesLinks}</ScrollArea>
+            <ScrollArea className={classes.leaguesMenu}>
+              {leaguesLinks}
+            </ScrollArea>
             {tournamentMenu}
           </div>
         </Navbar>
