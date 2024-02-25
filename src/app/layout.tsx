@@ -59,6 +59,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head />
       <Providers>
         <body>{children}</body>
       </Providers>
