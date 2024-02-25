@@ -76,7 +76,7 @@ export function RankingTable({ data, title }: TableSortProps) {
         density: "xs",
       }}
       enableFilters={false}
-      enableBottomToolbar={false}
+      enableBottomToolbar={true}
       enableColumnActions={false}
       enableFullScreenToggle={false}
       renderTopToolbarCustomActions={() => <Title order={3}>{title}</Title>}
