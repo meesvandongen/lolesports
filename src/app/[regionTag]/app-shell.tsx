@@ -145,7 +145,7 @@ export function AppAppShell({
       navbar={
         <Navbar width={{ md: 400 }} hidden={!sideBarOpen} hiddenBreakpoint="md">
           <div className="flex flex-1 h-full">
-            <div className={classes.leaguesMenu}>{leaguesLinks}</div>
+            <ScrollArea className={classes.leaguesMenu}>{leaguesLinks}</ScrollArea>
             {tournamentMenu}
           </div>
         </Navbar>
