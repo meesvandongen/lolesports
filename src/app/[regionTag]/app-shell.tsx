@@ -21,7 +21,6 @@ import { getRegionsWithLeagues } from "@/regions-with-leagues";
 
 const useStyles = createStyles((theme) => ({
   leaguesMenu: {
-    flex: `0 0 ${rem(60)}`,
     gap: theme.spacing.xs,
     backgroundColor:
       theme.colorScheme === "dark" ? theme.colors.dark[7] : theme.white,
@@ -33,6 +32,7 @@ const useStyles = createStyles((theme) => ({
     }`,
     paddingTop: theme.spacing.md,
     paddingInline: theme.spacing.xs,
+    flexShrink: 0,
   },
 
   mainLink: {
