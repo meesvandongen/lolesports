@@ -1,6 +1,6 @@
 "use client";
 import { components } from "@/api/generated";
-import { Text, Paper, Group, Avatar } from "@mantine/core";
+import { Text, Paper, Group } from "@mantine/core";
 import Image from "next/image";
 import React, { useMemo } from "react";
 import ReactFlow, { Background, Edge, Handle, Node, Position } from "reactflow";
@@ -25,53 +25,78 @@ export function BracketFlow({
 }) {
   const nodeTypes = useMemo(() => ({ matchNode: MatchNode }), []);
 
+  const flatData = useMemo(() => {
+    return data.flatMap((column, columnIndex) => {
+      let rowIndex = -1;
+      return column.cells.flatMap((cell, cellIndex) => {
+        return cell.matches.map((match, matchIndex) => {
+          rowIndex += 1;
+          return {
+            column,
+            match,
+            cell,
+            columnIndex,
+            cellIndex,
+            matchIndex,
+            rowIndex,
+          };
+        });
+      });
+    });
+  }, [data]);
+
   const nodes: Node[] = useMemo(
     () =>
-      data.flatMap((column, columnIndex) => {
-        return column.cells.flatMap((cell, cellIndex) => {
-          return cell.matches.map((match, matchIndex): Node<NodeData> => {
-            return {
-              id: match.structuralId,
-              position: {
-                x: columnIndex * spacingX,
-                y:
-                  cellIndex * spacingY +
-                  matchIndex * spacingY +
-                  (columnIndex % 2 === 1 ? spacingY / 2 : 0),
-              },
-              type: "matchNode",
-              data: {
-                match,
-                cell,
-              },
-            };
-          });
-        });
+      flatData.map(({ cell, match, columnIndex, rowIndex }): Node<NodeData> => {
+        return {
+          id: match.structuralId,
+          position: {
+            x: columnIndex * spacingX,
+            y: rowIndex * spacingY + (columnIndex % 2 === 1 ? spacingY / 2 : 0),
+          },
+          type: "matchNode",
+          data: {
+            match,
+            cell,
+          },
+        };
       }),
-    [data]
+    [flatData]
   );
+
+  const matchesByStructuralId = useMemo(() => {
+    const matchesByStructuralId: Record<string, (typeof flatData)[number]> = {};
+    flatData.forEach((match) => {
+      matchesByStructuralId[match.match.structuralId] = match;
+    });
+    return matchesByStructuralId;
+  }, [flatData]);
 
   const edges: Edge[] = useMemo(
     () =>
-      data.flatMap((column, columnIndex) => {
-        return column.cells.flatMap((cell, cellIndex) => {
-          return cell.matches.flatMap((match, matchIndex) => {
-            return match.teams.map((team, teamIndex): Edge => {
-              return {
-                id: `${match.structuralId}-${team.code}-edge`,
-                source: team.origin.structuralId,
-                sourceHandle: team.code,
-                target: match.structuralId,
-                targetHandle: team.code,
-                style: {
-                  stroke: team.result?.outcome === "win" ? "#00ff00" : "#fff",
-                },
-              };
-            });
+      flatData.flatMap(({ match, matchIndex }) => {
+        return match.teams
+          .filter((team) => team.origin.structuralId !== "seeding")
+          .map((team, teamIndex): Edge => {
+            const sourceMatch = matchesByStructuralId[team.origin.structuralId];
+
+            return {
+              id: `${match.structuralId}-${team.code}-edge`,
+              source: team.origin.structuralId,
+              sourceHandle: team.code,
+              target: match.structuralId,
+              targetHandle: team.code,
+              style: {
+                stroke:
+                  sourceMatch?.match.teams[team.origin.slot - 1].result
+                    ?.outcome === "win"
+                    ? "#00ff00"
+                    : "#fff",
+              },
+            };
           });
-        });
       }),
-    [data]
+    [flatData, matchesByStructuralId]
   );
   return (
     <div className="h-[500px]">
