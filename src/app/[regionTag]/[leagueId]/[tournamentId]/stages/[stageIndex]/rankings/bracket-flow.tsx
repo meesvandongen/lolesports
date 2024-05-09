@@ -77,8 +77,11 @@ export function BracketFlow({
       flatData.flatMap(({ match, matchIndex }) => {
         return match.teams
           .filter((team) => team.origin.structuralId !== "seeding")
-          .map((team, teamIndex): Edge => {
+          .map((team): Edge => {
             const sourceMatch = matchesByStructuralId[team.origin.structuralId];
+            const sourceTeam = sourceMatch?.match.teams.find(
+              (sourceTeam) => sourceTeam.code === team.code
+            );
 
             return {
               id: `${match.structuralId}-${team.code}-edge`,
@@ -88,10 +91,7 @@ export function BracketFlow({
               targetHandle: team.code,
               style: {
                 stroke:
-                  sourceMatch?.match.teams[team.origin.slot - 1].result
-                    ?.outcome === "win"
-                    ? "#00ff00"
-                    : "#fff",
+                  sourceTeam?.result?.outcome === "win" ? "#00ff00" : "#fff",
               },
             };
           });
