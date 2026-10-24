@@ -4,6 +4,11 @@ import withSerwistInit from "@serwist/next";
 const nextConfig = {
   experimental: {},
 
+  // Linting runs through `pnpm run lint` (vp lint), not ESLint during builds.
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+
   images: {
     remotePatterns: [
       {
