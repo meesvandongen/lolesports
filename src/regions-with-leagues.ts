@@ -1,13 +1,11 @@
-import { operations } from "./api/generated";
 import kebabcase from "lodash.kebabcase";
+import type { League } from "./api/types";
 
-export function getRegionsWithLeagues(
-  leagues: operations["getLeagues"]["responses"]["200"]["content"]["application/json"]["data"]["leagues"]
-) {
+export function getRegionsWithLeagues(leagues: League[]) {
   const regions: {
     name: string;
     tag: string;
-    leagues: operations["getLeagues"]["responses"]["200"]["content"]["application/json"]["data"]["leagues"];
+    leagues: League[];
   }[] = [];
 
   for (const league of leagues) {

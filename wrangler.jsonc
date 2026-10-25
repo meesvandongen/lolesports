@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "lolesports",
+  "compatibility_date": "2026-10-25",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "@tanstack/react-start/server-entry",
+  "observability": {
+    "enabled": true,
+  },
+  // Pull request builds run `wrangler preview`, which requires this block. The
+  // Worker has no bindings or vars, so Previews need no settings of their own.
+  "previews": {},
+}

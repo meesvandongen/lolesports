@@ -1,11 +1,20 @@
-// Vite+ is only used for linting here (`vp lint`); Next.js builds the app.
+import { cloudflare } from "@cloudflare/vite-plugin";
+import { tanstackStart } from "@tanstack/react-start/plugin/vite";
+import viteReact from "@vitejs/plugin-react";
 import { defineConfig } from "vite-plus";
 
 export default defineConfig({
+  resolve: {
+    tsconfigPaths: true,
+  },
+  plugins: [
+    // The Worker doubles as TanStack Start's SSR environment.
+    cloudflare({ viteEnvironment: { name: "ssr" } }),
+    tanstackStart(),
+    viteReact(),
+  ],
   lint: {
-    // Roughly what next/core-web-vitals covered, plus the oxlint defaults.
-    plugins: ["typescript", "unicorn", "oxc", "react", "nextjs", "jsx-a11y"],
-    ignorePatterns: [".next/**", "public/**", "src/api/generated.ts"],
-    // No type-aware rules: tsgolint rejects this tsconfig (target es5, moduleResolution node).
+    plugins: ["typescript", "unicorn", "oxc", "react", "jsx-a11y"],
+    ignorePatterns: ["dist/**", "src/api/generated.ts", "src/routeTree.gen.ts"],
   },
 });

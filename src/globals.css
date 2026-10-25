@@ -1,0 +1,10 @@
+html {
+  font-family: system-ui, sans-serif;
+  font-size: 1.25rem;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}

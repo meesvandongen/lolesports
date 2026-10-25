@@ -1,0 +1,271 @@
+.page {
+  padding: var(--mantine-spacing-md);
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--mantine-spacing-sm);
+  margin-bottom: var(--mantine-spacing-md);
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--mantine-spacing-sm);
+  margin-bottom: var(--mantine-spacing-md);
+}
+
+.filters > * {
+  flex: 1 1 16rem;
+}
+
+/* Shared */
+
+.dayNumber {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.5rem;
+  height: 1.5rem;
+  padding-inline: 0.25rem;
+  border-radius: var(--mantine-radius-xl);
+  font-size: var(--mantine-font-size-sm);
+  font-weight: 600;
+}
+
+.dayNumber:hover {
+  background-color: var(--mantine-color-dark-5);
+}
+
+.dayNumber[data-today] {
+  background-color: var(--mantine-primary-color-filled);
+  color: var(--mantine-color-white);
+}
+
+.leagueDot {
+  flex-shrink: 0;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+}
+
+.matchCard {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 0.4rem 0.5rem;
+  border-radius: var(--mantine-radius-sm);
+  border-left: 3px solid transparent;
+  background-color: var(--mantine-color-dark-6);
+  color: inherit;
+  text-decoration: none;
+}
+
+.matchCard:hover {
+  background-color: var(--mantine-color-dark-5);
+}
+
+/* Month */
+
+.monthGrid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  border-top: 1px solid var(--mantine-color-dark-4);
+  border-left: 1px solid var(--mantine-color-dark-4);
+}
+
+.weekdayHeader {
+  padding: var(--mantine-spacing-xs);
+  font-size: var(--mantine-font-size-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--mantine-color-dimmed);
+  border-right: 1px solid var(--mantine-color-dark-4);
+  border-bottom: 1px solid var(--mantine-color-dark-4);
+}
+
+.monthCell {
+  min-height: 7rem;
+  padding: 0.25rem;
+  border-right: 1px solid var(--mantine-color-dark-4);
+  border-bottom: 1px solid var(--mantine-color-dark-4);
+  min-width: 0;
+}
+
+.monthCell[data-outside] {
+  background-color: var(--mantine-color-dark-9);
+}
+
+.monthCell[data-outside] .dayNumber {
+  color: var(--mantine-color-dimmed);
+}
+
+.monthCellEvents {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 2px;
+}
+
+.compactMatch {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  min-width: 0;
+  padding: 1px 0.25rem;
+  border-radius: var(--mantine-radius-xs);
+  color: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.compactMatch:hover {
+  background-color: var(--mantine-color-dark-5);
+}
+
+.moreButton {
+  padding: 1px 0.25rem;
+  font-size: var(--mantine-font-size-xs);
+  color: var(--mantine-color-dimmed);
+}
+
+.moreButton:hover {
+  color: var(--mantine-color-white);
+}
+
+.monthCellHeader {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.mobileCount {
+  display: none;
+  padding: 0 0.3rem;
+  border-radius: var(--mantine-radius-xl);
+  font-size: 0.6rem;
+  line-height: 1rem;
+  background-color: var(--mantine-primary-color-light);
+  color: var(--mantine-primary-color-light-color);
+}
+
+/* Week */
+
+.weekGrid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: var(--mantine-spacing-xs);
+}
+
+.weekColumn {
+  min-width: 0;
+}
+
+.weekColumnEvents {
+  display: flex;
+  flex-direction: column;
+  gap: var(--mantine-spacing-xs);
+}
+
+.weekColumnHeader {
+  padding-bottom: var(--mantine-spacing-xs);
+  margin-bottom: var(--mantine-spacing-xs);
+  border-bottom: 1px solid var(--mantine-color-dark-4);
+}
+
+/* List */
+
+.listDayHeader[data-today] {
+  color: var(--mantine-primary-color-light-color);
+}
+
+.listRow {
+  display: grid;
+  grid-template-columns: 4rem minmax(0, 1fr) minmax(0, 14rem);
+  align-items: center;
+  gap: var(--mantine-spacing-sm);
+  padding: 0.4rem 0.6rem;
+  border-radius: var(--mantine-radius-sm);
+  border-left: 3px solid transparent;
+  background-color: var(--mantine-color-dark-6);
+  color: inherit;
+  text-decoration: none;
+}
+
+.listRow:hover {
+  background-color: var(--mantine-color-dark-5);
+}
+
+.listTeams {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: var(--mantine-spacing-sm);
+}
+
+.listTime {
+  white-space: nowrap;
+}
+
+.listScore {
+  min-width: 3rem;
+  text-align: center;
+}
+
+.teamCode {
+  display: none;
+}
+
+@media (max-width: 75em) {
+  .weekGrid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--mantine-spacing-md);
+  }
+
+  .weekColumnEvents {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+  }
+}
+
+@media (max-width: 48em) {
+  .monthCell {
+    min-height: 3.5rem;
+  }
+
+  .monthCellEvents {
+    display: none;
+  }
+
+  .monthCellHeader {
+    flex-direction: column;
+  }
+
+  .weekdayHeader {
+    padding: 0.25rem 0;
+    font-size: 0.55rem;
+    text-align: center;
+  }
+
+  .mobileCount {
+    display: inline-block;
+  }
+
+  .listRow {
+    grid-template-columns: 4rem minmax(0, 1fr);
+  }
+
+  .listLeague {
+    grid-column: 2;
+  }
+
+  .teamName {
+    display: none;
+  }
+
+  .teamCode {
+    display: inline;
+  }
+}
