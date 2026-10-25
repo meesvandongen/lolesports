@@ -13,7 +13,7 @@ async function cachedFetch(url: string): Promise<unknown> {
 
   const cached = await cache?.match(cacheKey);
   if (cached) {
-    return cached.json();
+    return parse(await cached.text());
   }
 
   const response = await fetch(url, {
@@ -38,7 +38,15 @@ async function cachedFetch(url: string): Promise<unknown> {
     }),
   );
 
-  return JSON.parse(body);
+  return parse(body);
+}
+
+function parse(body: string): unknown {
+  // Team and league images come back as http:// URLs, which would be mixed
+  // content on the https site; the host serves the same files over https.
+  return JSON.parse(
+    body.replaceAll("http://static.lolesports.com/", "https://static.lolesports.com/"),
+  );
 }
 
 export const api = createBaseFetcher((path) => cachedFetch(`${baseUrl}${path}`));
