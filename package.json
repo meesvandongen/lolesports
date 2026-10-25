@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "vp lint",
     "generate": "openapi-typescript-any-client ./lolesports.json -o ./src/api/generated.ts"
   },
   "dependencies": {
@@ -24,8 +24,6 @@
     "@vercel/analytics": "^1.2.2",
     "autoprefixer": "10.4.19",
     "dayjs": "^1.11.11",
-    "eslint": "9.2.0",
-    "eslint-config-next": "14.2.3",
     "lodash.kebabcase": "^4.1.1",
     "lodash.uppercase": "^4.3.0",
     "mantine-react-table": "1.3.4",
@@ -42,6 +40,11 @@
   "devDependencies": {
     "@kiyoshiro/openapi-typescript-any-client": "^0.1.1",
     "@types/lodash.kebabcase": "^4.1.9",
-    "@types/lodash.uppercase": "^4.3.9"
-  }
+    "@types/lodash.uppercase": "^4.3.9",
+    "vite-plus": "catalog:"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "packageManager": "pnpm@12.15.0+sha512.b3951d6d6ff4a9f13dc7cf56cd28d2b8eb37dbcc9c68e52e1e1191873ea9f82a017287ab50baadc5ccc494f036c67c0e47eb13608c2fa36f47711b61ea128e61"
 }
