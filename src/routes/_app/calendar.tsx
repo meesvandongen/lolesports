@@ -70,10 +70,6 @@ export const Route = createFileRoute("/_app/calendar")({
       to: end.add(1, "day").toISOString(),
     });
   },
-  // Client-only: matches are grouped by day in the viewer's time zone, which the
-  // server does not know, and each schedule call is its own Worker invocation
-  // instead of one invocation chaining them all against its subrequest limit.
-  ssr: false,
   pendingComponent: () => (
     <Center p="xl">
       <Loader />

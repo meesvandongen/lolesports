@@ -13,7 +13,7 @@ import classes from "@/components/tournament.module.css";
 
 export const Route = createFileRoute("/_app/$regionTag/$leagueId/$tournamentId")({
   loader: async ({ params: { tournamentId } }) => {
-    const stages = await getStandingsV3({ data: tournamentId });
+    const stages = await getStandingsV3(tournamentId);
 
     if (!stages) {
       throw notFound();

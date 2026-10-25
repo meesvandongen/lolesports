@@ -1,4 +1,3 @@
-import { cloudflare } from "@cloudflare/vite-plugin";
 import { tanstackStart } from "@tanstack/react-start/plugin/vite";
 import viteReact from "@vitejs/plugin-react";
 import { defineConfig } from "vite-plus";
@@ -7,14 +6,18 @@ export default defineConfig({
   resolve: {
     tsconfigPaths: true,
   },
-  // Tests cover plain modules; the Worker and app plugins would only get in
-  // their way (the Cloudflare plugin tries to start the Worker).
+  // Tests cover plain modules and do not need the app plugins.
   plugins: process.env.VITEST
     ? []
     : [
-        // The Worker doubles as TanStack Start's SSR environment.
-        cloudflare({ viteEnvironment: { name: "ssr" } }),
-        tanstackStart(),
+        tanstackStart({
+          // A static site: the build prerenders one HTML shell, which Cloudflare
+          // serves for every route, and the browser renders the rest.
+          spa: {
+            enabled: true,
+            prerender: { outputPath: "/index.html" },
+          },
+        }),
         viteReact(),
       ],
   test: {
