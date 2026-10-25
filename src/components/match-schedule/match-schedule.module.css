@@ -1,0 +1,265 @@
+.root {
+  max-width: 64rem;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--mantine-spacing-sm);
+  margin-bottom: var(--mantine-spacing-md);
+}
+
+.teamSelect {
+  flex: 0 1 14rem;
+}
+
+.spoilers {
+  margin-left: auto;
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  gap: var(--mantine-spacing-sm);
+}
+
+.jumps {
+  row-gap: 6px;
+}
+
+.block {
+  margin-bottom: var(--mantine-spacing-xl);
+  scroll-margin-top: calc(var(--app-shell-header-height, 0px) + var(--mantine-spacing-md));
+}
+
+.blockHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 var(--mantine-spacing-sm);
+  padding-bottom: var(--mantine-spacing-xs);
+  margin-bottom: var(--mantine-spacing-sm);
+  border-bottom: 1px solid var(--mantine-color-dark-4);
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: var(--mantine-spacing-md);
+}
+
+.dayHeader {
+  margin-bottom: 2px;
+  color: var(--mantine-color-dimmed);
+}
+
+.dayHeader[data-today] {
+  color: var(--mantine-primary-color-light-color);
+}
+
+.match {
+  border-radius: var(--mantine-radius-sm);
+  background-color: var(--mantine-color-dark-6);
+  border-left: 3px solid transparent;
+  scroll-margin-top: calc(var(--app-shell-header-height, 0px) + var(--mantine-spacing-xl));
+}
+
+.match[data-state="inProgress"] {
+  border-left-color: var(--mantine-color-red-7);
+}
+
+.match[data-up-next] {
+  border-left-color: var(--mantine-primary-color-filled);
+}
+
+.matchRow {
+  display: grid;
+  grid-template-columns: 5.5rem minmax(0, 1fr) 4.5rem minmax(0, 1fr) 7rem 1.25rem;
+  align-items: center;
+  gap: var(--mantine-spacing-sm);
+  width: 100%;
+  padding: 0.45rem 0.6rem;
+  border-radius: var(--mantine-radius-sm);
+  color: inherit;
+}
+
+.matchRow:not(:disabled):hover {
+  background-color: var(--mantine-color-dark-5);
+}
+
+.matchRow:disabled {
+  cursor: default;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  font-size: var(--mantine-font-size-sm);
+  color: var(--mantine-color-dimmed);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  font-size: var(--mantine-font-size-sm);
+}
+
+.team[data-side="left"] {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.team img {
+  flex-shrink: 0;
+}
+
+.team[data-outcome="win"] {
+  font-weight: 700;
+}
+
+.team[data-outcome="loss"] {
+  color: var(--mantine-color-dimmed);
+}
+
+.team[data-outcome="loss"] img {
+  opacity: 0.6;
+}
+
+.team[data-focused] .teamName {
+  text-decoration: underline;
+  text-decoration-color: var(--mantine-primary-color-filled);
+  text-underline-offset: 3px;
+}
+
+.teamName {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.code {
+  display: none;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.score [data-won] {
+  color: var(--mantine-color-green-4);
+}
+
+.scoreDash,
+.versus {
+  color: var(--mantine-color-dimmed);
+  font-weight: 400;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0 8px;
+  font-size: var(--mantine-font-size-xs);
+  color: var(--mantine-color-dimmed);
+}
+
+.chevron {
+  display: flex;
+  justify-content: center;
+  color: var(--mantine-color-dimmed);
+}
+
+.chevron svg {
+  transition: transform 150ms;
+}
+
+.chevron svg[data-expanded] {
+  transform: rotate(180deg);
+}
+
+.games {
+  padding: 0.25rem 0.6rem 0.6rem calc(5.5rem + 0.6rem + var(--mantine-spacing-sm));
+}
+
+.gameList {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.game {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px var(--mantine-spacing-sm);
+}
+
+.vodLinks {
+  margin-left: auto;
+}
+
+@media (max-width: 48em) {
+  .matchRow {
+    grid-template-columns: minmax(0, 1fr) 3.5rem minmax(0, 1fr) 1rem;
+    grid-template-areas:
+      "time time meta meta"
+      "team1 score team2 chevron";
+    row-gap: 4px;
+  }
+
+  .time {
+    grid-area: time;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .meta {
+    grid-area: meta;
+  }
+
+  .team[data-side="left"] {
+    grid-area: team1;
+  }
+
+  .score {
+    grid-area: score;
+  }
+
+  .team[data-side="right"] {
+    grid-area: team2;
+  }
+
+  .chevron {
+    grid-area: chevron;
+  }
+
+  .fullName {
+    display: none;
+  }
+
+  .code {
+    display: inline;
+  }
+
+  .games {
+    padding-left: 0.6rem;
+  }
+
+  .spoilers {
+    margin-left: 0;
+  }
+}
