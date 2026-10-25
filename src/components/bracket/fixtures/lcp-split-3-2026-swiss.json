@@ -1,0 +1,563 @@
+{
+  "stages": [
+    {
+      "name": "Swiss",
+      "sections": [
+        {
+          "id": "115570814726855243",
+          "name": "Swiss",
+          "type": "bracket",
+          "rankings": [],
+          "columns": [
+            {
+              "cells": [
+                {
+                  "name": "Round 1",
+                  "slug": "round_1",
+                  "matches": [
+                    {
+                      "id": "115570814727838285",
+                      "structuralId": "match_cf19d2aa88",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107251245690956393",
+                          "slug": "saigon-buffalo-esports",
+                          "name": "MVK Esports",
+                          "code": "MVK",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_d7757735f0",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "109675490370327425",
+                          "slug": "ground-zero",
+                          "name": "Ground Zero Gaming",
+                          "code": "GZ",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_d7757735f0",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115570814727903825",
+                      "structuralId": "match_25307c8e32",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "113661839307879869",
+                          "slug": "team-secret-whales",
+                          "name": "Team Secret Whales",
+                          "code": "TSW",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_d7757735f0",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        },
+                        {
+                          "id": "103535282119620510",
+                          "slug": "fukuoka-softbank-hawks-gaming",
+                          "name": "Fukuoka SoftBank HAWKS gaming",
+                          "code": "SHG",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_d7757735f0",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115570814727903829",
+                      "structuralId": "match_b55c79f9c1",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "100285330168091787",
+                          "slug": "detonation-focusme",
+                          "name": "DetonatioN FocusMe",
+                          "code": "DFM",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_d7757735f0",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        },
+                        {
+                          "id": "98767991954244555",
+                          "slug": "gam-esports",
+                          "name": "GAM Esports",
+                          "code": "GAM",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_d7757735f0",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115570814727903833",
+                      "structuralId": "match_681390037d",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107700204561086446",
+                          "slug": "deep-cross-gaming",
+                          "name": "Relove Deep Cross Gaming",
+                          "code": "DCG",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_d7757735f0",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        },
+                        {
+                          "id": "107700199633958891",
+                          "slug": "ctbc-flying-oyster",
+                          "name": "CTBC Flying Oyster",
+                          "code": "CFO",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_d7757735f0",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 2",
+                  "slug": "round_2",
+                  "matches": [
+                    {
+                      "id": "115570814727903837",
+                      "structuralId": "match_f5599173c1",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "113661839307879869",
+                          "slug": "team-secret-whales",
+                          "name": "Team Secret Whales",
+                          "code": "TSW",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4fa78d14c2",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "107251245690956393",
+                          "slug": "saigon-buffalo-esports",
+                          "name": "MVK Esports",
+                          "code": "MVK",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4fa78d14c2",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115570814727903841",
+                      "structuralId": "match_ee165f7055",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107700199633958891",
+                          "slug": "ctbc-flying-oyster",
+                          "name": "CTBC Flying Oyster",
+                          "code": "CFO",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4fa78d14c2",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        },
+                        {
+                          "id": "98767991954244555",
+                          "slug": "gam-esports",
+                          "name": "GAM Esports",
+                          "code": "GAM",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4fa78d14c2",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115570814727903845",
+                      "structuralId": "match_6a151de70d",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "100285330168091787",
+                          "slug": "detonation-focusme",
+                          "name": "DetonatioN FocusMe",
+                          "code": "DFM",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4fa78d14c2",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        },
+                        {
+                          "id": "103535282119620510",
+                          "slug": "fukuoka-softbank-hawks-gaming",
+                          "name": "Fukuoka SoftBank HAWKS gaming",
+                          "code": "SHG",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4fa78d14c2",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115570814727903849",
+                      "structuralId": "match_18639eff47",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109675490370327425",
+                          "slug": "ground-zero",
+                          "name": "Ground Zero Gaming",
+                          "code": "GZ",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4fa78d14c2",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        },
+                        {
+                          "id": "107700204561086446",
+                          "slug": "deep-cross-gaming",
+                          "name": "Relove Deep Cross Gaming",
+                          "code": "DCG",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4fa78d14c2",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 3",
+                  "slug": "round_3",
+                  "matches": [
+                    {
+                      "id": "115570814727903853",
+                      "structuralId": "match_2c8379d4b6",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "113661839307879869",
+                          "slug": "team-secret-whales",
+                          "name": "Team Secret Whales",
+                          "code": "TSW",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_adf05f6ead",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "107700199633958891",
+                          "slug": "ctbc-flying-oyster",
+                          "name": "CTBC Flying Oyster",
+                          "code": "CFO",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_adf05f6ead",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115570814727903859",
+                      "structuralId": "match_bc914c802d",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "100285330168091787",
+                          "slug": "detonation-focusme",
+                          "name": "DetonatioN FocusMe",
+                          "code": "DFM",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_adf05f6ead",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        },
+                        {
+                          "id": "107700204561086446",
+                          "slug": "deep-cross-gaming",
+                          "name": "Relove Deep Cross Gaming",
+                          "code": "DCG",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_adf05f6ead",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115570814727903863",
+                      "structuralId": "match_b585e291a8",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107251245690956393",
+                          "slug": "saigon-buffalo-esports",
+                          "name": "MVK Esports",
+                          "code": "MVK",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_adf05f6ead",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        },
+                        {
+                          "id": "98767991954244555",
+                          "slug": "gam-esports",
+                          "name": "GAM Esports",
+                          "code": "GAM",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_adf05f6ead",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115570814727903867",
+                      "structuralId": "match_2f4e7ee637",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109675490370327425",
+                          "slug": "ground-zero",
+                          "name": "Ground Zero Gaming",
+                          "code": "GZ",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_adf05f6ead",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        },
+                        {
+                          "id": "103535282119620510",
+                          "slug": "fukuoka-softbank-hawks-gaming",
+                          "name": "Fukuoka SoftBank HAWKS gaming",
+                          "code": "SHG",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_adf05f6ead",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 4",
+                  "slug": "round_4",
+                  "matches": [
+                    {
+                      "id": "115570814727903873",
+                      "structuralId": "match_56b7dc0981",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107700204561086446",
+                          "slug": "deep-cross-gaming",
+                          "name": "Relove Deep Cross Gaming",
+                          "code": "DCG",
+                          "result": { "outcome": "loss", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_1d36af2ab0",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "107251245690956393",
+                          "slug": "saigon-buffalo-esports",
+                          "name": "MVK Esports",
+                          "code": "MVK",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_1d36af2ab0",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115570814727903879",
+                      "structuralId": "match_5667b207d7",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109675490370327425",
+                          "slug": "ground-zero",
+                          "name": "Ground Zero Gaming",
+                          "code": "GZ",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_1d36af2ab0",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        },
+                        {
+                          "id": "107700199633958891",
+                          "slug": "ctbc-flying-oyster",
+                          "name": "CTBC Flying Oyster",
+                          "code": "CFO",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_1d36af2ab0",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115570814727903885",
+                      "structuralId": "match_c939dc219d",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "100285330168091787",
+                          "slug": "detonation-focusme",
+                          "name": "DetonatioN FocusMe",
+                          "code": "DFM",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_1d36af2ab0",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        },
+                        {
+                          "id": "98767991954244555",
+                          "slug": "gam-esports",
+                          "name": "GAM Esports",
+                          "code": "GAM",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_1d36af2ab0",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 5",
+                  "slug": "round_5",
+                  "matches": [
+                    {
+                      "id": "115570814727903891",
+                      "structuralId": "match_5faff3e4a5",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107700204561086446",
+                          "slug": "deep-cross-gaming",
+                          "name": "Relove Deep Cross Gaming",
+                          "code": "DCG",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_1da3da4432",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "98767991954244555",
+                          "slug": "gam-esports",
+                          "name": "GAM Esports",
+                          "code": "GAM",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_1da3da4432",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

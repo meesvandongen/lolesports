@@ -1,0 +1,791 @@
+{
+  "stages": [
+    {
+      "name": "Playoffs",
+      "sections": [
+        {
+          "id": "116130368698969851",
+          "name": "Playoffs",
+          "type": "bracket",
+          "rankings": [],
+          "columns": [
+            {
+              "cells": [
+                {
+                  "name": "Upper Bracket - Round 1",
+                  "slug": "upper_bracket_round_1",
+                  "matches": [
+                    {
+                      "id": "116130368701001660",
+                      "structuralId": "match_e1ecf3996e",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "115745443277220050",
+                          "slug": "french-flair",
+                          "name": "French Flair",
+                          "code": "FK",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_715a78ac6a",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "109642680932009857",
+                          "slug": "nord-esports",
+                          "name": "G2 NORD",
+                          "code": "G2N",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_715a78ac6a",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "116130368701001664",
+                      "structuralId": "match_dcf4c06251",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "103935468920814040",
+                          "slug": "galions",
+                          "name": "Galions",
+                          "code": "GL",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_715a78ac6a",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        },
+                        {
+                          "id": "107416483509696259",
+                          "slug": "eintracht-spandau",
+                          "name": "Eintracht Spandau",
+                          "code": "EINS",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_715a78ac6a",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "116130368701001668",
+                      "structuralId": "match_c093571d37",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "102787200136756173",
+                          "slug": "berlin-international-gaming",
+                          "name": "Berlin International Gaming",
+                          "code": "BIG",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_715a78ac6a",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        },
+                        {
+                          "id": "105515219038427019",
+                          "slug": "karmine-corp-blue",
+                          "name": "Karmine Corp Blue",
+                          "code": "KCB",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_715a78ac6a",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "116130368701001672",
+                      "structuralId": "match_a98a175ef0",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105504044166670507",
+                          "slug": "unicorns-of-love-sexy-edition",
+                          "name": "Unicorns of Love Sexy Edition",
+                          "code": "USE",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_715a78ac6a",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        },
+                        {
+                          "id": "107467803833323099",
+                          "slug": "team-heretics-sl",
+                          "name": "Heretics Academy",
+                          "code": "HRTS",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_715a78ac6a",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Upper Bracket - Quarterfinals",
+                  "slug": "upper_bracket_quarterfinals",
+                  "matches": [
+                    {
+                      "id": "116130368701001676",
+                      "structuralId": "match_32d24fbe8a",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "111624100955490493",
+                          "slug": "misa-esports",
+                          "name": "MISA Esports",
+                          "code": "MISA",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_715a78ac6a",
+                            "type": "decisionPoint",
+                            "slot": 9
+                          }
+                        },
+                        {
+                          "id": "115745443277220050",
+                          "slug": "french-flair",
+                          "name": "French Flair",
+                          "code": "FK",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_e1ecf3996e",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "116130368701001680",
+                      "structuralId": "match_d97e2a4364",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "103935468920814040",
+                          "slug": "galions",
+                          "name": "Galions",
+                          "code": "GL",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_dcf4c06251",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "111692802629324367",
+                          "slug": "movistar-koi",
+                          "name": "Movistar KOI Fénix",
+                          "code": "MKF",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_715a78ac6a",
+                            "type": "decisionPoint",
+                            "slot": 10
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "116130368701001684",
+                      "structuralId": "match_9885ceb250",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105515345386578249",
+                          "slug": "solary",
+                          "name": "Solary",
+                          "code": "SLY",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_715a78ac6a",
+                            "type": "decisionPoint",
+                            "slot": 11
+                          }
+                        },
+                        {
+                          "id": "102787200136756173",
+                          "slug": "berlin-international-gaming",
+                          "name": "Berlin International Gaming",
+                          "code": "BIG",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_c093571d37",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "116130368701001688",
+                      "structuralId": "match_a892a28ca3",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105504044166670507",
+                          "slug": "unicorns-of-love-sexy-edition",
+                          "name": "Unicorns of Love Sexy Edition",
+                          "code": "USE",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_a98a175ef0",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "107565477822627354",
+                          "slug": "verdant",
+                          "name": "Verdant",
+                          "code": "VER",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_715a78ac6a",
+                            "type": "decisionPoint",
+                            "slot": 12
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Upper Bracket - Semifinals",
+                  "slug": "upper_bracket_semifinals",
+                  "matches": [
+                    {
+                      "id": "116130368701001692",
+                      "structuralId": "match_23b6d06823",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "103935468920814040",
+                          "slug": "galions",
+                          "name": "Galions",
+                          "code": "GL",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_d97e2a4364",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "115745443277220050",
+                          "slug": "french-flair",
+                          "name": "French Flair",
+                          "code": "FK",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_32d24fbe8a",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "116130368701001696",
+                      "structuralId": "match_6362127074",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105515345386578249",
+                          "slug": "solary",
+                          "name": "Solary",
+                          "code": "SLY",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_9885ceb250",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "105504044166670507",
+                          "slug": "unicorns-of-love-sexy-edition",
+                          "name": "Unicorns of Love Sexy Edition",
+                          "code": "USE",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_a892a28ca3",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Lower Bracket - Round 1",
+                  "slug": "lower_bracket_round_1",
+                  "matches": [
+                    {
+                      "id": "116130368701001700",
+                      "structuralId": "match_12a42d4b71",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107565477822627354",
+                          "slug": "verdant",
+                          "name": "Verdant",
+                          "code": "VER",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_a892a28ca3",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "109642680932009857",
+                          "slug": "nord-esports",
+                          "name": "G2 NORD",
+                          "code": "G2N",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_e1ecf3996e",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "116130368701001704",
+                      "structuralId": "match_f5e00592df",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107416483509696259",
+                          "slug": "eintracht-spandau",
+                          "name": "Eintracht Spandau",
+                          "code": "EINS",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_dcf4c06251",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "102787200136756173",
+                          "slug": "berlin-international-gaming",
+                          "name": "Berlin International Gaming",
+                          "code": "BIG",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_9885ceb250",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "116130368701001708",
+                      "structuralId": "match_517f9e2404",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "111692802629324367",
+                          "slug": "movistar-koi",
+                          "name": "Movistar KOI Fénix",
+                          "code": "MKF",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_d97e2a4364",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "105515219038427019",
+                          "slug": "karmine-corp-blue",
+                          "name": "Karmine Corp Blue",
+                          "code": "KCB",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_c093571d37",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "116130368701001712",
+                      "structuralId": "match_2f7d3173c7",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "111624100955490493",
+                          "slug": "misa-esports",
+                          "name": "MISA Esports",
+                          "code": "MISA",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_32d24fbe8a",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "107467803833323099",
+                          "slug": "team-heretics-sl",
+                          "name": "Heretics Academy",
+                          "code": "HRTS",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_a98a175ef0",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Upper Bracket - Finals",
+                  "slug": "upper_bracket_finals",
+                  "matches": [
+                    {
+                      "id": "116130368701001716",
+                      "structuralId": "match_697649a582",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "103935468920814040",
+                          "slug": "galions",
+                          "name": "Galions",
+                          "code": "GL",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_23b6d06823",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "105515345386578249",
+                          "slug": "solary",
+                          "name": "Solary",
+                          "code": "SLY",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_6362127074",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Lower Bracket - Round 2",
+                  "slug": "lower_bracket_round_2",
+                  "matches": [
+                    {
+                      "id": "116130368701001722",
+                      "structuralId": "match_b07d5df72a",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "102787200136756173",
+                          "slug": "berlin-international-gaming",
+                          "name": "Berlin International Gaming",
+                          "code": "BIG",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_f5e00592df",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "109642680932009857",
+                          "slug": "nord-esports",
+                          "name": "G2 NORD",
+                          "code": "G2N",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_12a42d4b71",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "116130368701001726",
+                      "structuralId": "match_da7ed706a0",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105515219038427019",
+                          "slug": "karmine-corp-blue",
+                          "name": "Karmine Corp Blue",
+                          "code": "KCB",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_517f9e2404",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "111624100955490493",
+                          "slug": "misa-esports",
+                          "name": "MISA Esports",
+                          "code": "MISA",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_2f7d3173c7",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Lower Bracket - Quarterfinals",
+                  "slug": "lower_bracket_quarterfinals",
+                  "matches": [
+                    {
+                      "id": "116130368701001730",
+                      "structuralId": "match_32af2ae943",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "115745443277220050",
+                          "slug": "french-flair",
+                          "name": "French Flair",
+                          "code": "FK",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_23b6d06823",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "102787200136756173",
+                          "slug": "berlin-international-gaming",
+                          "name": "Berlin International Gaming",
+                          "code": "BIG",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_b07d5df72a",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "116130368701001734",
+                      "structuralId": "match_4a5987f21d",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "111624100955490493",
+                          "slug": "misa-esports",
+                          "name": "MISA Esports",
+                          "code": "MISA",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_da7ed706a0",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "105504044166670507",
+                          "slug": "unicorns-of-love-sexy-edition",
+                          "name": "Unicorns of Love Sexy Edition",
+                          "code": "USE",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_6362127074",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Lower Bracket - Semifinals",
+                  "slug": "lower_bracket_semifinals",
+                  "matches": [
+                    {
+                      "id": "116130368701001738",
+                      "structuralId": "match_2ffb508911",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "111624100955490493",
+                          "slug": "misa-esports",
+                          "name": "MISA Esports",
+                          "code": "MISA",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_4a5987f21d",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "102787200136756173",
+                          "slug": "berlin-international-gaming",
+                          "name": "Berlin International Gaming",
+                          "code": "BIG",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_32af2ae943",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Lower Bracket - Finals",
+                  "slug": "lower_bracket_finals",
+                  "matches": [
+                    {
+                      "id": "116130368701001742",
+                      "structuralId": "match_cfd2f93fbd",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "111624100955490493",
+                          "slug": "misa-esports",
+                          "name": "MISA Esports",
+                          "code": "MISA",
+                          "result": { "outcome": "loss", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_2ffb508911",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "105515345386578249",
+                          "slug": "solary",
+                          "name": "Solary",
+                          "code": "SLY",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_697649a582",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Finals",
+                  "slug": "finals",
+                  "matches": [
+                    {
+                      "id": "116130368701001746",
+                      "structuralId": "match_4ddefc0831",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105515345386578249",
+                          "slug": "solary",
+                          "name": "Solary",
+                          "code": "SLY",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_cfd2f93fbd",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "103935468920814040",
+                          "slug": "galions",
+                          "name": "Galions",
+                          "code": "GL",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_697649a582",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

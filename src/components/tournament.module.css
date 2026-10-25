@@ -6,6 +6,12 @@
   padding: var(--mantine-spacing-md) var(--mantine-spacing-md) 0;
 }
 
+@media (max-width: 48em) {
+  .pageWrapper {
+    padding: var(--mantine-spacing-xs) var(--mantine-spacing-xs) 0;
+  }
+}
+
 .pageHeader {
   padding-top: var(--mantine-spacing-md);
   display: flex;
@@ -28,4 +34,19 @@
   .sections[data-columns="2"] {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+}
+
+.brackets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--mantine-spacing-xl);
+}
+
+.sections + .brackets {
+  margin-top: var(--mantine-spacing-xl);
+}
+
+.bracket {
+  min-width: 0;
+  max-width: 100%;
 }

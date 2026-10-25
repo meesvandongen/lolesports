@@ -1,0 +1,2970 @@
+{
+  "stages": [
+    {
+      "name": "Swiss",
+      "sections": [
+        {
+          "id": "117171782813832869",
+          "name": "Swiss",
+          "type": "bracket",
+          "rankings": [],
+          "columns": [
+            {
+              "cells": [
+                {
+                  "name": "Round 1",
+                  "slug": "round_1",
+                  "matches": [
+                    {
+                      "id": "117171782819731167",
+                      "structuralId": "match_e7734ed6b6",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "102787200136756173",
+                          "slug": "berlin-international-gaming",
+                          "name": "Berlin International Gaming",
+                          "code": "BIG",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "115848737828828062",
+                          "slug": "frites-esports-club",
+                          "name": "Frites Esports Club",
+                          "code": "FEC",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731169",
+                      "structuralId": "match_39f72b2e25",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "116339377622705301",
+                          "slug": "jsk-gamefy",
+                          "name": "JSK Gamefy",
+                          "code": "JSK",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        },
+                        {
+                          "id": "107422385694193066",
+                          "slug": "barca-esports",
+                          "name": "Barça Esports",
+                          "code": "BAR",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731171",
+                      "structuralId": "match_0a46b7cdd9",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "116803545426908406",
+                          "slug": "valerion",
+                          "name": "Valerion",
+                          "code": "VLR",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        },
+                        {
+                          "id": "107603608999191393",
+                          "slug": "lodis-by-illuminar",
+                          "name": "LODIS",
+                          "code": "LDS",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731173",
+                      "structuralId": "match_076c54be9b",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "114177880515757163",
+                          "slug": "colossal-gaming",
+                          "name": "Colossal Gaming",
+                          "code": "CG",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        },
+                        {
+                          "id": "115745364589112276",
+                          "slug": "skillcamp",
+                          "name": "Skillcamp",
+                          "code": "SC",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731175",
+                      "structuralId": "match_dcd78c5bd5",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "115745361559907281",
+                          "slug": "tln-pirates",
+                          "name": "TLN Pirates",
+                          "code": "TLNP",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 10
+                          }
+                        },
+                        {
+                          "id": "109697683685398040",
+                          "slug": "magaza",
+                          "name": "MAGAZA",
+                          "code": "MGZ",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 9
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731177",
+                      "structuralId": "match_9c98232f40",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "113865643197386183",
+                          "slug": "senshi-esports",
+                          "name": "Senshi eSports",
+                          "code": "SNSH",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 11
+                          }
+                        },
+                        {
+                          "id": "113786022271737365",
+                          "slug": "bushido-wildcats",
+                          "name": "Bushido Wildcats",
+                          "code": "BW",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 12
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731179",
+                      "structuralId": "match_3235fa38a9",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109642690191894407",
+                          "slug": "ruddy",
+                          "name": "Ruddy Corporation",
+                          "code": "RUD",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 13
+                          }
+                        },
+                        {
+                          "id": "109671612150787863",
+                          "slug": "kaufland-hangry-knights",
+                          "name": "Kaufland Hangry Knights",
+                          "code": "KHK",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 14
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731181",
+                      "structuralId": "match_7f448d0841",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105532791598779236",
+                          "slug": "ucam-esports-club",
+                          "name": "UCAM Esports Club",
+                          "code": "UCAM",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 15
+                          }
+                        },
+                        {
+                          "id": "115842533697360343",
+                          "slug": "hmble",
+                          "name": "HMBLE",
+                          "code": "HMB",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 16
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731183",
+                      "structuralId": "match_b6cdf1cb44",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107416342401528388",
+                          "slug": "forsaken",
+                          "name": "Forsaken",
+                          "code": "FSK",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 17
+                          }
+                        },
+                        {
+                          "id": "109642680932009857",
+                          "slug": "nord-esports",
+                          "name": "G2 NORD",
+                          "code": "G2N",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 18
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731185",
+                      "structuralId": "match_46c499519e",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "102787200129022886",
+                          "slug": "esuba",
+                          "name": "eSuba",
+                          "code": "ESB",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 19
+                          }
+                        },
+                        {
+                          "id": "107467803833323099",
+                          "slug": "team-heretics-sl",
+                          "name": "Heretics Academy",
+                          "code": "HRTS",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 20
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731187",
+                      "structuralId": "match_044e42a722",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105515219038427019",
+                          "slug": "karmine-corp-blue",
+                          "name": "Karmine Corp Blue",
+                          "code": "KCB",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 22
+                          }
+                        },
+                        {
+                          "id": "105594135137147298",
+                          "slug": "white-dragons",
+                          "name": "White Dragons",
+                          "code": "WD",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 21
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731189",
+                      "structuralId": "match_1a7d5edd33",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105521637552587612",
+                          "slug": "team-phantasma",
+                          "name": "Team Phantasma",
+                          "code": "TP",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 24
+                          }
+                        },
+                        {
+                          "id": "115854602297673935",
+                          "slug": "avella-su-esports",
+                          "name": "Avella SU Esports",
+                          "code": "SU",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 23
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731191",
+                      "structuralId": "match_987358cfc8",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "114017802981197435",
+                          "slug": "team-secret-club",
+                          "name": "The Secret Club",
+                          "code": "TSC",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 25
+                          }
+                        },
+                        {
+                          "id": "109696073114910519",
+                          "slug": "anubis-gaming",
+                          "name": "Anubis Gaming",
+                          "code": "ANB",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 26
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731193",
+                      "structuralId": "match_af9b7e8025",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105504044166670507",
+                          "slug": "unicorns-of-love-sexy-edition",
+                          "name": "Unicorns of Love Sexy Edition",
+                          "code": "USE",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 27
+                          }
+                        },
+                        {
+                          "id": "111730807014578357",
+                          "slug": "celestial-cats",
+                          "name": "PCIFIC Esports",
+                          "code": "PCF",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 28
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731195",
+                      "structuralId": "match_39b7619c30",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105521674055625312",
+                          "slug": "gamespace-mediterranean-college-esports",
+                          "name": "Gamespace M.C.",
+                          "code": "GSMC",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 29
+                          }
+                        },
+                        {
+                          "id": "116040458285488771",
+                          "slug": "bomba-team",
+                          "name": "BOMBA Team",
+                          "code": "BOOM",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 30
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731197",
+                      "structuralId": "match_ae730d2bf1",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "113858313966567000",
+                          "slug": "nightbirds",
+                          "name": "NightBirds",
+                          "code": "NBS",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 32
+                          }
+                        },
+                        {
+                          "id": "114942382383150115",
+                          "slug": "otter-side",
+                          "name": "Otter Side",
+                          "code": "OTS",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_866756c26e",
+                            "type": "decisionPoint",
+                            "slot": 31
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 2",
+                  "slug": "round_2",
+                  "matches": [
+                    {
+                      "id": "117171782819731199",
+                      "structuralId": "match_f7c15b324a",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "116040458285488771",
+                          "slug": "bomba-team",
+                          "name": "BOMBA Team",
+                          "code": "BOOM",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "115745361559907281",
+                          "slug": "tln-pirates",
+                          "name": "TLN Pirates",
+                          "code": "TLNP",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731201",
+                      "structuralId": "match_b81f5d618d",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109642680932009857",
+                          "slug": "nord-esports",
+                          "name": "G2 NORD",
+                          "code": "G2N",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        },
+                        {
+                          "id": "113858313966567000",
+                          "slug": "nightbirds",
+                          "name": "NightBirds",
+                          "code": "NBS",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731203",
+                      "structuralId": "match_e0af876479",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "113865643197386183",
+                          "slug": "senshi-esports",
+                          "name": "Senshi eSports",
+                          "code": "SNSH",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        },
+                        {
+                          "id": "107467803833323099",
+                          "slug": "team-heretics-sl",
+                          "name": "Heretics Academy",
+                          "code": "HRTS",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731205",
+                      "structuralId": "match_a4f1b6cd08",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109671612150787863",
+                          "slug": "kaufland-hangry-knights",
+                          "name": "Kaufland Hangry Knights",
+                          "code": "KHK",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        },
+                        {
+                          "id": "115745364589112276",
+                          "slug": "skillcamp",
+                          "name": "Skillcamp",
+                          "code": "SC",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731207",
+                      "structuralId": "match_963a4bcb83",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "116339377622705301",
+                          "slug": "jsk-gamefy",
+                          "name": "JSK Gamefy",
+                          "code": "JSK",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 10
+                          }
+                        },
+                        {
+                          "id": "115854602297673935",
+                          "slug": "avella-su-esports",
+                          "name": "Avella SU Esports",
+                          "code": "SU",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 9
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731209",
+                      "structuralId": "match_07207bf2c2",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "116803545426908406",
+                          "slug": "valerion",
+                          "name": "Valerion",
+                          "code": "VLR",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 11
+                          }
+                        },
+                        {
+                          "id": "102787200136756173",
+                          "slug": "berlin-international-gaming",
+                          "name": "Berlin International Gaming",
+                          "code": "BIG",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 12
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731211",
+                      "structuralId": "match_7472cbd89b",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105532791598779236",
+                          "slug": "ucam-esports-club",
+                          "name": "UCAM Esports Club",
+                          "code": "UCAM",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 13
+                          }
+                        },
+                        {
+                          "id": "105515219038427019",
+                          "slug": "karmine-corp-blue",
+                          "name": "Karmine Corp Blue",
+                          "code": "KCB",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 14
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731213",
+                      "structuralId": "match_bd8f7ba091",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105504044166670507",
+                          "slug": "unicorns-of-love-sexy-edition",
+                          "name": "Unicorns of Love Sexy Edition",
+                          "code": "USE",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 15
+                          }
+                        },
+                        {
+                          "id": "109696073114910519",
+                          "slug": "anubis-gaming",
+                          "name": "Anubis Gaming",
+                          "code": "ANB",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 16
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731215",
+                      "structuralId": "match_2b84952419",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109642690191894407",
+                          "slug": "ruddy",
+                          "name": "Ruddy Corporation",
+                          "code": "RUD",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 17
+                          }
+                        },
+                        {
+                          "id": "114177880515757163",
+                          "slug": "colossal-gaming",
+                          "name": "Colossal Gaming",
+                          "code": "CG",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 18
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731217",
+                      "structuralId": "match_b377a79585",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105521637552587612",
+                          "slug": "team-phantasma",
+                          "name": "Team Phantasma",
+                          "code": "TP",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 20
+                          }
+                        },
+                        {
+                          "id": "107422385694193066",
+                          "slug": "barca-esports",
+                          "name": "Barça Esports",
+                          "code": "BAR",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 19
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819731219",
+                      "structuralId": "match_f63af4bce7",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107603608999191393",
+                          "slug": "lodis-by-illuminar",
+                          "name": "LODIS",
+                          "code": "LDS",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 21
+                          }
+                        },
+                        {
+                          "id": "115848737828828062",
+                          "slug": "frites-esports-club",
+                          "name": "Frites Esports Club",
+                          "code": "FEC",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 22
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819796757",
+                      "structuralId": "match_e2daf8a875",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "114017802981197435",
+                          "slug": "team-secret-club",
+                          "name": "The Secret Club",
+                          "code": "TSC",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 23
+                          }
+                        },
+                        {
+                          "id": "111730807014578357",
+                          "slug": "celestial-cats",
+                          "name": "PCIFIC Esports",
+                          "code": "PCF",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 24
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819796759",
+                      "structuralId": "match_0ef88c13cb",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107416342401528388",
+                          "slug": "forsaken",
+                          "name": "Forsaken",
+                          "code": "FSK",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 26
+                          }
+                        },
+                        {
+                          "id": "114942382383150115",
+                          "slug": "otter-side",
+                          "name": "Otter Side",
+                          "code": "OTS",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 25
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819796761",
+                      "structuralId": "match_6e71689571",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "113786022271737365",
+                          "slug": "bushido-wildcats",
+                          "name": "Bushido Wildcats",
+                          "code": "BW",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 28
+                          }
+                        },
+                        {
+                          "id": "102787200129022886",
+                          "slug": "esuba",
+                          "name": "eSuba",
+                          "code": "ESB",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 27
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819796763",
+                      "structuralId": "match_2f6dd1f4ca",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105594135137147298",
+                          "slug": "white-dragons",
+                          "name": "White Dragons",
+                          "code": "WD",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 29
+                          }
+                        },
+                        {
+                          "id": "115842533697360343",
+                          "slug": "hmble",
+                          "name": "HMBLE",
+                          "code": "HMB",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 30
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819796765",
+                      "structuralId": "match_5902dd6ada",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105521674055625312",
+                          "slug": "gamespace-mediterranean-college-esports",
+                          "name": "Gamespace M.C.",
+                          "code": "GSMC",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 31
+                          }
+                        },
+                        {
+                          "id": "109697683685398040",
+                          "slug": "magaza",
+                          "name": "MAGAZA",
+                          "code": "MGZ",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_91011347a7",
+                            "type": "decisionPoint",
+                            "slot": 32
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 3",
+                  "slug": "round_3",
+                  "matches": [
+                    {
+                      "id": "117171782819796767",
+                      "structuralId": "match_4eb7cdeb66",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109696073114910519",
+                          "slug": "anubis-gaming",
+                          "name": "Anubis Gaming",
+                          "code": "ANB",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "115745364589112276",
+                          "slug": "skillcamp",
+                          "name": "Skillcamp",
+                          "code": "SC",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819796769",
+                      "structuralId": "match_7e830bbe76",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "116339377622705301",
+                          "slug": "jsk-gamefy",
+                          "name": "JSK Gamefy",
+                          "code": "JSK",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        },
+                        {
+                          "id": "115745361559907281",
+                          "slug": "tln-pirates",
+                          "name": "TLN Pirates",
+                          "code": "TLNP",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819796771",
+                      "structuralId": "match_92e4821663",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "116803545426908406",
+                          "slug": "valerion",
+                          "name": "Valerion",
+                          "code": "VLR",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        },
+                        {
+                          "id": "107467803833323099",
+                          "slug": "team-heretics-sl",
+                          "name": "Heretics Academy",
+                          "code": "HRTS",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819796773",
+                      "structuralId": "match_7924708233",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105515219038427019",
+                          "slug": "karmine-corp-blue",
+                          "name": "Karmine Corp Blue",
+                          "code": "KCB",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        },
+                        {
+                          "id": "113858313966567000",
+                          "slug": "nightbirds",
+                          "name": "NightBirds",
+                          "code": "NBS",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819796775",
+                      "structuralId": "match_242b725b7e",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109642680932009857",
+                          "slug": "nord-esports",
+                          "name": "G2 NORD",
+                          "code": "G2N",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 10
+                          }
+                        },
+                        {
+                          "id": "115848737828828062",
+                          "slug": "frites-esports-club",
+                          "name": "Frites Esports Club",
+                          "code": "FEC",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 9
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819796777",
+                      "structuralId": "match_6aa1853426",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105532791598779236",
+                          "slug": "ucam-esports-club",
+                          "name": "UCAM Esports Club",
+                          "code": "UCAM",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 11
+                          }
+                        },
+                        {
+                          "id": "111730807014578357",
+                          "slug": "celestial-cats",
+                          "name": "PCIFIC Esports",
+                          "code": "PCF",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 12
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819796779",
+                      "structuralId": "match_79d6250284",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "113865643197386183",
+                          "slug": "senshi-esports",
+                          "name": "Senshi eSports",
+                          "code": "SNSH",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 13
+                          }
+                        },
+                        {
+                          "id": "109671612150787863",
+                          "slug": "kaufland-hangry-knights",
+                          "name": "Kaufland Hangry Knights",
+                          "code": "KHK",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 14
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819862317",
+                      "structuralId": "match_249390778f",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105521637552587612",
+                          "slug": "team-phantasma",
+                          "name": "Team Phantasma",
+                          "code": "TP",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 16
+                          }
+                        },
+                        {
+                          "id": "114942382383150115",
+                          "slug": "otter-side",
+                          "name": "Otter Side",
+                          "code": "OTS",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 15
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927855",
+                      "structuralId": "match_3cc830d24d",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "116040458285488771",
+                          "slug": "bomba-team",
+                          "name": "BOMBA Team",
+                          "code": "BOOM",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 18
+                          }
+                        },
+                        {
+                          "id": "115854602297673935",
+                          "slug": "avella-su-esports",
+                          "name": "Avella SU Esports",
+                          "code": "SU",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 17
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927857",
+                      "structuralId": "match_30e313ad10",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "102787200136756173",
+                          "slug": "berlin-international-gaming",
+                          "name": "Berlin International Gaming",
+                          "code": "BIG",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 20
+                          }
+                        },
+                        {
+                          "id": "109697683685398040",
+                          "slug": "magaza",
+                          "name": "MAGAZA",
+                          "code": "MGZ",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 19
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927859",
+                      "structuralId": "match_058fc4e258",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109642690191894407",
+                          "slug": "ruddy",
+                          "name": "Ruddy Corporation",
+                          "code": "RUD",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 21
+                          }
+                        },
+                        {
+                          "id": "113786022271737365",
+                          "slug": "bushido-wildcats",
+                          "name": "Bushido Wildcats",
+                          "code": "BW",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 22
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927861",
+                      "structuralId": "match_1e1d7b9b00",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105504044166670507",
+                          "slug": "unicorns-of-love-sexy-edition",
+                          "name": "Unicorns of Love Sexy Edition",
+                          "code": "USE",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 23
+                          }
+                        },
+                        {
+                          "id": "115842533697360343",
+                          "slug": "hmble",
+                          "name": "HMBLE",
+                          "code": "HMB",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 24
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927863",
+                      "structuralId": "match_f3ca3cebd0",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107603608999191393",
+                          "slug": "lodis-by-illuminar",
+                          "name": "LODIS",
+                          "code": "LDS",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 25
+                          }
+                        },
+                        {
+                          "id": "102787200129022886",
+                          "slug": "esuba",
+                          "name": "eSuba",
+                          "code": "ESB",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 26
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927865",
+                      "structuralId": "match_abe7fc19b9",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "114177880515757163",
+                          "slug": "colossal-gaming",
+                          "name": "Colossal Gaming",
+                          "code": "CG",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 28
+                          }
+                        },
+                        {
+                          "id": "105594135137147298",
+                          "slug": "white-dragons",
+                          "name": "White Dragons",
+                          "code": "WD",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 27
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927867",
+                      "structuralId": "match_1a1d207b04",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107416342401528388",
+                          "slug": "forsaken",
+                          "name": "Forsaken",
+                          "code": "FSK",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 30
+                          }
+                        },
+                        {
+                          "id": "107422385694193066",
+                          "slug": "barca-esports",
+                          "name": "Barça Esports",
+                          "code": "BAR",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 29
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927869",
+                      "structuralId": "match_5f060ec8e6",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105521674055625312",
+                          "slug": "gamespace-mediterranean-college-esports",
+                          "name": "Gamespace M.C.",
+                          "code": "GSMC",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 31
+                          }
+                        },
+                        {
+                          "id": "114017802981197435",
+                          "slug": "team-secret-club",
+                          "name": "The Secret Club",
+                          "code": "TSC",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_397b6ec578",
+                            "type": "decisionPoint",
+                            "slot": 32
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 4",
+                  "slug": "round_4",
+                  "matches": [
+                    {
+                      "id": "117171782819927871",
+                      "structuralId": "match_787f66dd87",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109696073114910519",
+                          "slug": "anubis-gaming",
+                          "name": "Anubis Gaming",
+                          "code": "ANB",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "115745361559907281",
+                          "slug": "tln-pirates",
+                          "name": "TLN Pirates",
+                          "code": "TLNP",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927875",
+                      "structuralId": "match_b0880a845d",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107467803833323099",
+                          "slug": "team-heretics-sl",
+                          "name": "Heretics Academy",
+                          "code": "HRTS",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        },
+                        {
+                          "id": "105515219038427019",
+                          "slug": "karmine-corp-blue",
+                          "name": "Karmine Corp Blue",
+                          "code": "KCB",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927879",
+                      "structuralId": "match_d3b91e9a5d",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109642690191894407",
+                          "slug": "ruddy",
+                          "name": "Ruddy Corporation",
+                          "code": "RUD",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        },
+                        {
+                          "id": "109642680932009857",
+                          "slug": "nord-esports",
+                          "name": "G2 NORD",
+                          "code": "G2N",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927881",
+                      "structuralId": "match_8a6a417345",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "116803545426908406",
+                          "slug": "valerion",
+                          "name": "Valerion",
+                          "code": "VLR",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        },
+                        {
+                          "id": "115745364589112276",
+                          "slug": "skillcamp",
+                          "name": "Skillcamp",
+                          "code": "SC",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927883",
+                      "structuralId": "match_8106f1c1bc",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "116040458285488771",
+                          "slug": "bomba-team",
+                          "name": "BOMBA Team",
+                          "code": "BOOM",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 9
+                          }
+                        },
+                        {
+                          "id": "102787200136756173",
+                          "slug": "berlin-international-gaming",
+                          "name": "Berlin International Gaming",
+                          "code": "BIG",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 10
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927885",
+                      "structuralId": "match_0c293287d3",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "111730807014578357",
+                          "slug": "celestial-cats",
+                          "name": "PCIFIC Esports",
+                          "code": "PCF",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 12
+                          }
+                        },
+                        {
+                          "id": "113858313966567000",
+                          "slug": "nightbirds",
+                          "name": "NightBirds",
+                          "code": "NBS",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 11
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927887",
+                      "structuralId": "match_42fcbb1f48",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105504044166670507",
+                          "slug": "unicorns-of-love-sexy-edition",
+                          "name": "Unicorns of Love Sexy Edition",
+                          "code": "USE",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 13
+                          }
+                        },
+                        {
+                          "id": "116339377622705301",
+                          "slug": "jsk-gamefy",
+                          "name": "JSK Gamefy",
+                          "code": "JSK",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 14
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927889",
+                      "structuralId": "match_35899e7c15",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "114942382383150115",
+                          "slug": "otter-side",
+                          "name": "Otter Side",
+                          "code": "OTS",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 15
+                          }
+                        },
+                        {
+                          "id": "109671612150787863",
+                          "slug": "kaufland-hangry-knights",
+                          "name": "Kaufland Hangry Knights",
+                          "code": "KHK",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 16
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927891",
+                      "structuralId": "match_f7cc5f7d1d",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "114177880515757163",
+                          "slug": "colossal-gaming",
+                          "name": "Colossal Gaming",
+                          "code": "CG",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 18
+                          }
+                        },
+                        {
+                          "id": "115854602297673935",
+                          "slug": "avella-su-esports",
+                          "name": "Avella SU Esports",
+                          "code": "SU",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 17
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927893",
+                      "structuralId": "match_f3a4f42e95",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109697683685398040",
+                          "slug": "magaza",
+                          "name": "MAGAZA",
+                          "code": "MGZ",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 20
+                          }
+                        },
+                        {
+                          "id": "107422385694193066",
+                          "slug": "barca-esports",
+                          "name": "Barça Esports",
+                          "code": "BAR",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 19
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927895",
+                      "structuralId": "match_ebd56cfa0e",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105521674055625312",
+                          "slug": "gamespace-mediterranean-college-esports",
+                          "name": "Gamespace M.C.",
+                          "code": "GSMC",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 21
+                          }
+                        },
+                        {
+                          "id": "115848737828828062",
+                          "slug": "frites-esports-club",
+                          "name": "Frites Esports Club",
+                          "code": "FEC",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 22
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927897",
+                      "structuralId": "match_13f2faa06d",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "113786022271737365",
+                          "slug": "bushido-wildcats",
+                          "name": "Bushido Wildcats",
+                          "code": "BW",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 24
+                          }
+                        },
+                        {
+                          "id": "105532791598779236",
+                          "slug": "ucam-esports-club",
+                          "name": "UCAM Esports Club",
+                          "code": "UCAM",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 23
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927899",
+                      "structuralId": "match_40b1413456",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "113865643197386183",
+                          "slug": "senshi-esports",
+                          "name": "Senshi eSports",
+                          "code": "SNSH",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 25
+                          }
+                        },
+                        {
+                          "id": "115842533697360343",
+                          "slug": "hmble",
+                          "name": "HMBLE",
+                          "code": "HMB",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 26
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927901",
+                      "structuralId": "match_899dd4c37b",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105521637552587612",
+                          "slug": "team-phantasma",
+                          "name": "Team Phantasma",
+                          "code": "TP",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 28
+                          }
+                        },
+                        {
+                          "id": "107603608999191393",
+                          "slug": "lodis-by-illuminar",
+                          "name": "LODIS",
+                          "code": "LDS",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 27
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927903",
+                      "structuralId": "match_2ed3b02e36",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "114017802981197435",
+                          "slug": "team-secret-club",
+                          "name": "The Secret Club",
+                          "code": "TSC",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 29
+                          }
+                        },
+                        {
+                          "id": "107416342401528388",
+                          "slug": "forsaken",
+                          "name": "Forsaken",
+                          "code": "FSK",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 30
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927907",
+                      "structuralId": "match_43e35b44cc",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "102787200129022886",
+                          "slug": "esuba",
+                          "name": "eSuba",
+                          "code": "ESB",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 32
+                          }
+                        },
+                        {
+                          "id": "105594135137147298",
+                          "slug": "white-dragons",
+                          "name": "White Dragons",
+                          "code": "WD",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9670e1b47e",
+                            "type": "decisionPoint",
+                            "slot": 31
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 5",
+                  "slug": "round_5",
+                  "matches": [
+                    {
+                      "id": "117171782819927911",
+                      "structuralId": "match_a27d4ce92a",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "116803545426908406",
+                          "slug": "valerion",
+                          "name": "Valerion",
+                          "code": "VLR",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "115745361559907281",
+                          "slug": "tln-pirates",
+                          "name": "TLN Pirates",
+                          "code": "TLNP",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927915",
+                      "structuralId": "match_5ff80764df",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105504044166670507",
+                          "slug": "unicorns-of-love-sexy-edition",
+                          "name": "Unicorns of Love Sexy Edition",
+                          "code": "USE",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        },
+                        {
+                          "id": "109671612150787863",
+                          "slug": "kaufland-hangry-knights",
+                          "name": "Kaufland Hangry Knights",
+                          "code": "KHK",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927919",
+                      "structuralId": "match_1a16153de1",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "116040458285488771",
+                          "slug": "bomba-team",
+                          "name": "BOMBA Team",
+                          "code": "BOOM",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        },
+                        {
+                          "id": "109642680932009857",
+                          "slug": "nord-esports",
+                          "name": "G2 NORD",
+                          "code": "G2N",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927923",
+                      "structuralId": "match_0141863f67",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107467803833323099",
+                          "slug": "team-heretics-sl",
+                          "name": "Heretics Academy",
+                          "code": "HRTS",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        },
+                        {
+                          "id": "113858313966567000",
+                          "slug": "nightbirds",
+                          "name": "NightBirds",
+                          "code": "NBS",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927927",
+                      "structuralId": "match_b3abde2560",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "113865643197386183",
+                          "slug": "senshi-esports",
+                          "name": "Senshi eSports",
+                          "code": "SNSH",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 9
+                          }
+                        },
+                        {
+                          "id": "102787200136756173",
+                          "slug": "berlin-international-gaming",
+                          "name": "Berlin International Gaming",
+                          "code": "BIG",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 10
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927929",
+                      "structuralId": "match_dc088f31ac",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109697683685398040",
+                          "slug": "magaza",
+                          "name": "MAGAZA",
+                          "code": "MGZ",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 11
+                          }
+                        },
+                        {
+                          "id": "113786022271737365",
+                          "slug": "bushido-wildcats",
+                          "name": "Bushido Wildcats",
+                          "code": "BW",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 12
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927931",
+                      "structuralId": "match_01d527d0c9",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "115848737828828062",
+                          "slug": "frites-esports-club",
+                          "name": "Frites Esports Club",
+                          "code": "FEC",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 14
+                          }
+                        },
+                        {
+                          "id": "114942382383150115",
+                          "slug": "otter-side",
+                          "name": "Otter Side",
+                          "code": "OTS",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 13
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927933",
+                      "structuralId": "match_7a7516cc8c",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109642690191894407",
+                          "slug": "ruddy",
+                          "name": "Ruddy Corporation",
+                          "code": "RUD",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 15
+                          }
+                        },
+                        {
+                          "id": "111730807014578357",
+                          "slug": "celestial-cats",
+                          "name": "PCIFIC Esports",
+                          "code": "PCF",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 16
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927935",
+                      "structuralId": "match_9e842a6750",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "116339377622705301",
+                          "slug": "jsk-gamefy",
+                          "name": "JSK Gamefy",
+                          "code": "JSK",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 18
+                          }
+                        },
+                        {
+                          "id": "115745364589112276",
+                          "slug": "skillcamp",
+                          "name": "Skillcamp",
+                          "code": "SC",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 17
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927937",
+                      "structuralId": "match_670e69ca86",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "114177880515757163",
+                          "slug": "colossal-gaming",
+                          "name": "Colossal Gaming",
+                          "code": "CG",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 20
+                          }
+                        },
+                        {
+                          "id": "107603608999191393",
+                          "slug": "lodis-by-illuminar",
+                          "name": "LODIS",
+                          "code": "LDS",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 19
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927939",
+                      "structuralId": "match_a7f2862a10",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "115842533697360343",
+                          "slug": "hmble",
+                          "name": "HMBLE",
+                          "code": "HMB",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 22
+                          }
+                        },
+                        {
+                          "id": "107422385694193066",
+                          "slug": "barca-esports",
+                          "name": "Barça Esports",
+                          "code": "BAR",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 21
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927943",
+                      "structuralId": "match_96d7886639",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "102787200129022886",
+                          "slug": "esuba",
+                          "name": "eSuba",
+                          "code": "ESB",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 24
+                          }
+                        },
+                        {
+                          "id": "105532791598779236",
+                          "slug": "ucam-esports-club",
+                          "name": "UCAM Esports Club",
+                          "code": "UCAM",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 23
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927947",
+                      "structuralId": "match_59c401e240",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105521674055625312",
+                          "slug": "gamespace-mediterranean-college-esports",
+                          "name": "Gamespace M.C.",
+                          "code": "GSMC",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 25
+                          }
+                        },
+                        {
+                          "id": "105521637552587612",
+                          "slug": "team-phantasma",
+                          "name": "Team Phantasma",
+                          "code": "TP",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 26
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927951",
+                      "structuralId": "match_1da2d358cb",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "114017802981197435",
+                          "slug": "team-secret-club",
+                          "name": "The Secret Club",
+                          "code": "TSC",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 28
+                          }
+                        },
+                        {
+                          "id": "115854602297673935",
+                          "slug": "avella-su-esports",
+                          "name": "Avella SU Esports",
+                          "code": "SU",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_05a99480bb",
+                            "type": "decisionPoint",
+                            "slot": 27
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Semifinals",
+                  "slug": "semifinals",
+                  "matches": [
+                    {
+                      "id": "117171782819927955",
+                      "structuralId": "match_63850701a9",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "113786022271737365",
+                          "slug": "bushido-wildcats",
+                          "name": "Bushido Wildcats",
+                          "code": "BW",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "115848737828828062",
+                          "slug": "frites-esports-club",
+                          "name": "Frites Esports Club",
+                          "code": "FEC",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927959",
+                      "structuralId": "match_614f4b1e36",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109642690191894407",
+                          "slug": "ruddy",
+                          "name": "Ruddy Corporation",
+                          "code": "RUD",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        },
+                        {
+                          "id": "116803545426908406",
+                          "slug": "valerion",
+                          "name": "Valerion",
+                          "code": "VLR",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927963",
+                      "structuralId": "match_b1c5b219da",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105504044166670507",
+                          "slug": "unicorns-of-love-sexy-edition",
+                          "name": "Unicorns of Love Sexy Edition",
+                          "code": "USE",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        },
+                        {
+                          "id": "114177880515757163",
+                          "slug": "colossal-gaming",
+                          "name": "Colossal Gaming",
+                          "code": "CG",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927967",
+                      "structuralId": "match_7b0da9369a",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "116040458285488771",
+                          "slug": "bomba-team",
+                          "name": "BOMBA Team",
+                          "code": "BOOM",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        },
+                        {
+                          "id": "115745364589112276",
+                          "slug": "skillcamp",
+                          "name": "Skillcamp",
+                          "code": "SC",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819927971",
+                      "structuralId": "match_5c5a09c889",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "102787200136756173",
+                          "slug": "berlin-international-gaming",
+                          "name": "Berlin International Gaming",
+                          "code": "BIG",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 10
+                          }
+                        },
+                        {
+                          "id": "113858313966567000",
+                          "slug": "nightbirds",
+                          "name": "NightBirds",
+                          "code": "NBS",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 9
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819993511",
+                      "structuralId": "match_88f43b4f7e",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109697683685398040",
+                          "slug": "magaza",
+                          "name": "MAGAZA",
+                          "code": "MGZ",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 12
+                          }
+                        },
+                        {
+                          "id": "114942382383150115",
+                          "slug": "otter-side",
+                          "name": "Otter Side",
+                          "code": "OTS",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 11
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819993515",
+                      "structuralId": "match_bf2509e1bf",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "111730807014578357",
+                          "slug": "celestial-cats",
+                          "name": "PCIFIC Esports",
+                          "code": "PCF",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 14
+                          }
+                        },
+                        {
+                          "id": "107603608999191393",
+                          "slug": "lodis-by-illuminar",
+                          "name": "LODIS",
+                          "code": "LDS",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 13
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819993519",
+                      "structuralId": "match_4be3a2e827",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105532791598779236",
+                          "slug": "ucam-esports-club",
+                          "name": "UCAM Esports Club",
+                          "code": "UCAM",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 15
+                          }
+                        },
+                        {
+                          "id": "116339377622705301",
+                          "slug": "jsk-gamefy",
+                          "name": "JSK Gamefy",
+                          "code": "JSK",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 16
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819993523",
+                      "structuralId": "match_b706e467b4",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "114017802981197435",
+                          "slug": "team-secret-club",
+                          "name": "The Secret Club",
+                          "code": "TSC",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 17
+                          }
+                        },
+                        {
+                          "id": "105521637552587612",
+                          "slug": "team-phantasma",
+                          "name": "Team Phantasma",
+                          "code": "TP",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 18
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819993527",
+                      "structuralId": "match_f63828d442",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "113865643197386183",
+                          "slug": "senshi-esports",
+                          "name": "Senshi eSports",
+                          "code": "SNSH",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 20
+                          }
+                        },
+                        {
+                          "id": "107422385694193066",
+                          "slug": "barca-esports",
+                          "name": "Barça Esports",
+                          "code": "BAR",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_4eaff191cf",
+                            "type": "decisionPoint",
+                            "slot": 19
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Finals",
+                  "slug": "finals",
+                  "matches": [
+                    {
+                      "id": "117171782819993531",
+                      "structuralId": "match_e64d35b281",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "111730807014578357",
+                          "slug": "celestial-cats",
+                          "name": "PCIFIC Esports",
+                          "code": "PCF",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_dab73f0669",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "115848737828828062",
+                          "slug": "frites-esports-club",
+                          "name": "Frites Esports Club",
+                          "code": "FEC",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_dab73f0669",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819993535",
+                      "structuralId": "match_9e8290ba32",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "114017802981197435",
+                          "slug": "team-secret-club",
+                          "name": "The Secret Club",
+                          "code": "TSC",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_dab73f0669",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        },
+                        {
+                          "id": "114177880515757163",
+                          "slug": "colossal-gaming",
+                          "name": "Colossal Gaming",
+                          "code": "CG",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_dab73f0669",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819993539",
+                      "structuralId": "match_238997dac4",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "105532791598779236",
+                          "slug": "ucam-esports-club",
+                          "name": "UCAM Esports Club",
+                          "code": "UCAM",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_dab73f0669",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        },
+                        {
+                          "id": "113858313966567000",
+                          "slug": "nightbirds",
+                          "name": "NightBirds",
+                          "code": "NBS",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_dab73f0669",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819993543",
+                      "structuralId": "match_5e46ec3d15",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "116803545426908406",
+                          "slug": "valerion",
+                          "name": "Valerion",
+                          "code": "VLR",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_dab73f0669",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        },
+                        {
+                          "id": "109697683685398040",
+                          "slug": "magaza",
+                          "name": "MAGAZA",
+                          "code": "MGZ",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_dab73f0669",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "117171782819993547",
+                      "structuralId": "match_c1b81b2bab",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "116040458285488771",
+                          "slug": "bomba-team",
+                          "name": "BOMBA Team",
+                          "code": "BOOM",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_dab73f0669",
+                            "type": "decisionPoint",
+                            "slot": 10
+                          }
+                        },
+                        {
+                          "id": "107422385694193066",
+                          "slug": "barca-esports",
+                          "name": "Barça Esports",
+                          "code": "BAR",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_dab73f0669",
+                            "type": "decisionPoint",
+                            "slot": 9
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

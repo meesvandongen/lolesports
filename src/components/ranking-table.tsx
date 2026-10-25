@@ -32,6 +32,12 @@ const columns = [
   }),
 ];
 
+const tiesColumn = columnHelper.accessor((row) => row.team.record.ties, {
+  id: "ties",
+  header: "Ties",
+  meta: { width: 40 },
+});
+
 export function RankingTable({
   data,
   title,
@@ -50,5 +56,16 @@ export function RankingTable({
     [data],
   );
 
-  return <DataTable title={title} data={rows} columns={columns} />;
+  // Ties only happen in a few formats, so the column is only shown when needed.
+  const hasTies = rows.some((row) => row.team.record.ties > 0);
+
+  return (
+    <DataTable
+      title={title}
+      data={rows}
+      columns={hasTies ? [...columns.slice(0, 3), tiesColumn, columns[3]] : columns}
+      // A standings table reads best in one piece.
+      pageSize={50}
+    />
+  );
 }

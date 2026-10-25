@@ -1,0 +1,233 @@
+{
+  "stages": [
+    {
+      "name": "Playoffs Play-in: Knights Rivals",
+      "sections": [
+        {
+          "id": "115654899804398603",
+          "name": "Playoffs Play-in: Knights Rivals",
+          "type": "bracket",
+          "rankings": [],
+          "columns": [
+            {
+              "cells": [
+                {
+                  "name": "Round 1",
+                  "slug": "round_1",
+                  "matches": [
+                    {
+                      "id": "115654899804922893",
+                      "structuralId": "match_d1dac73b48",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991887166787",
+                          "slug": "team-we",
+                          "name": "Xi'an Team WE",
+                          "code": "WE",
+                          "result": { "outcome": "loss", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_35816963f5",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "99566404854685458",
+                          "slug": "top-esports",
+                          "name": "TOP ESPORTS",
+                          "code": "TES",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_35816963f5",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115654899804988435",
+                      "structuralId": "match_b31026660f",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "101388912914513220",
+                          "slug": "shenzen-ninjas-in-pyjamas",
+                          "name": "Shenzhen NINJAS IN PYJAMAS",
+                          "code": "NIP",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_35816963f5",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        },
+                        {
+                          "id": "99566404848691211",
+                          "slug": "invictus-gaming",
+                          "name": "Invictus Gaming",
+                          "code": "IG",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_35816963f5",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 2",
+                  "slug": "round_2",
+                  "matches": [
+                    {
+                      "id": "115654899804988441",
+                      "structuralId": "match_723ead271d",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991882270868",
+                          "slug": "edward-gaming",
+                          "name": "EDWARD GAMING",
+                          "code": "EDG",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_35816963f5",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        },
+                        {
+                          "id": "99566404845279652",
+                          "slug": "oh-my-god",
+                          "name": "Oh My God",
+                          "code": "OMG",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_35816963f5",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115654899804988447",
+                      "structuralId": "match_f56d1d5f87",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "99566404850008779",
+                          "slug": "lng-esports",
+                          "name": "Suzhou LNG Esports",
+                          "code": "LNG",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_35816963f5",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        },
+                        {
+                          "id": "101388912911039804",
+                          "slug": "thunder-talk-gaming",
+                          "name": "THUNDER TALK GAMING",
+                          "code": "TT",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_35816963f5",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 3",
+                  "slug": "round_3",
+                  "matches": [
+                    {
+                      "id": "115654899804988453",
+                      "structuralId": "match_263626c24f",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "99566404848691211",
+                          "slug": "invictus-gaming",
+                          "name": "Invictus Gaming",
+                          "code": "IG",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_d3c1c55f6a",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "99566404845279652",
+                          "slug": "oh-my-god",
+                          "name": "Oh My God",
+                          "code": "OMG",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_723ead271d",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115654899804988459",
+                      "structuralId": "match_6574867b8c",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991887166787",
+                          "slug": "team-we",
+                          "name": "Xi'an Team WE",
+                          "code": "WE",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_d3c1c55f6a",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "99566404850008779",
+                          "slug": "lng-esports",
+                          "name": "Suzhou LNG Esports",
+                          "code": "LNG",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_f56d1d5f87",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
