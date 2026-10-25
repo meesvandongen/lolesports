@@ -112,12 +112,34 @@ export async function getScheduleRange({
 const scheduleHistoryStart = "2024-01-01";
 const maxTournamentSchedulePages = 24;
 
+// Walking the schedule takes several requests in a row, so a tournament's walk
+// is reused for a while: every stage's Matches tab needs the same one.
+const scheduleReuseMillis = 5 * 60 * 1000;
+const tournamentSchedules = new Map<string, { promise: Promise<ScheduleEvent[]>; time: number }>();
+
 /**
  * A league's schedule from its newest page back to the start of a tournament.
  * This is where standings matches get their date, block ("Week 1") and format:
  * the standings themselves have none.
  */
-export async function getTournamentSchedule({
+export function getTournamentSchedule(tournament: {
+  leagueId: string;
+  startDate: string;
+  endDate: string;
+}) {
+  const key = `${tournament.leagueId}:${tournament.startDate}:${tournament.endDate}`;
+  const cached = tournamentSchedules.get(key);
+  if (cached && Date.now() - cached.time < scheduleReuseMillis) {
+    return cached.promise;
+  }
+  const promise = walkTournamentSchedule(tournament);
+  tournamentSchedules.set(key, { promise, time: Date.now() });
+  // A failed walk is not kept.
+  promise.catch(() => tournamentSchedules.delete(key));
+  return promise;
+}
+
+async function walkTournamentSchedule({
   leagueId,
   startDate,
   endDate,
