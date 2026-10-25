@@ -89,6 +89,7 @@ export function AppAppShell({
         <Tooltip
           label={region.name}
           position="bottom"
+          withinPortal
           transitionProps={{ duration: 0 }}
         >
           <Link
@@ -117,6 +118,7 @@ export function AppAppShell({
                       <Tooltip
                         label={league.name}
                         position="right"
+                        withinPortal
                         transitionProps={{ duration: 0 }}
                         key={league.name}
                       >
