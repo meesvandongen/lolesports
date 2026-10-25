@@ -1,0 +1,357 @@
+{
+  "stages": [
+    {
+      "name": "Play In Knockouts",
+      "sections": [
+        {
+          "id": "112966697101974130",
+          "name": "Play In Knockouts",
+          "type": "bracket",
+          "rankings": [],
+          "columns": [
+            {
+              "cells": [
+                {
+                  "name": "Round 1",
+                  "slug": "round_1",
+                  "matches": [
+                    {
+                      "id": "112966697102367347",
+                      "structuralId": "match_f216860251",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107251245690956393",
+                          "slug": "saigon-buffalo-esports",
+                          "name": "MVK Esports",
+                          "code": "MVK",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_760fe9e153",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "103461966965149786",
+                          "slug": "mad-lions",
+                          "name": "Movistar KOI",
+                          "code": "MKOI",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_760fe9e153",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "112966697102367351",
+                      "structuralId": "match_1e5d4831b9",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "99566408217955692",
+                          "slug": "pain-gaming",
+                          "name": "paiN Gaming",
+                          "code": "PAIN",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_760fe9e153",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        },
+                        {
+                          "id": "104367068120825486",
+                          "slug": "psg-talon",
+                          "name": "PSG Talon",
+                          "code": "PSG",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_760fe9e153",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "112966697102367355",
+                      "structuralId": "match_485cef4084",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "103535282119620510",
+                          "slug": "fukuoka-softbank-hawks-gaming",
+                          "name": "Fukuoka SoftBank HAWKS gaming",
+                          "code": "SHG",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_760fe9e153",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        },
+                        {
+                          "id": "98767991954244555",
+                          "slug": "gam-esports",
+                          "name": "GAM Esports",
+                          "code": "GAM",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_760fe9e153",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "112966697102367359",
+                      "structuralId": "match_8320d67dfa",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991935149427",
+                          "slug": "rainbow7",
+                          "name": "Movistar R7",
+                          "code": "R7",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_760fe9e153",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        },
+                        {
+                          "id": "99294153828264740",
+                          "slug": "100-thieves",
+                          "name": "100 Thieves",
+                          "code": "100T",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_760fe9e153",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 2",
+                  "slug": "round_2",
+                  "matches": [
+                    {
+                      "id": "112966697102367363",
+                      "structuralId": "match_29074be748",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "104367068120825486",
+                          "slug": "psg-talon",
+                          "name": "PSG Talon",
+                          "code": "PSG",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_1a17b4ccf1",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "103461966965149786",
+                          "slug": "mad-lions",
+                          "name": "Movistar KOI",
+                          "code": "MKOI",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_1a17b4ccf1",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "112966697102367367",
+                      "structuralId": "match_24860b8395",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991935149427",
+                          "slug": "rainbow7",
+                          "name": "Movistar R7",
+                          "code": "R7",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_1a17b4ccf1",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        },
+                        {
+                          "id": "98767991954244555",
+                          "slug": "gam-esports",
+                          "name": "GAM Esports",
+                          "code": "GAM",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_1a17b4ccf1",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "112966697102367371",
+                      "structuralId": "match_61ce208ec8",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107251245690956393",
+                          "slug": "saigon-buffalo-esports",
+                          "name": "MVK Esports",
+                          "code": "MVK",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_1a17b4ccf1",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        },
+                        {
+                          "id": "99566408217955692",
+                          "slug": "pain-gaming",
+                          "name": "paiN Gaming",
+                          "code": "PAIN",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_1a17b4ccf1",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "112966697102367375",
+                      "structuralId": "match_cc39462756",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "99294153828264740",
+                          "slug": "100-thieves",
+                          "name": "100 Thieves",
+                          "code": "100T",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_1a17b4ccf1",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        },
+                        {
+                          "id": "103535282119620510",
+                          "slug": "fukuoka-softbank-hawks-gaming",
+                          "name": "Fukuoka SoftBank HAWKS gaming",
+                          "code": "SHG",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_1a17b4ccf1",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 3",
+                  "slug": "round_3",
+                  "matches": [
+                    {
+                      "id": "112966697102367379",
+                      "structuralId": "match_9c060c8b02",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991935149427",
+                          "slug": "rainbow7",
+                          "name": "Movistar R7",
+                          "code": "R7",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_24860b8395",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "99566408217955692",
+                          "slug": "pain-gaming",
+                          "name": "paiN Gaming",
+                          "code": "PAIN",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_61ce208ec8",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "112966697102367383",
+                      "structuralId": "match_ace12b4eee",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "99294153828264740",
+                          "slug": "100-thieves",
+                          "name": "100 Thieves",
+                          "code": "100T",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_cc39462756",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "104367068120825486",
+                          "slug": "psg-talon",
+                          "name": "PSG Talon",
+                          "code": "PSG",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_29074be748",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

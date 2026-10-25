@@ -1,6 +1,5 @@
 import "@fontsource/bungee/400.css";
 import "@mantine/core/styles.css";
-import "@xyflow/react/dist/style.css";
 import "../globals.css";
 
 import { ColorSchemeScript, MantineProvider, mantineHtmlProps } from "@mantine/core";

@@ -1,0 +1,216 @@
+.scroller {
+  max-width: 100%;
+  overflow-x: auto;
+  padding-bottom: var(--mantine-spacing-xs);
+}
+
+.canvas {
+  position: relative;
+  /* The layout is in CSS pixels, independent of the root font size. */
+  font-size: 13px;
+}
+
+.lines {
+  position: absolute;
+  inset: 0;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.edge {
+  fill: none;
+  stroke: var(--mantine-color-dark-3);
+  stroke-width: 1.5;
+}
+
+.edge[data-outcome="loser"] {
+  stroke-dasharray: 4 4;
+}
+
+.edge[data-highlighted] {
+  stroke: var(--mantine-primary-color-filled);
+  stroke-width: 2.5;
+}
+
+.canvas[data-focused] .edge:not([data-highlighted]) {
+  opacity: 0.3;
+}
+
+.poolLink {
+  fill: none;
+  stroke-width: 1.5;
+  opacity: 0.55;
+}
+
+.poolLink[data-outcome="winner"] {
+  stroke: var(--mantine-color-green-7);
+}
+
+.poolLink[data-outcome="loser"] {
+  stroke: var(--mantine-color-red-7);
+}
+
+.canvas[data-focused] .poolLink {
+  opacity: 0.2;
+}
+
+.title {
+  position: absolute;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title[data-variant="column"] {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--mantine-color-dimmed);
+}
+
+.title[data-variant="band"] {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--mantine-color-white);
+  border-bottom: 1px solid var(--mantine-color-dark-4);
+}
+
+.pool,
+.outcome {
+  position: absolute;
+  border-radius: var(--mantine-radius-md);
+  background-color: var(--mantine-color-dark-7);
+  border: 1px solid var(--mantine-color-dark-5);
+}
+
+.poolHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.outcome[data-status="advanced"] {
+  border-color: var(--mantine-color-green-9);
+}
+
+.outcome[data-status="advanced"] .poolHeader {
+  color: var(--mantine-color-green-4);
+}
+
+.outcome[data-status="eliminated"] {
+  border-color: var(--mantine-color-red-9);
+}
+
+.outcome[data-status="eliminated"] .poolHeader {
+  color: var(--mantine-color-red-4);
+}
+
+.status {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.outcomeTeam {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 10px;
+  cursor: default;
+}
+
+.outcomeTeam[data-focused] {
+  background-color: var(--mantine-primary-color-light);
+}
+
+.match {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--mantine-radius-sm);
+  background-color: var(--mantine-color-dark-6);
+  border: 1px solid var(--mantine-color-dark-4);
+  overflow: hidden;
+  transition: opacity 120ms;
+}
+
+.match[data-state="inProgress"] {
+  border-color: var(--mantine-color-red-7);
+  box-shadow: inset 3px 0 0 var(--mantine-color-red-7);
+}
+
+.canvas[data-focused] .match:not([data-focused]),
+.canvas[data-focused] .outcomeTeam:not([data-focused]) {
+  opacity: 0.35;
+}
+
+.match[data-focused] {
+  border-color: var(--mantine-primary-color-filled);
+}
+
+.team {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  padding: 0 10px;
+  cursor: default;
+}
+
+.team + .team {
+  border-top: 1px solid var(--mantine-color-dark-5);
+}
+
+.team img {
+  flex-shrink: 0;
+}
+
+.team[data-outcome="loss"] {
+  color: var(--mantine-color-dimmed);
+}
+
+.team[data-outcome="loss"] img {
+  opacity: 0.6;
+}
+
+.team[data-outcome="win"] {
+  font-weight: 700;
+}
+
+.team[data-outcome="win"] .score {
+  color: var(--mantine-color-green-4);
+}
+
+.team[data-focused] {
+  background-color: var(--mantine-primary-color-light);
+}
+
+.name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.score {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.origin {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-style: italic;
+  color: var(--mantine-color-dimmed);
+}

@@ -1,0 +1,403 @@
+{
+  "stages": [
+    {
+      "name": "Playoffs",
+      "sections": [
+        {
+          "id": "113503500599142029",
+          "name": "Playoffs",
+          "type": "bracket",
+          "rankings": [],
+          "columns": [
+            {
+              "cells": [
+                {
+                  "name": "Round 1",
+                  "slug": "round_1",
+                  "matches": [
+                    {
+                      "id": "113503500599535516",
+                      "structuralId": "match_c4c22e5608",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "100725845018863243",
+                          "slug": "dwg-kia",
+                          "name": "Dplus KIA",
+                          "code": "DK",
+                          "result": { "outcome": "loss", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_d70c1eb43a",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "98767991853197861",
+                          "slug": "t1",
+                          "name": "T1",
+                          "code": "T1",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_d70c1eb43a",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "113503500599535522",
+                      "structuralId": "match_6abc9e0581",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "100725845022060229",
+                          "slug": "fearx",
+                          "name": "BNK FEARX",
+                          "code": "BFX",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_d70c1eb43a",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        },
+                        {
+                          "id": "99566404579461230",
+                          "slug": "kt-rolster",
+                          "name": "kt Rolster",
+                          "code": "KT",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_d70c1eb43a",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Upper Bracket - Round 2",
+                  "slug": "upper_bracket_round_2",
+                  "matches": [
+                    {
+                      "id": "113503500599535528",
+                      "structuralId": "match_693adb4f42",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991853197861",
+                          "slug": "t1",
+                          "name": "T1",
+                          "code": "T1",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_c4c22e5608",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "100205573496804586",
+                          "slug": "hanwha-life-esports",
+                          "name": "Hanwha Life Esports",
+                          "code": "HLE",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_d70c1eb43a",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "113503500599535534",
+                      "structuralId": "match_95530339b3",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "99566404579461230",
+                          "slug": "kt-rolster",
+                          "name": "kt Rolster",
+                          "code": "KT",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_6abc9e0581",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "100205573495116443",
+                          "slug": "geng",
+                          "name": "Gen.G Esports",
+                          "code": "GEN",
+                          "result": { "outcome": "loss", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_d70c1eb43a",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Lower Bracket - Round 1",
+                  "slug": "lower_bracket_round_1",
+                  "matches": [
+                    {
+                      "id": "113503500599535540",
+                      "structuralId": "match_77355d127b",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "100725845018863243",
+                          "slug": "dwg-kia",
+                          "name": "Dplus KIA",
+                          "code": "DK",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_c4c22e5608",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "100725845022060229",
+                          "slug": "fearx",
+                          "name": "BNK FEARX",
+                          "code": "BFX",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_6abc9e0581",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Lower Bracket - Round 2",
+                  "slug": "lower_bracket_round_2",
+                  "matches": [
+                    {
+                      "id": "113503500599535552",
+                      "structuralId": "match_23f5ebae8b",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "100725845018863243",
+                          "slug": "dwg-kia",
+                          "name": "Dplus KIA",
+                          "code": "DK",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_77355d127b",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "98767991853197861",
+                          "slug": "t1",
+                          "name": "T1",
+                          "code": "T1",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_74df5738fb",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Lower Bracket - Round 3",
+                  "slug": "lower_bracket_round_3",
+                  "matches": [
+                    {
+                      "id": "113503500599535558",
+                      "structuralId": "match_43ba67dd71",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991853197861",
+                          "slug": "t1",
+                          "name": "T1",
+                          "code": "T1",
+                          "result": { "outcome": "loss", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_23f5ebae8b",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "100205573495116443",
+                          "slug": "geng",
+                          "name": "Gen.G Esports",
+                          "code": "GEN",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_74df5738fb",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Upper Bracket - Finals",
+                  "slug": "upper_bracket_finals",
+                  "matches": [
+                    {
+                      "id": "113503500599535546",
+                      "structuralId": "match_3e8edbd899",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "99566404579461230",
+                          "slug": "kt-rolster",
+                          "name": "kt Rolster",
+                          "code": "KT",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_95530339b3",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "100205573496804586",
+                          "slug": "hanwha-life-esports",
+                          "name": "Hanwha Life Esports",
+                          "code": "HLE",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_693adb4f42",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Lower Bracket - Finals",
+                  "slug": "lower_bracket_finals",
+                  "matches": [
+                    {
+                      "id": "113503500599535564",
+                      "structuralId": "match_62f7d7896a",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "100205573495116443",
+                          "slug": "geng",
+                          "name": "Gen.G Esports",
+                          "code": "GEN",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_43ba67dd71",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "99566404579461230",
+                          "slug": "kt-rolster",
+                          "name": "kt Rolster",
+                          "code": "KT",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_3e8edbd899",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Finals",
+                  "slug": "finals",
+                  "matches": [
+                    {
+                      "id": "113503500599535570",
+                      "structuralId": "match_0970bcad42",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "100205573495116443",
+                          "slug": "geng",
+                          "name": "Gen.G Esports",
+                          "code": "GEN",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_62f7d7896a",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "100205573496804586",
+                          "slug": "hanwha-life-esports",
+                          "name": "Hanwha Life Esports",
+                          "code": "HLE",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_3e8edbd899",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

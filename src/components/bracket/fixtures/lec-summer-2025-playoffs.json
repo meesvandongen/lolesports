@@ -1,0 +1,361 @@
+{
+  "stages": [
+    {
+      "name": "Playoffs",
+      "sections": [
+        {
+          "id": "113487569887927522",
+          "name": "Playoffs",
+          "type": "bracket",
+          "rankings": [],
+          "columns": [
+            {
+              "cells": [
+                {
+                  "name": "Round 1",
+                  "slug": "round_1",
+                  "matches": [
+                    {
+                      "id": "113487569888189667",
+                      "structuralId": "match_7b0a9e63b0",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107563714667537640",
+                          "slug": "team-bds",
+                          "name": "Shifters",
+                          "code": "SHFT",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 8 }
+                        },
+                        {
+                          "id": "101383793572656373",
+                          "slug": "giantx-lec",
+                          "name": "GIANTX",
+                          "code": "GX",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 5 }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "113487569888189671",
+                      "structuralId": "match_b889046744",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "99322214695067838",
+                          "slug": "team-vitality",
+                          "name": "Team Vitality",
+                          "code": "VIT",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 7 }
+                        },
+                        {
+                          "id": "109637393694097670",
+                          "slug": "team-heretics-lec",
+                          "name": "Team Heretics",
+                          "code": "TH",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 6 }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Upper Bracket - Round 1",
+                  "slug": "upper_bracket_round_1",
+                  "matches": [
+                    {
+                      "id": "113487569888189675",
+                      "structuralId": "match_941b713367",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991866488695",
+                          "slug": "fnatic",
+                          "name": "Fnatic",
+                          "code": "FNC",
+                          "result": { "outcome": "loss", "gameWins": 2 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 4 }
+                        },
+                        {
+                          "id": "103461966965149786",
+                          "slug": "mad-lions",
+                          "name": "Movistar KOI",
+                          "code": "MKOI",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 1 }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "113487569888189681",
+                      "structuralId": "match_9ee7ee4beb",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991926151025",
+                          "slug": "g2-esports",
+                          "name": "G2 Esports",
+                          "code": "G2",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 2 }
+                        },
+                        {
+                          "id": "111692118851466302",
+                          "slug": "karmine-corp",
+                          "name": "Karmine Corp",
+                          "code": "KC",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 3 }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Upper Bracket - Finals",
+                  "slug": "upper_bracket_finals",
+                  "matches": [
+                    {
+                      "id": "113487569888189687",
+                      "structuralId": "match_41429c2339",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991926151025",
+                          "slug": "g2-esports",
+                          "name": "G2 Esports",
+                          "code": "G2",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_9ee7ee4beb",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "103461966965149786",
+                          "slug": "mad-lions",
+                          "name": "Movistar KOI",
+                          "code": "MKOI",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_941b713367",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Lower Bracket - Round 1",
+                  "slug": "lower_bracket_round_1",
+                  "matches": [
+                    {
+                      "id": "113487569888189693",
+                      "structuralId": "match_f7d5cb3787",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "101383793572656373",
+                          "slug": "giantx-lec",
+                          "name": "GIANTX",
+                          "code": "GX",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_7b0a9e63b0",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "98767991866488695",
+                          "slug": "fnatic",
+                          "name": "Fnatic",
+                          "code": "FNC",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_941b713367",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "113487569888189699",
+                      "structuralId": "match_967dd6ef1d",
+                      "state": "inProgress",
+                      "teams": [
+                        {
+                          "id": "99322214695067838",
+                          "slug": "team-vitality",
+                          "name": "Team Vitality",
+                          "code": "VIT",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_b889046744",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "111692118851466302",
+                          "slug": "karmine-corp",
+                          "name": "Karmine Corp",
+                          "code": "KC",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_9ee7ee4beb",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Lower Bracket - Round 2",
+                  "slug": "lower_bracket_round_2",
+                  "matches": [
+                    {
+                      "id": "113487569888189705",
+                      "structuralId": "match_8bfeb90e89",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991866488695",
+                          "slug": "fnatic",
+                          "name": "Fnatic",
+                          "code": "FNC",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_f7d5cb3787",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "111692118851466302",
+                          "slug": "karmine-corp",
+                          "name": "Karmine Corp",
+                          "code": "KC",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_967dd6ef1d",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Lower Bracket - Finals",
+                  "slug": "lower_bracket_finals",
+                  "matches": [
+                    {
+                      "id": "113487569888255247",
+                      "structuralId": "match_a0a44258b4",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991866488695",
+                          "slug": "fnatic",
+                          "name": "Fnatic",
+                          "code": "FNC",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_8bfeb90e89",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "103461966965149786",
+                          "slug": "mad-lions",
+                          "name": "Movistar KOI",
+                          "code": "MKOI",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_41429c2339",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Finals",
+                  "slug": "finals",
+                  "matches": [
+                    {
+                      "id": "113487569888255253",
+                      "structuralId": "match_532367ccc1",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991926151025",
+                          "slug": "g2-esports",
+                          "name": "G2 Esports",
+                          "code": "G2",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_41429c2339",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "103461966965149786",
+                          "slug": "mad-lions",
+                          "name": "Movistar KOI",
+                          "code": "MKOI",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_a0a44258b4",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

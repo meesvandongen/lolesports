@@ -1,0 +1,1595 @@
+{
+  "stages": [
+    {
+      "name": "Play-Ins",
+      "sections": [
+        {
+          "id": "115660588582778565",
+          "name": "Play-Ins",
+          "type": "bracket",
+          "rankings": [],
+          "columns": [
+            {
+              "cells": [
+                {
+                  "name": "Upper Bracket - Semifinals",
+                  "slug": "upper_bracket_semifinals",
+                  "matches": [
+                    {
+                      "id": "115660588583040710",
+                      "structuralId": "match_2ab84e22ec",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107251245690956393",
+                          "slug": "saigon-buffalo-esports",
+                          "name": "MVK Esports",
+                          "code": "MVK",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_c496a7ae84",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "100205576309502431",
+                          "slug": "furia",
+                          "name": "FURIA",
+                          "code": "FUR",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_c496a7ae84",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660588583171786",
+                      "structuralId": "match_38cd3b9c40",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "111692118851466302",
+                          "slug": "karmine-corp",
+                          "name": "Karmine Corp",
+                          "code": "KC",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_c496a7ae84",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        },
+                        {
+                          "id": "98767991877340524",
+                          "slug": "cloud9",
+                          "name": "Cloud9 Kia",
+                          "code": "C9",
+                          "result": { "outcome": "loss", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_c496a7ae84",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Upper Bracket - Finals",
+                  "slug": "upper_bracket_finals",
+                  "matches": [
+                    {
+                      "id": "115660588583171790",
+                      "structuralId": "match_86c8cf1a51",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "111692118851466302",
+                          "slug": "karmine-corp",
+                          "name": "Karmine Corp",
+                          "code": "KC",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_38cd3b9c40",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "107251245690956393",
+                          "slug": "saigon-buffalo-esports",
+                          "name": "MVK Esports",
+                          "code": "MVK",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_2ab84e22ec",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Lower Bracket - Semifinals",
+                  "slug": "lower_bracket_semifinals",
+                  "matches": [
+                    {
+                      "id": "115660588583171794",
+                      "structuralId": "match_6de844aa4e",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "100205576309502431",
+                          "slug": "furia",
+                          "name": "FURIA",
+                          "code": "FUR",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_2ab84e22ec",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "98767991877340524",
+                          "slug": "cloud9",
+                          "name": "Cloud9 Kia",
+                          "code": "C9",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_38cd3b9c40",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Lower Bracket - Finals",
+                  "slug": "lower_bracket_finals",
+                  "matches": [
+                    {
+                      "id": "115660588583171798",
+                      "structuralId": "match_53ffac46c5",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "107251245690956393",
+                          "slug": "saigon-buffalo-esports",
+                          "name": "MVK Esports",
+                          "code": "MVK",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_86c8cf1a51",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "100205576309502431",
+                          "slug": "furia",
+                          "name": "FURIA",
+                          "code": "FUR",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_6de844aa4e",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Finals",
+                  "slug": "finals",
+                  "matches": [
+                    {
+                      "id": "116299649498303884",
+                      "structuralId": "match_3cd454d66d",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "111692118851466302",
+                          "slug": "karmine-corp",
+                          "name": "Karmine Corp",
+                          "code": "KC",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_86c8cf1a51",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "107251245690956393",
+                          "slug": "saigon-buffalo-esports",
+                          "name": "MVK Esports",
+                          "code": "MVK",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_53ffac46c5",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Swiss",
+      "sections": [
+        {
+          "id": "115660540725767317",
+          "name": "Swiss",
+          "type": "bracket",
+          "rankings": [],
+          "columns": [
+            {
+              "cells": [
+                {
+                  "name": "Round 1",
+                  "slug": "round_1",
+                  "matches": [
+                    {
+                      "id": "115660540726095005",
+                      "structuralId": "match_33c8561235",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "99566404848691211",
+                          "slug": "invictus-gaming",
+                          "name": "Invictus Gaming",
+                          "code": "IG",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_3bd2a7ab74",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "100205573495116443",
+                          "slug": "geng",
+                          "name": "Gen.G Esports",
+                          "code": "GEN",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_3bd2a7ab74",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095007",
+                      "structuralId": "match_40ac5bfe83",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98926509885559666",
+                          "slug": "team-liquid",
+                          "name": "Team Liquid Alienware",
+                          "code": "TLAW",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_3bd2a7ab74",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        },
+                        {
+                          "id": "107700199633958891",
+                          "slug": "ctbc-flying-oyster",
+                          "name": "CTBC Flying Oyster",
+                          "code": "CFO",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_3bd2a7ab74",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095009",
+                      "structuralId": "match_7d6f37e0d5",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "111692118851466302",
+                          "slug": "karmine-corp",
+                          "name": "Karmine Corp",
+                          "code": "KC",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_3bd2a7ab74",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        },
+                        {
+                          "id": "99566404856367466",
+                          "slug": "anyones-legend",
+                          "name": "Anyone's Legend",
+                          "code": "AL",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_3bd2a7ab74",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095011",
+                      "structuralId": "match_80d2495664",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "100725845018863243",
+                          "slug": "dwg-kia",
+                          "name": "Dplus KIA",
+                          "code": "DK",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_3bd2a7ab74",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        },
+                        {
+                          "id": "98767991926151025",
+                          "slug": "g2-esports",
+                          "name": "G2 Esports",
+                          "code": "G2",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_3bd2a7ab74",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095013",
+                      "structuralId": "match_0f02c1b47f",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "99566404854685458",
+                          "slug": "top-esports",
+                          "name": "TOP ESPORTS",
+                          "code": "TES",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_3bd2a7ab74",
+                            "type": "decisionPoint",
+                            "slot": 10
+                          }
+                        },
+                        {
+                          "id": "100205573496804586",
+                          "slug": "hanwha-life-esports",
+                          "name": "Hanwha Life Esports",
+                          "code": "HLE",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_3bd2a7ab74",
+                            "type": "decisionPoint",
+                            "slot": 9
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095015",
+                      "structuralId": "match_aa8ea815d6",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109480204628225868",
+                          "slug": "los",
+                          "name": "LOS",
+                          "code": "LOS",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_3bd2a7ab74",
+                            "type": "decisionPoint",
+                            "slot": 11
+                          }
+                        },
+                        {
+                          "id": "98767991853197861",
+                          "slug": "t1",
+                          "name": "T1",
+                          "code": "T1",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_3bd2a7ab74",
+                            "type": "decisionPoint",
+                            "slot": 12
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095017",
+                      "structuralId": "match_59689a60e3",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "99566405941863385",
+                          "slug": "lyon-gaming",
+                          "name": "LYON",
+                          "code": "LYON",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_3bd2a7ab74",
+                            "type": "decisionPoint",
+                            "slot": 14
+                          }
+                        },
+                        {
+                          "id": "113661839307879869",
+                          "slug": "team-secret-whales",
+                          "name": "Team Secret Whales",
+                          "code": "TSW",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_3bd2a7ab74",
+                            "type": "decisionPoint",
+                            "slot": 13
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095019",
+                      "structuralId": "match_9b46e7ebca",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "103461966965149786",
+                          "slug": "mad-lions",
+                          "name": "Movistar KOI",
+                          "code": "MKOI",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_3bd2a7ab74",
+                            "type": "decisionPoint",
+                            "slot": 16
+                          }
+                        },
+                        {
+                          "id": "99566404853854212",
+                          "slug": "bilibili-gaming",
+                          "name": "BILIBILI GAMING",
+                          "code": "BLG",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_3bd2a7ab74",
+                            "type": "decisionPoint",
+                            "slot": 15
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 2",
+                  "slug": "round_2",
+                  "matches": [
+                    {
+                      "id": "115660540726095021",
+                      "structuralId": "match_67fbcf22b0",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "103461966965149786",
+                          "slug": "mad-lions",
+                          "name": "Movistar KOI",
+                          "code": "MKOI",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_2fc1f84648",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "107700199633958891",
+                          "slug": "ctbc-flying-oyster",
+                          "name": "CTBC Flying Oyster",
+                          "code": "CFO",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_2fc1f84648",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095023",
+                      "structuralId": "match_af5c518390",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "111692118851466302",
+                          "slug": "karmine-corp",
+                          "name": "Karmine Corp",
+                          "code": "KC",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_2fc1f84648",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        },
+                        {
+                          "id": "99566405941863385",
+                          "slug": "lyon-gaming",
+                          "name": "LYON",
+                          "code": "LYON",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_2fc1f84648",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095025",
+                      "structuralId": "match_89a4f1919e",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "100205573496804586",
+                          "slug": "hanwha-life-esports",
+                          "name": "Hanwha Life Esports",
+                          "code": "HLE",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_2fc1f84648",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        },
+                        {
+                          "id": "100205573495116443",
+                          "slug": "geng",
+                          "name": "Gen.G Esports",
+                          "code": "GEN",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_2fc1f84648",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095027",
+                      "structuralId": "match_4501d08847",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "100725845018863243",
+                          "slug": "dwg-kia",
+                          "name": "Dplus KIA",
+                          "code": "DK",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_2fc1f84648",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        },
+                        {
+                          "id": "98767991853197861",
+                          "slug": "t1",
+                          "name": "T1",
+                          "code": "T1",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_2fc1f84648",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095029",
+                      "structuralId": "match_6d00bd9247",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "99566404854685458",
+                          "slug": "top-esports",
+                          "name": "TOP ESPORTS",
+                          "code": "TES",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_2fc1f84648",
+                            "type": "decisionPoint",
+                            "slot": 9
+                          }
+                        },
+                        {
+                          "id": "99566404856367466",
+                          "slug": "anyones-legend",
+                          "name": "Anyone's Legend",
+                          "code": "AL",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_2fc1f84648",
+                            "type": "decisionPoint",
+                            "slot": 10
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095031",
+                      "structuralId": "match_2251e41abb",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109480204628225868",
+                          "slug": "los",
+                          "name": "LOS",
+                          "code": "LOS",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_2fc1f84648",
+                            "type": "decisionPoint",
+                            "slot": 11
+                          }
+                        },
+                        {
+                          "id": "98767991926151025",
+                          "slug": "g2-esports",
+                          "name": "G2 Esports",
+                          "code": "G2",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_2fc1f84648",
+                            "type": "decisionPoint",
+                            "slot": 12
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095033",
+                      "structuralId": "match_5337acbc57",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "113661839307879869",
+                          "slug": "team-secret-whales",
+                          "name": "Team Secret Whales",
+                          "code": "TSW",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_2fc1f84648",
+                            "type": "decisionPoint",
+                            "slot": 14
+                          }
+                        },
+                        {
+                          "id": "99566404848691211",
+                          "slug": "invictus-gaming",
+                          "name": "Invictus Gaming",
+                          "code": "IG",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_2fc1f84648",
+                            "type": "decisionPoint",
+                            "slot": 13
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095035",
+                      "structuralId": "match_8d4e4cb3fa",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98926509885559666",
+                          "slug": "team-liquid",
+                          "name": "Team Liquid Alienware",
+                          "code": "TLAW",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_2fc1f84648",
+                            "type": "decisionPoint",
+                            "slot": 16
+                          }
+                        },
+                        {
+                          "id": "99566404853854212",
+                          "slug": "bilibili-gaming",
+                          "name": "BILIBILI GAMING",
+                          "code": "BLG",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_2fc1f84648",
+                            "type": "decisionPoint",
+                            "slot": 15
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 3",
+                  "slug": "round_3",
+                  "matches": [
+                    {
+                      "id": "115660540726095037",
+                      "structuralId": "match_ad6cabf436",
+                      "state": "inProgress",
+                      "teams": [
+                        {
+                          "id": "103461966965149786",
+                          "slug": "mad-lions",
+                          "name": "Movistar KOI",
+                          "code": "MKOI",
+                          "result": { "outcome": null, "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_cfa5b12353",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "100725845018863243",
+                          "slug": "dwg-kia",
+                          "name": "Dplus KIA",
+                          "code": "DK",
+                          "result": { "outcome": null, "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_cfa5b12353",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095041",
+                      "structuralId": "match_91a940c888",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "100205573495116443",
+                          "slug": "geng",
+                          "name": "Gen.G Esports",
+                          "code": "GEN",
+                          "result": { "outcome": null, "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_cfa5b12353",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        },
+                        {
+                          "id": "99566405941863385",
+                          "slug": "lyon-gaming",
+                          "name": "LYON",
+                          "code": "LYON",
+                          "result": { "outcome": null, "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_cfa5b12353",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095045",
+                      "structuralId": "match_c771c44f8f",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "99566404848691211",
+                          "slug": "invictus-gaming",
+                          "name": "Invictus Gaming",
+                          "code": "IG",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_cfa5b12353",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        },
+                        {
+                          "id": "100205573496804586",
+                          "slug": "hanwha-life-esports",
+                          "name": "Hanwha Life Esports",
+                          "code": "HLE",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_cfa5b12353",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095047",
+                      "structuralId": "match_b73e025eb3",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "99566404854685458",
+                          "slug": "top-esports",
+                          "name": "TOP ESPORTS",
+                          "code": "TES",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_cfa5b12353",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        },
+                        {
+                          "id": "98767991926151025",
+                          "slug": "g2-esports",
+                          "name": "G2 Esports",
+                          "code": "G2",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_cfa5b12353",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095049",
+                      "structuralId": "match_58d387521b",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "107700199633958891",
+                          "slug": "ctbc-flying-oyster",
+                          "name": "CTBC Flying Oyster",
+                          "code": "CFO",
+                          "result": { "outcome": null, "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_cfa5b12353",
+                            "type": "decisionPoint",
+                            "slot": 10
+                          }
+                        },
+                        {
+                          "id": "98767991853197861",
+                          "slug": "t1",
+                          "name": "T1",
+                          "code": "T1",
+                          "result": { "outcome": null, "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_cfa5b12353",
+                            "type": "decisionPoint",
+                            "slot": 9
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095051",
+                      "structuralId": "match_87a12336bf",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "99566404853854212",
+                          "slug": "bilibili-gaming",
+                          "name": "BILIBILI GAMING",
+                          "code": "BLG",
+                          "result": { "outcome": null, "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_cfa5b12353",
+                            "type": "decisionPoint",
+                            "slot": 12
+                          }
+                        },
+                        {
+                          "id": "111692118851466302",
+                          "slug": "karmine-corp",
+                          "name": "Karmine Corp",
+                          "code": "KC",
+                          "result": { "outcome": null, "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_cfa5b12353",
+                            "type": "decisionPoint",
+                            "slot": 11
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095053",
+                      "structuralId": "match_9a9dbc44ce",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "109480204628225868",
+                          "slug": "los",
+                          "name": "LOS",
+                          "code": "LOS",
+                          "result": { "outcome": null, "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_cfa5b12353",
+                            "type": "decisionPoint",
+                            "slot": 14
+                          }
+                        },
+                        {
+                          "id": "113661839307879869",
+                          "slug": "team-secret-whales",
+                          "name": "Team Secret Whales",
+                          "code": "TSW",
+                          "result": { "outcome": null, "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_cfa5b12353",
+                            "type": "decisionPoint",
+                            "slot": 13
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095057",
+                      "structuralId": "match_37664fed84",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "98926509885559666",
+                          "slug": "team-liquid",
+                          "name": "Team Liquid Alienware",
+                          "code": "TLAW",
+                          "result": { "outcome": null, "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_cfa5b12353",
+                            "type": "decisionPoint",
+                            "slot": 16
+                          }
+                        },
+                        {
+                          "id": "99566404856367466",
+                          "slug": "anyones-legend",
+                          "name": "Anyone's Legend",
+                          "code": "AL",
+                          "result": { "outcome": null, "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_cfa5b12353",
+                            "type": "decisionPoint",
+                            "slot": 15
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 4",
+                  "slug": "round_4",
+                  "matches": [
+                    {
+                      "id": "115660540726095061",
+                      "structuralId": "match_799cbdf283",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_48fd3cc637",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_48fd3cc637",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095065",
+                      "structuralId": "match_6ae6de591c",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_48fd3cc637",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        },
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_48fd3cc637",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095069",
+                      "structuralId": "match_fc5b7491e7",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_48fd3cc637",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        },
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_48fd3cc637",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095073",
+                      "structuralId": "match_9fef79db96",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_48fd3cc637",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        },
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_48fd3cc637",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095077",
+                      "structuralId": "match_a1ffc30277",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_48fd3cc637",
+                            "type": "decisionPoint",
+                            "slot": 9
+                          }
+                        },
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_48fd3cc637",
+                            "type": "decisionPoint",
+                            "slot": 10
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095081",
+                      "structuralId": "match_486b05abda",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_48fd3cc637",
+                            "type": "decisionPoint",
+                            "slot": 11
+                          }
+                        },
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_48fd3cc637",
+                            "type": "decisionPoint",
+                            "slot": 12
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 5",
+                  "slug": "round_5",
+                  "matches": [
+                    {
+                      "id": "115660540726095085",
+                      "structuralId": "match_d7e6f7bd7d",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_f600855f6d",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_f600855f6d",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095089",
+                      "structuralId": "match_88e91a6d09",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_f600855f6d",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        },
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_f600855f6d",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095093",
+                      "structuralId": "match_23969be1c6",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_f600855f6d",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        },
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_f600855f6d",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Knockouts",
+      "sections": [
+        {
+          "id": "115660540725767318",
+          "name": "Knockouts",
+          "type": "bracket",
+          "rankings": [],
+          "columns": [
+            {
+              "cells": [
+                {
+                  "name": "Quarterfinals",
+                  "slug": "quarterfinals",
+                  "matches": [
+                    {
+                      "id": "115660540726095097",
+                      "structuralId": "match_d6ae207aa0",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_db3f783c9c",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_db3f783c9c",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095103",
+                      "structuralId": "match_59ce50b18d",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_db3f783c9c",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        },
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_db3f783c9c",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095109",
+                      "structuralId": "match_0788bd4ef7",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_db3f783c9c",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        },
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_db3f783c9c",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095115",
+                      "structuralId": "match_4cf67dfc7f",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_db3f783c9c",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        },
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "decisionPoint_db3f783c9c",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Semifinals",
+                  "slug": "semifinals",
+                  "matches": [
+                    {
+                      "id": "115660540726095121",
+                      "structuralId": "match_c09550107e",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "match_d6ae207aa0",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "match_59ce50b18d",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115660540726095127",
+                      "structuralId": "match_c45c67b67c",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "match_0788bd4ef7",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "match_4cf67dfc7f",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Finals",
+                  "slug": "finals",
+                  "matches": [
+                    {
+                      "id": "115660540726095133",
+                      "structuralId": "match_a3b14b2264",
+                      "state": "unstarted",
+                      "teams": [
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "match_c09550107e",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "0",
+                          "slug": "tbd",
+                          "name": "TBD",
+                          "code": "TBD",
+                          "result": null,
+                          "origin": {
+                            "structuralId": "match_c45c67b67c",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

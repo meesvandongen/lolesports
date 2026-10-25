@@ -1,0 +1,198 @@
+{
+  "stages": [
+    {
+      "name": "Road to MSI",
+      "sections": [
+        {
+          "id": "115548128961923090",
+          "name": "Road to MSI",
+          "type": "bracket",
+          "rankings": [],
+          "columns": [
+            {
+              "cells": [
+                {
+                  "name": "Round 1",
+                  "slug": "round_1",
+                  "matches": [
+                    {
+                      "id": "115548128963037563",
+                      "structuralId": "match_75953f1e8e",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "100725845018863243",
+                          "slug": "dwg-kia",
+                          "name": "Dplus KIA",
+                          "code": "DK",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 5 }
+                        },
+                        {
+                          "id": "105505619546859895",
+                          "slug": "fredit-brion",
+                          "name": "HANJIN BRION",
+                          "code": "BRO",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 6 }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 2",
+                  "slug": "round_2",
+                  "matches": [
+                    {
+                      "id": "115548128963037569",
+                      "structuralId": "match_f094f12c15",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "99566404579461230",
+                          "slug": "kt-rolster",
+                          "name": "kt Rolster",
+                          "code": "KT",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 4 }
+                        },
+                        {
+                          "id": "100725845018863243",
+                          "slug": "dwg-kia",
+                          "name": "Dplus KIA",
+                          "code": "DK",
+                          "result": { "outcome": "loss", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_75953f1e8e",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 3",
+                  "slug": "round_3",
+                  "matches": [
+                    {
+                      "id": "115548128963037575",
+                      "structuralId": "match_d6a6a998bb",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "100205573496804586",
+                          "slug": "hanwha-life-esports",
+                          "name": "Hanwha Life Esports",
+                          "code": "HLE",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 1 }
+                        },
+                        {
+                          "id": "98767991853197861",
+                          "slug": "t1",
+                          "name": "T1",
+                          "code": "T1",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 2 }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 4",
+                  "slug": "round_4",
+                  "matches": [
+                    {
+                      "id": "115548128963037581",
+                      "structuralId": "match_1176b00528",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "100205573495116443",
+                          "slug": "geng",
+                          "name": "Gen.G Esports",
+                          "code": "GEN",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 3 }
+                        },
+                        {
+                          "id": "99566404579461230",
+                          "slug": "kt-rolster",
+                          "name": "kt Rolster",
+                          "code": "KT",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_f094f12c15",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 5",
+                  "slug": "round_5",
+                  "matches": [
+                    {
+                      "id": "115548128963037587",
+                      "structuralId": "match_e353f01824",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991853197861",
+                          "slug": "t1",
+                          "name": "T1",
+                          "code": "T1",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_d6a6a998bb",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "100205573495116443",
+                          "slug": "geng",
+                          "name": "Gen.G Esports",
+                          "code": "GEN",
+                          "result": { "outcome": "loss", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "match_1176b00528",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

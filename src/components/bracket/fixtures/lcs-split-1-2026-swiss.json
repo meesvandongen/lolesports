@@ -1,0 +1,461 @@
+{
+  "stages": [
+    {
+      "name": "Swiss",
+      "sections": [
+        {
+          "id": "115564689066055686",
+          "name": "Swiss",
+          "type": "bracket",
+          "rankings": [],
+          "columns": [
+            {
+              "cells": [
+                {
+                  "name": "Round 1",
+                  "slug": "round_1",
+                  "matches": [
+                    {
+                      "id": "115564689066907656",
+                      "structuralId": "match_314f3b3bba",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991877340524",
+                          "slug": "cloud9",
+                          "name": "Cloud9 Kia",
+                          "code": "C9",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_b8b44b01be",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "98926509885559666",
+                          "slug": "team-liquid",
+                          "name": "Team Liquid Alienware",
+                          "code": "TLAW",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_b8b44b01be",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115564689066907660",
+                      "structuralId": "match_5e2c2c16ac",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "115688562107799886",
+                          "slug": "sentinels",
+                          "name": "Sentinels",
+                          "code": "SEN",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_b8b44b01be",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        },
+                        {
+                          "id": "110428362822825796",
+                          "slug": "disguised",
+                          "name": "Disguised",
+                          "code": "DSG",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_b8b44b01be",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115564689066907664",
+                      "structuralId": "match_87c892ea32",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "111504538396430510",
+                          "slug": "shopify-rebellion",
+                          "name": "Shopify Rebellion",
+                          "code": "SR",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_b8b44b01be",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        },
+                        {
+                          "id": "98926509892121852",
+                          "slug": "flyquest",
+                          "name": "FlyQuest",
+                          "code": "FLY",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_b8b44b01be",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115564689066907668",
+                      "structuralId": "match_62e2e10e20",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98926509883054987",
+                          "slug": "dignitas",
+                          "name": "Dignitas",
+                          "code": "DIG",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_b8b44b01be",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        },
+                        {
+                          "id": "99566405941863385",
+                          "slug": "lyon-gaming",
+                          "name": "LYON",
+                          "code": "LYON",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_b8b44b01be",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 2",
+                  "slug": "round_2",
+                  "matches": [
+                    {
+                      "id": "115564689066907672",
+                      "structuralId": "match_fa666a2f9d",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991877340524",
+                          "slug": "cloud9",
+                          "name": "Cloud9 Kia",
+                          "code": "C9",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_f0042ff22b",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "99566405941863385",
+                          "slug": "lyon-gaming",
+                          "name": "LYON",
+                          "code": "LYON",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_f0042ff22b",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115564689066907676",
+                      "structuralId": "match_04c69be15c",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98926509892121852",
+                          "slug": "flyquest",
+                          "name": "FlyQuest",
+                          "code": "FLY",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_f0042ff22b",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        },
+                        {
+                          "id": "110428362822825796",
+                          "slug": "disguised",
+                          "name": "Disguised",
+                          "code": "DSG",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_f0042ff22b",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115564689066907680",
+                      "structuralId": "match_cdbb27cb27",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "115688562107799886",
+                          "slug": "sentinels",
+                          "name": "Sentinels",
+                          "code": "SEN",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_f0042ff22b",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        },
+                        {
+                          "id": "98926509883054987",
+                          "slug": "dignitas",
+                          "name": "Dignitas",
+                          "code": "DIG",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_f0042ff22b",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115564689066907684",
+                      "structuralId": "match_cd0af055fc",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98926509885559666",
+                          "slug": "team-liquid",
+                          "name": "Team Liquid Alienware",
+                          "code": "TLAW",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_f0042ff22b",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        },
+                        {
+                          "id": "111504538396430510",
+                          "slug": "shopify-rebellion",
+                          "name": "Shopify Rebellion",
+                          "code": "SR",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_f0042ff22b",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 3",
+                  "slug": "round_3",
+                  "matches": [
+                    {
+                      "id": "115564689066907688",
+                      "structuralId": "match_f367bce84a",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991877340524",
+                          "slug": "cloud9",
+                          "name": "Cloud9 Kia",
+                          "code": "C9",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9aa4b07fd9",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "98926509892121852",
+                          "slug": "flyquest",
+                          "name": "FlyQuest",
+                          "code": "FLY",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9aa4b07fd9",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115564689066907692",
+                      "structuralId": "match_786db9a137",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98926509885559666",
+                          "slug": "team-liquid",
+                          "name": "Team Liquid Alienware",
+                          "code": "TLAW",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9aa4b07fd9",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        },
+                        {
+                          "id": "115688562107799886",
+                          "slug": "sentinels",
+                          "name": "Sentinels",
+                          "code": "SEN",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9aa4b07fd9",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115564689066907696",
+                      "structuralId": "match_d7a4a79c52",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "110428362822825796",
+                          "slug": "disguised",
+                          "name": "Disguised",
+                          "code": "DSG",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9aa4b07fd9",
+                            "type": "decisionPoint",
+                            "slot": 6
+                          }
+                        },
+                        {
+                          "id": "99566405941863385",
+                          "slug": "lyon-gaming",
+                          "name": "LYON",
+                          "code": "LYON",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9aa4b07fd9",
+                            "type": "decisionPoint",
+                            "slot": 5
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115564689066907700",
+                      "structuralId": "match_9b6d32bdf7",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98926509883054987",
+                          "slug": "dignitas",
+                          "name": "Dignitas",
+                          "code": "DIG",
+                          "result": { "outcome": "win", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9aa4b07fd9",
+                            "type": "decisionPoint",
+                            "slot": 8
+                          }
+                        },
+                        {
+                          "id": "111504538396430510",
+                          "slug": "shopify-rebellion",
+                          "name": "Shopify Rebellion",
+                          "code": "SR",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_9aa4b07fd9",
+                            "type": "decisionPoint",
+                            "slot": 7
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Round 4",
+                  "slug": "round_4",
+                  "matches": [
+                    {
+                      "id": "115564689066907704",
+                      "structuralId": "match_31db6185ac",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98926509883054987",
+                          "slug": "dignitas",
+                          "name": "Dignitas",
+                          "code": "DIG",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_9b6d32bdf7",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "98926509885559666",
+                          "slug": "team-liquid",
+                          "name": "Team Liquid Alienware",
+                          "code": "TLAW",
+                          "result": { "outcome": "win", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_786db9a137",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            { "cells": [] }
+          ]
+        }
+      ]
+    }
+  ]
+}

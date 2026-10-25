@@ -1,0 +1,161 @@
+{
+  "stages": [
+    {
+      "name": "Playoffs",
+      "sections": [
+        {
+          "id": "114715103097242985",
+          "name": "Playoffs",
+          "type": "bracket",
+          "rankings": [],
+          "columns": [
+            {
+              "cells": [
+                {
+                  "name": "Semifinals",
+                  "slug": "semifinals",
+                  "matches": [
+                    {
+                      "id": "114715103097439632",
+                      "structuralId": "match_af557fe256",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109696047948627764",
+                          "slug": "gng-esports",
+                          "name": "GNG Amazigh",
+                          "code": "GNG",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_b03de9b8cc",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "109696073114910519",
+                          "slug": "anubis-gaming",
+                          "name": "Anubis Gaming",
+                          "code": "ANB",
+                          "result": { "outcome": "loss", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_b03de9b8cc",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "114715103097439638",
+                      "structuralId": "match_587e01c33a",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109696126554266494",
+                          "slug": "geekay-esports",
+                          "name": "Geekay Esports",
+                          "code": "GK",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "decisionPoint_b03de9b8cc",
+                            "type": "decisionPoint",
+                            "slot": 3
+                          }
+                        },
+                        {
+                          "id": "114711195027507025",
+                          "slug": "fn-esports",
+                          "name": "FN Esports",
+                          "code": "FNE",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "decisionPoint_b03de9b8cc",
+                            "type": "decisionPoint",
+                            "slot": 4
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Finals",
+                  "slug": "finals",
+                  "matches": [
+                    {
+                      "id": "114715103097439644",
+                      "structuralId": "match_6279a6bbaf",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109696126554266494",
+                          "slug": "geekay-esports",
+                          "name": "Geekay Esports",
+                          "code": "GK",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_587e01c33a",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "109696047948627764",
+                          "slug": "gng-esports",
+                          "name": "GNG Amazigh",
+                          "code": "GNG",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_af557fe256",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "114715103097439650",
+                      "structuralId": "match_608fea80cc",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "109696073114910519",
+                          "slug": "anubis-gaming",
+                          "name": "Anubis Gaming",
+                          "code": "ANB",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_af557fe256",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "114711195027507025",
+                          "slug": "fn-esports",
+                          "name": "FN Esports",
+                          "code": "FNE",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_587e01c33a",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
