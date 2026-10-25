@@ -1,0 +1,297 @@
+{
+  "stages": [
+    {
+      "name": "Playoffs",
+      "sections": [
+        {
+          "id": "115548681803012894",
+          "name": "Playoffs",
+          "type": "bracket",
+          "rankings": [],
+          "columns": [
+            {
+              "cells": [
+                {
+                  "name": "Upper Bracket - Round 1",
+                  "slug": "upper_bracket_round_1",
+                  "matches": [
+                    {
+                      "id": "115548681803406291",
+                      "structuralId": "match_20dd816abb",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "111692118851466302",
+                          "slug": "karmine-corp",
+                          "name": "Karmine Corp",
+                          "code": "KC",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 1 }
+                        },
+                        {
+                          "id": "101383793572656373",
+                          "slug": "giantx-lec",
+                          "name": "GIANTX",
+                          "code": "GX",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 4 }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115548681803406297",
+                      "structuralId": "match_95a6a0b507",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991926151025",
+                          "slug": "g2-esports",
+                          "name": "G2 Esports",
+                          "code": "G2",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 3 }
+                        },
+                        {
+                          "id": "99322214695067838",
+                          "slug": "team-vitality",
+                          "name": "Team Vitality",
+                          "code": "VIT",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 2 }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Upper Bracket - Round 2",
+                  "slug": "upper_bracket_round_2",
+                  "matches": [
+                    {
+                      "id": "115548681803406303",
+                      "structuralId": "match_fd48a20ece",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "111692118851466302",
+                          "slug": "karmine-corp",
+                          "name": "Karmine Corp",
+                          "code": "KC",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_20dd816abb",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "98767991926151025",
+                          "slug": "g2-esports",
+                          "name": "G2 Esports",
+                          "code": "G2",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_95a6a0b507",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Lower Bracket - Round 1",
+                  "slug": "lower_bracket_round_1",
+                  "matches": [
+                    {
+                      "id": "115548681803406309",
+                      "structuralId": "match_1487e09a2f",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "101383793572656373",
+                          "slug": "giantx-lec",
+                          "name": "GIANTX",
+                          "code": "GX",
+                          "result": { "outcome": "loss", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_1406361bc5",
+                            "type": "decisionPoint",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "114868016111590239",
+                          "slug": "natus-vincere",
+                          "name": "Natus Vincere",
+                          "code": "NAVI",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 5 }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "115548681803406315",
+                      "structuralId": "match_78b8083b17",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "99322214695067838",
+                          "slug": "team-vitality",
+                          "name": "Team Vitality",
+                          "code": "VIT",
+                          "result": { "outcome": "loss", "gameWins": 2 },
+                          "origin": {
+                            "structuralId": "decisionPoint_1406361bc5",
+                            "type": "decisionPoint",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "103461966965149786",
+                          "slug": "mad-lions",
+                          "name": "Movistar KOI",
+                          "code": "MKOI",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": { "structuralId": "seeding", "type": "seeding", "slot": 6 }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Lower Bracket - Round 2",
+                  "slug": "lower_bracket_round_2",
+                  "matches": [
+                    {
+                      "id": "115548681803406321",
+                      "structuralId": "match_781d7f86ea",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "103461966965149786",
+                          "slug": "mad-lions",
+                          "name": "Movistar KOI",
+                          "code": "MKOI",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_78b8083b17",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "114868016111590239",
+                          "slug": "natus-vincere",
+                          "name": "Natus Vincere",
+                          "code": "NAVI",
+                          "result": { "outcome": "loss", "gameWins": 1 },
+                          "origin": {
+                            "structuralId": "match_1487e09a2f",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Lower Bracket - Round 3",
+                  "slug": "lower_bracket_round_3",
+                  "matches": [
+                    {
+                      "id": "115548681803406327",
+                      "structuralId": "match_1ad5bd444c",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "111692118851466302",
+                          "slug": "karmine-corp",
+                          "name": "Karmine Corp",
+                          "code": "KC",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_fd48a20ece",
+                            "type": "match",
+                            "slot": 2
+                          }
+                        },
+                        {
+                          "id": "103461966965149786",
+                          "slug": "mad-lions",
+                          "name": "Movistar KOI",
+                          "code": "MKOI",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_781d7f86ea",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "cells": [
+                {
+                  "name": "Finals",
+                  "slug": "finals",
+                  "matches": [
+                    {
+                      "id": "115548681803406333",
+                      "structuralId": "match_b237377709",
+                      "state": "completed",
+                      "teams": [
+                        {
+                          "id": "98767991926151025",
+                          "slug": "g2-esports",
+                          "name": "G2 Esports",
+                          "code": "G2",
+                          "result": { "outcome": "win", "gameWins": 3 },
+                          "origin": {
+                            "structuralId": "match_fd48a20ece",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        },
+                        {
+                          "id": "103461966965149786",
+                          "slug": "mad-lions",
+                          "name": "Movistar KOI",
+                          "code": "MKOI",
+                          "result": { "outcome": "loss", "gameWins": 0 },
+                          "origin": {
+                            "structuralId": "match_1ad5bd444c",
+                            "type": "match",
+                            "slot": 1
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,13 +1,31 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
-import { getStandings } from "@/api/lolesports";
-import { MatchTable } from "@/components/match-table";
-import classes from "@/components/tournament.module.css";
+import { getStandings, getTournamentSchedule, getTournamentsForLeague } from "@/api/lolesports";
+import { MatchSchedule } from "@/components/match-schedule/match-schedule";
+import { scheduleMatches } from "@/components/match-schedule/schedule";
 
 export const Route = createFileRoute(
   "/_app/$regionTag/$leagueId/$tournamentId/stages/$stageIndex/matches",
 )({
-  loader: async ({ params: { tournamentId, stageIndex } }) => {
-    const stages = await getStandings(tournamentId);
+  validateSearch: (search: Record<string, unknown>): { team?: string; section?: string } => ({
+    team: typeof search.team === "string" ? search.team : undefined,
+    section: typeof search.section === "string" ? search.section : undefined,
+  }),
+  loader: async ({ params: { leagueId, tournamentId, stageIndex } }) => {
+    // The standings have no dates, so they are joined with the league's
+    // schedule, fetched back to the start of the tournament.
+    const [stages, events] = await Promise.all([
+      getStandings(tournamentId),
+      getTournamentsForLeague(leagueId).then((tournaments) => {
+        const tournament = tournaments.find((candidate) => candidate.id === tournamentId);
+        return tournament
+          ? getTournamentSchedule({
+              leagueId,
+              startDate: tournament.startDate,
+              endDate: tournament.endDate,
+            })
+          : [];
+      }),
+    ]);
     const sections = stages?.[Number(stageIndex)]?.sections;
 
     if (!sections || sections.length === 0) {
@@ -15,24 +33,36 @@ export const Route = createFileRoute(
     }
 
     return {
-      matchesSections: sections.filter((section) => section.matches.length > 0),
+      matches: scheduleMatches(
+        sections.filter((section) => section.matches.length > 0),
+        events,
+      ),
+      sections: sections
+        .filter((section) => section.matches.length > 0)
+        .map((section) => section.name),
     };
   },
   component: MatchesPage,
 });
 
 function MatchesPage() {
-  const { matchesSections } = Route.useLoaderData();
-
-  if (matchesSections.length === 0) {
-    return null;
-  }
+  const { matches, sections } = Route.useLoaderData();
+  const search = Route.useSearch();
+  const navigate = Route.useNavigate();
 
   return (
-    <div className={classes.sections} data-columns={matchesSections.length === 1 ? 1 : 2}>
-      {matchesSections.map((section) => (
-        <MatchTable key={section.name} data={section.matches} title={section.name} />
-      ))}
-    </div>
+    <MatchSchedule
+      matches={matches}
+      sections={sections}
+      // Filters live in the URL, so a filtered list can be shared.
+      section={search.section && sections.includes(search.section) ? search.section : undefined}
+      team={search.team}
+      onSectionChange={(section) =>
+        navigate({ search: (previous) => ({ ...previous, section }), replace: true })
+      }
+      onTeamChange={(team) =>
+        navigate({ search: (previous) => ({ ...previous, team }), replace: true })
+      }
+    />
   );
 }

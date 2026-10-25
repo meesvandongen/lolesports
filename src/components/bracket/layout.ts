@@ -250,6 +250,43 @@ function matchEdges(nodes: Map<string, MatchNode>) {
   return edges;
 }
 
+/**
+ * Links for teams that a decision point placed, like losers reseeded into the
+ * lower bracket: they still come from their previous match in the section.
+ * The data does not say so, so these are only drawn while following a team.
+ */
+function reseededEdges(nodes: Map<string, MatchNode>, entries: Entry[]) {
+  const edges: Edge[] = [];
+  for (const entry of entries) {
+    entry.match.teams.forEach((team, slot) => {
+      if (team.origin.type === "match" || isTbd(team)) return;
+      // Entries are in column order, so the last one is the latest match.
+      const previous = entries
+        .filter(
+          (other) =>
+            other.column < entry.column &&
+            other.match.teams.some((other) => other.code === team.code),
+        )
+        .at(-1);
+      if (!previous) return;
+      const source = nodes.get(previous.match.structuralId)!;
+      const target = nodes.get(entry.match.structuralId)!;
+      const outcome = previous.match.teams.find((other) => other.code === team.code)?.result
+        ?.outcome;
+      edges.push({
+        id: `${source.match.structuralId}-${target.match.structuralId}-${slot}-reseeded`,
+        from: source.match.structuralId,
+        to: target.match.structuralId,
+        slot,
+        outcome: outcome === "win" ? "winner" : "loser",
+        points: connector(source, target, slot),
+        hidden: true,
+      });
+    });
+  }
+  return edges;
+}
+
 // ---------------------------------------------------------------------------
 // Elimination brackets
 
@@ -384,7 +421,7 @@ export function layoutBracket(section: StandingsSection): Layout {
     width: columnX(columnCount) - COLUMN_GAP,
     height: Math.max(0, ...nodeList.map((node) => node.y + CARD_HEIGHT)),
     nodes: nodeList,
-    edges: matchEdges(nodes),
+    edges: [...matchEdges(nodes), ...reseededEdges(nodes, entries)],
     titles,
     pools: [],
     poolLinks: [],

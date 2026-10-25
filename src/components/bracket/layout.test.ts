@@ -176,6 +176,21 @@ describe("brackets", () => {
     expect(roundOne.every((node) => node.y > lowerTitle.y)).toBe(true);
   });
 
+  it("links losers reseeded into the lower bracket, for following a team", () => {
+    const layout = layoutSection(section("lec-split-3-2026-playoffs"));
+    const nodes = new Map(layout.nodes.map((node) => [node.match.structuralId, node]));
+    // Vitality and GIANTX reach the lower bracket through a decision point,
+    // not a link to the match they lost.
+    for (const code of ["VIT", "GX"]) {
+      const drop = layout.edges.find(
+        (edge) => nodes.get(edge.to)!.match.teams[edge.slot].code === code,
+      );
+      expect(drop, code).toMatchObject({ outcome: "loser", hidden: true });
+      expect(nodes.get(drop!.from)!.cellName).toBe("Upper Bracket - Round 1");
+      expect(nodes.get(drop!.to)!.cellName).toBe("Lower Bracket - Round 1");
+    }
+  });
+
   it("centres matches on the matches that feed them", () => {
     const layout = layoutSection(section("worlds-2026", "Knockouts"));
     const final = nodeByLabel(layout, "Final");

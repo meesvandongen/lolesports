@@ -24,3 +24,19 @@ export type ScheduleTeam = components["schemas"]["team"] & {
 export type ScheduleEvent = Omit<RawScheduleEvent, "match"> & {
   match: Omit<RawScheduleEvent["match"], "teams"> & { teams: ScheduleTeam[] };
 };
+
+export type EventGame =
+  operations["getEventDetails"]["responses"]["200"]["content"]["application/json"]["data"]["event"]["match"]["games"][number];
+
+// The API returns more than its documented VOD fields: where in the video the
+// game starts and ends, and the language's name.
+export type Vod = EventGame["vods"][number] & {
+  id?: string;
+  startMillis?: number;
+  endMillis?: number;
+  mediaLocale?: { englishName: string; translatedName: string };
+};
+
+export type StandingsMatch = MatchesSection["matches"][number];
+
+export type StandingsMatchTeam = StandingsMatch["teams"][number];
