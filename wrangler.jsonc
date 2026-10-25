@@ -2,12 +2,13 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "lolesports",
   "compatibility_date": "2026-10-25",
-  "compatibility_flags": ["nodejs_compat"],
-  "main": "@tanstack/react-start/server-entry",
-  "observability": {
-    "enabled": true,
+  // Static assets only: the app is a single-page app that calls the lolesports
+  // API from the browser, so every unknown path gets the app shell.
+  "assets": {
+    "directory": "./dist/client",
+    "not_found_handling": "single-page-application",
   },
   // Pull request builds run `wrangler preview`, which requires this block. The
-  // Worker has no bindings or vars, so Previews need no settings of their own.
+  // site has no bindings or vars, so Previews need no settings of their own.
   "previews": {},
 }

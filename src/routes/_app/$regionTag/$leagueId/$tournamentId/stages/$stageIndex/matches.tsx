@@ -7,7 +7,7 @@ export const Route = createFileRoute(
   "/_app/$regionTag/$leagueId/$tournamentId/stages/$stageIndex/matches",
 )({
   loader: async ({ params: { tournamentId, stageIndex } }) => {
-    const stages = await getStandings({ data: tournamentId });
+    const stages = await getStandings(tournamentId);
     const sections = stages?.[Number(stageIndex)]?.sections;
 
     if (!sections || sections.length === 0) {

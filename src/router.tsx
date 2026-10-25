@@ -7,8 +7,8 @@ export function getRouter() {
     routeTree,
     scrollRestoration: true,
     defaultPreload: "intent",
-    // The API data only changes a few times a day and is cached for an hour on
-    // the Worker, so there is no need to refetch layouts on every navigation.
+    // Standings change a few times a day at most, so loaded data is reused for a
+    // while instead of refetching every layout on each navigation.
     defaultStaleTime: 5 * 60 * 1000,
     defaultNotFoundComponent: () => <NotFound title="Page not found" />,
   });

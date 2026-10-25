@@ -5,7 +5,7 @@ export const Route = createFileRoute("/_app/$regionTag/$leagueId")({
   loader: async ({ params: { leagueId }, parentMatchPromise }) => {
     const [{ loaderData: leagues = [] }, tournaments] = await Promise.all([
       parentMatchPromise,
-      getTournamentsForLeague({ data: leagueId }),
+      getTournamentsForLeague(leagueId),
     ]);
 
     const league = leagues.find((league) => league.id === leagueId);
